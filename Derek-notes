@@ -1,0 +1,596 @@
+PJTV.2.A - C859 Intro to Python
+==================================================
+QUESTION 1
+==================================================
+-A similar question appeared in my OA, but instead of computing total distance traveled you had to compute total cost of stocks purchased. The solution and output were almost exactly the same.
+
+Create a solution that accepts three integer inputs representing the number of times an employee travels to a job site. Output the total distance traveled to two decimal places given the following miles per employee commute to the job site. Output the total distance traveled to two decimal places given the following miles per employee commute to the job site:
+
+    Employee A: 15.62 miles
+    Employee B: 41.85 miles
+    Employee C: 32.67 miles
+
+The solution output should be in the format
+
+Distance: total_miles_traveled
+--------------------------------------------------
+CODE:
+#Employee A: 15.62 miles
+#Employee B: 41.85 miles
+#Employee C: 32.67 miles
+#solution accepts three integer inputs representing the number of times an employee travels to the job site
+#solution outputs "Distance: " followed by the total value to two decimal places
+
+a = 15.62
+b = 41.85
+c = 32.67
+
+input_travel_a = int(input())
+input_travel_b = int(input())
+input_travel_c = int(input())
+
+total_distance = (input_travel_a * a) + (input_travel_b * b) + (input_travel_c * c)
+
+print('Distance: {:.2f} miles'.format(total_distance))
+
+INPUT:
+1
+2
+3
+
+OUTPUT:
+Distance: 197.33 miles
+==================================================
+QUESTION 2
+==================================================
+-A similar question appeared in my OA, but instead of converting weight (oz, lbs, tons) you had to convert time (minutes, hours, days). The solution and output were almost exactly the same.
+
+Create a solution that accepts an integer input representing any number of ounces. Output the converted total number of tons, pounds, and remaining ounces based on the input ounces value. There are 16 ounces in a pound and 2,000 pounds in a ton.
+
+The solution output should be in the format
+
+Tons: value_1
+Pounds: value_2
+Ounces: value_3
+--------------------------------------------------
+CODE:
+#there are 16 ounces in a pound and 2000 pounds in a ton
+#solution accepts an integer value representing any number of ounces
+#solution outputs the converted tons, pounds, and ounces represented by the input value of ounces
+
+oz_in_lb = 16
+lb_in_tn = 2000
+
+input_oz = int(input())
+
+tns = input_oz / oz_in_lb / lb_in_tn
+lbs = (tns % 1) * lb_in_tn
+ozs = (lbs % 1) * oz_in_lb
+
+if tns > 0:
+    tns //= 1
+if lbs > 0:
+    lbs //= 1
+
+print('Tons: {:.0f}'.format(tns))
+print('Pounds: {:.0f}'.format(lbs))
+print('Ounces: {:.0f}'.format(ozs))
+
+INPUT:
+32035
+
+OUTPUT:
+Tons: 1
+Pounds: 2
+Ounces: 3
+==================================================
+QUESTION 3
+
+* I got this wrong when I took the PA because I didn't know how to get the name of the data type by using the .name attribute. I didn't read all of the details provided with the question, and a hint on how to use it was right there.
+==================================================
+-A similar question appeared in my OA, but instead of needing to use the .__name__ attribute to output the data type, you only had to output the data type using the default output of the type() function. The solution and output were almost exactly the same.
+
+Create a solution that accepts an integer input representing the index value for any any of the five elements in the following list:
+
+various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
+
+Using the built-in function type() and getting its name by using the .name attribute, output data type (e.g., int”, “float”, “bool”, “str”) based on the input index value of the list element.
+
+The solution output should be in the format
+
+Element index_value: data_type
+--------------------------------------------------
+CODE:
+various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
+
+#use built-in function type()
+#get name by using the built-in attribute __name__
+#solution accepts integer input representing list element index
+#solution outputs data type of list element based on input index value
+
+user_input = int(input())
+
+print('Element {}: {}'.format(user_input, type(various_data_types[user_input]).__name__))
+
+INPUT:
+4
+
+OUTPUT:
+Element 4: tuple
+==================================================
+QUESTION 4
+==================================================
+-A similar question appeared in my OA, but instead of computing the area of a trapezoid you had to compute the area of a triangle. The solution and output were almost exactly the same.
+
+Create a solution that accepts any three integer inputs representing the base (b1, b2) and height (h) measurements of a trapezoid in meters. Output the exact area of the trapezoid in square meters as a float value. The exact area of a trapezoid can be calculated by finding the average of the two base measurements, then multiplying by the height measurement.
+
+Trapezoid Area Formula:
+A = [(b1 + b2) / 2] * h
+
+The solution output should be in the format
+
+Trapezoid area: area_value square meters
+--------------------------------------------------
+CODE:
+#solution accepts three integer values representing base and height measurements of a trapezoid
+#first and second integers represent base 1 and base 2; third integer represents height 
+#solution outputs the trapezoid area in square meters using formula A = ½(b1+b2)h
+
+b1 = int(input())
+b2 = int(input())
+h = int(input())
+
+a = ((b1 + b2) / 2) * h
+
+print('Trapezoid area: {} square meters'.format(a))
+
+INPUT:
+3
+4
+5
+
+OUTPUT:
+Trapezoid area: 17.5 square meters
+==================================================
+QUESTION 5
+
+* I got this wrong when I took the PA because I didn't follow the instructions on how to convert the inputs exactly. I did not initially convert the inputs to integer, instead I converted them when I computed the integer sum.
+==================================================
+-A similar question appeared in my OA, but instead of outputting the sum of five inputs you only had to output the sum of three inputs. The solution and output were almost exactly the same.
+
+Create a solution that accepts five integer inputs. Output the sum of the five inputs three times, converting the inputs to the requested data type prior to finding the sum.
+
+    First output: sum of five inputs maintained as integer values
+    Second output: sum of five inputs converted to float values
+    Third output: sum of five inputs converted to string values (concatenate)
+
+The solution output should be in the format
+
+Integer: integer_sum_value
+Float: float_sum_value
+String: string_sum_value
+--------------------------------------------------
+CODE:
+#solution accepts five integer inputs
+#solution outputs three sums of input values; convert before calculating sum
+#first output: sum of five inputs maintained as integer values
+#second output: sum of five inputs converted to float values
+#third output: sum of five inputs converted to string values (concatenate)
+
+input1 = int(input())
+input2 = int(input())
+input3 = int(input())
+input4 = int(input())
+input5 = int(input())
+
+sum_ints = input1 + input2 + input3 + input4 + input5
+sum_floats = float(input1) + float(input2) + float(input3) + float(input4) + float(input5)
+sum_strings = str(input1) + str(input2) + str(input3) + str(input4) + str(input5)
+
+print('Integer: {}'.format(sum_ints))
+print('Float: {}'.format(sum_floats))
+print('String: {}'.format(sum_strings))
+
+INPUT:
+1
+3
+6
+2
+7
+
+OUTPUT:
+Integer: 19
+Float: 19.0
+String: 13627
+==================================================
+QUESTION 6
+==================================================
+-A similar question appeared in my OA, but instead of a 9-digit student ID you had to format an 11-digit phone number. The solution and output were almost exactly the same.
+
+Create a solution that accepts an integer input representing a 9-digit unformatted student identification number. Output the identification number as a string with no spaces.
+
+The solution output should be in the format
+
+111-22-3333
+--------------------------------------------------
+CODE:
+#hint: modulo (%) and floored division (//) may be used
+#solution accepts a 9-digit integer representing an unformatted student identification number (i.e.,"5417543010")
+#solution outputs formatted student identification number as a string (i.e.,"541-75-3010")
+
+user_input = int(input())
+
+a = user_input // 1000000
+c = user_input % 10000
+b = (user_input // 10000) % 100
+
+print('{}-{}-{}'.format(a, b, c))
+
+INPUT:
+154175430
+
+OUTPUT:
+154-17-5430
+==================================================
+QUESTION 7
+==================================================
+-A similar question appeared in my OA, but instead of determining if the input integer was greater than the maximum value in the list you had to determine if the input integer was greater than or equal to the maximum value in the list. The solution and output were almost exactly the same.
+
+Create a solution that accepts an integer input to compare against the following list:
+
+predef_list = [4, -27, 15, 33, -10]
+
+Output a Boolean value indicating whether the input value is greater than the maximum value from predef_list
+
+The solution output should be in the format
+
+Greater Than Max? Boolean_value
+--------------------------------------------------
+CODE:
+predef_list = [4, -27, 15, 33, -10]
+
+#solution accepts an integer input
+#solution outputs Boolean value indicating if integer input is greater than the maximum value when compared to predef_list
+
+user_input = int(input())
+
+print('Greater Than Max? {}'.format(user_input > max(predef_list)))
+
+INPUT:
+20
+
+OUTPUT:
+Greater Than Max? False
+==================================================
+QUESTION 8
+==================================================
+-A similar question appeared in my OA, but instead of outputting the string element of the input index value you had to output the index based on the input string value. The solution and output were almost exactly the same. Instead of using frameworks[user_input] use frameworks.index(user_input)
+
+Create a solution that accepts one integer input representing the index value for any of the string elements in the following list:
+
+frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
+
+Output the string element of the index value entered. The solution should be placed in a try block and implement an exception of "Error" if an incompatible integer input is provided.
+
+The solution output should be in the format
+
+frameworks_element
+--------------------------------------------------
+CODE:
+frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
+
+#use try block with exception "Error" when index value is not found in list
+#solution accepts an integer input
+#solution outputs the corresponding string value for the integer input
+
+user_input = int(input())
+
+try:
+    print(frameworks[user_input])
+except:
+    print('Error')
+
+INPUT:
+2
+
+OUTPUT:
+CherryPy
+==================================================
+QUESTION 9
+==================================================
+-A similar question appeared in my OA, but instead of outputting a description of the water state based on the input water temperature you had to output a letter grade based on the input number grade. The solution and output were almost exactly the same.
+
+Create a solution that accepts an integer input representing water temperature in degrees Fahrenheit. Output a description of the water state based on the following scale:
+
+    If the temperature is below 33° F, the water is “Frozen”.
+    If the water is between 33° F and 80° F (including 33), the water is “Cold”.
+    If the water is between 80° F and 115° F (including 80), the water is "Warm".
+    If the water is between 115° F and 211° (including 115) F, the water is “Hot".
+    If the water is greater than or equal to 212° F, the water is “Boiling”.
+
+Additionally, output a safety comment only during the following circumstances:
+
+    If the water is exactly 212° F, the safety comment is "Caution: Hot!"
+    If the water temperature is less than 33° F, the safety comment is "Watch out for ice!"
+
+The solution output should be in the format
+
+water_state
+optional_safety_comment
+--------------------------------------------------
+CODE:
+#temperature >= 212, water state is "Boiling"
+#temperature (115, 211], water state is "Hot"
+#temperature [80, 115], water state is "Warm"
+#temperature [33, 80), water state is "Cold"
+#temperature < 33, water state is "Frozen"
+#temperature = 212, safety comment "Caution: Hot!"
+#temperature < 33, safety comment "Watch out for ice!"
+#solution accepts integer input representing a water temperature
+#solution outputs the water state and potential safety comment based on temperature
+
+temperature = int(input())
+
+water_state = ""
+safety_comment = ""
+
+if temperature >= 212:
+    water_state = "Boiling"
+elif 115 <= temperature < 211:
+    water_state = "Hot"
+elif 80 <= temperature < 115:
+    water_state = "Warm"
+elif 33 <= temperature < 80:
+    water_state = "Cold"
+elif temperature < 33:
+    water_state = "Frozen"
+    safety_comment = "Watch out for ice!"
+
+if temperature == 212:
+    safety_comment = "Caution: Hot!"
+
+print(water_state)
+if safety_comment != "":
+    print(safety_comment)
+
+INPUT:
+118
+
+OUTPUT:
+Hot
+==================================================
+QUESTION 10
+==================================================
+-A similar question appeared in my OA, but instead of computing the total cost of stocks selected you had to compute the total cost of snacks selected from a vending machine. The solution and output were almost exactly the same.
+
+Create a solution that accepts an integer input identifying how many shares of stock are to be purchased from the Old Town Stock Exchange, followed by an equivalent number of string inputs representing the stock selections. The following dictionary stock lists available stock selections as the key with the cost per selection as the value.
+
+stocks = {'TSLA': 912.86 , 'BBBY': 24.84, 'AAPL': 174.26, 'SOFI': 6.92, 'KIRK': 8.72, 'AURA': 22.12, 'AMZN': 141.28, 'EMBK': 12.29, 'LVLU': 2.33}
+
+Output the total cost of the purchased shares of stock to two decimal places.
+
+The solution output should be in the format
+
+Total price: $cost_of_stocks
+--------------------------------------------------
+CODE:
+stocks = {'TSLA': 912.86, 'BBBY': 24.84, 'AAPL': 174.26, 'SOFI': 6.92, 'KIRK': 8.72, 'AURA': 22.12, 'AMZN': 141.28, 'EMBK': 12.29, 'LVLU': 2.33}
+
+#solution accepts an integer input representing the number of stock selections
+#solution accepts string inputs equivalent to the integer input identifying the stock selections
+#solution outputs the total cost of stock as "Total price: $" followed by the total cost to 2 decimal places
+
+input_num_stocks = int(input())
+
+total = 0
+
+for indx in range(input_num_stocks):
+    total += stocks[input()]
+
+print('Total price: ${:.2f}'.format(total))
+
+INPUT:
+3
+SOFI
+AMZN
+LVLU
+
+OUTPUT:
+Total price: $150.53
+==================================================
+QUESTION 11
+==================================================
+-A similar question appeared in my OA, but instead of computing the total purchase cost of an input number of a specified grocery store item and calculating a discount, you had to compute the total cost of tuition for an input number of course credits for a specified school and calculate a discount. The solution and output were almost exactly the same.
+
+Create a solution that accepts a string input representing a grocery store item and an integer input identifying the number of items purchased on a recent visit. The following dictionary purchase lists available items as the key with the cost per item as the value.
+
+purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
+
+Additionally,
+
+    If fewer than ten items are purchased, the price is the full cost per item.
+    If between ten and twenty items (inclusive) are purchased, the purchase gets a 5% discount.
+    If twenty-one or more items are purchased, the purchase gets a 10% discount.
+
+Output the chosen item and total cost of the purchase to two decimal places.
+
+The solution output should be in the format
+
+item_purchased $total_purchase_cost
+--------------------------------------------------
+CODE:
+purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
+
+#cost per item: <10 is full price, 10-20 (inclusive) is 5% discount, and 21+ is 10% discount
+#solution accepts a string input representing an item (dictionary key)
+#solution accepts an integer input representing the number of items to be purchased
+#solution outputs the item and total cost of purchase
+
+input_item = input()
+input_qty = int(input())
+
+if input_qty < 10:
+    discount = 0
+elif 10 <= input_qty <= 20:
+    discount = 0.05
+elif input_qty >= 21:
+    discount = 0.1
+
+total = purchase[input_item] * input_qty
+total = total - (total * discount)
+
+print('{} ${:.2f}'.format(input_item, total))
+
+INPUT:
+bananas
+12
+
+OUTPUT:
+bananas $21.09
+==================================================
+QUESTION 12
+
+* I got this wrong when I took the PA because I did not follow the instructions exactly. Instead of using the file.read() method I used the file.readlines() method.
+==================================================
+-I had a different file related coding problem in my OA. My coding problem was to accept a string input, open a specified file, read the content of the file using the file.read() method, add the string input to the end of the content with a ' ' character in front of it, write the modified content back to the file, and then output the modified content of the file. The solution and output were not the same as this question.
+
+Create a solution that accepts an input identifying the name of a text file, for example, "WordTextFile1.txt". Each text file contains three rows with one word per row. Using the open() function and write() and read() methods, interact with the input text file to write a new sentence string composed of the three existing words to the end of the file contents on a new line. Output the new file contents.
+
+The solution output should be in the format
+
+word1
+word2
+word3 
+sentence
+--------------------------------------------------
+CODE:
+#open, write, and read text file "WordTextFile1.txt" using open(), write(), read()
+#solution accepts file input to insert sentence composed of file content into text file on a new line
+#solution outputs the text file contents including the new sentence
+words = list()
+
+file_name = input()
+
+file = open(file_name, 'r')
+content = file.read()
+file.close()
+
+sentence = '\n' + content.replace('\n', ' ')
+content += sentence
+
+file = open(file_name, 'w')
+file.write(content)
+file.close()
+
+file = open(file_name, 'r')
+print(file.read())
+file.close()
+
+INPUT:
+WordTextFile1.txt
+
+OUTPUT:
+cat
+chases
+dog
+cat chases dog
+==================================================
+QUESTION 13
+
+* I got this wrong when I took the PA because I forgot the syntax for using the CSV reader method.
+==================================================
+-A similar question appeared in my OA, but instead of reading the CSV file content and creating a dictionary you had to create a list. The solution is mostly similar and the output was almost exactly the same. Once you have the CSV file open and ready to read the rows of content, instead of creating dictionary KEY and VALUE pairs and adding them to a dictionary, just use the list.append() method to add each row to a list.
+
+Create a solution that accepts an input identifying the name of a CSV file, for example, "input1.csv". Each file contains two rows of comma-separated values. Import the built-in module csv and use its open() function and reader() method to create a dictionary of key:value pairs for each row of comma-separated values in the specified file. Output the file contents as two dictionaries.
+
+The solution output should be in the format
+
+{'key': 'value', 'key': 'value', 'key': 'value'}
+{'key': 'value', 'key': 'value', 'key': 'value'}
+--------------------------------------------------
+CODE:
+#import csv module and call open(), reader()
+#solution accepts input identifying name of CSV file (i.e., "input1.csv")
+#solution outputs each row of CSV file contents as a dictionary of elements
+
+import csv
+
+file_name = input()
+
+with open(file_name) as csv_file:
+    file_reader = csv.reader(csv_file, delimiter=',')
+    for row in file_reader:
+        mydict = {}
+        for indx in range(0, len(row), 2):
+            key = row[indx].strip()
+            value = row[indx + 1].strip()
+            mydict[key] = value
+        print(mydict)
+
+INPUT:
+input1.csv
+
+OUTPUT:
+{'a': '100', 'b': '200', 'c': '300'}
+{'bananas': '1.85', 'steak': '19.99', 'cookies': '4.52'}
+==================================================
+QUESTION 14
+==================================================
+-A similar question appeared in my OA, but instead of importing the math module, using the factorial() method on an integer input, and then determining if the result was greater than 100, you had to use the sqrt() method on an integer input and determine if the result was a perfect square. The solution and output were almost exactly the same.
+
+Create a solution that accepts an integer input. Import the built-in module math and use its factorial() method to calculate the factorial of the integer input. Output the value of the factorial, as well as a Boolean value identifying whether the factorial output is greater than 100.
+
+The solution output should be in the format
+
+factorial_value
+Boolean_value
+--------------------------------------------------
+CODE:
+#import math module and call factorial()
+#solution accepts integer input
+#solution outputs the factorial of the integer input 
+#solution outputs Boolean identification of whether the factorial is >100
+
+import math
+
+user_input = int(input())
+
+print(math.factorial(user_input))
+print(math.factorial(user_input) > 100)
+
+INPUT:
+10
+
+OUTPUT:
+3628800
+True
+==================================================
+QUESTION 15
+
+* I got this wrong when I took the PA because I forgot that when you use a function defined in an imported module you have to preface the function with the name of the module.
+==================================================
+-A similar question appeared in my OA, but instead of importing and using a module that calculates the human equivalent age of a pig you import and use a module that calculates the human equivalent age of a dog. The solution and output were almost exactly the same.
+
+Create a solution that accepts an integer input representing the age of a pig. Import the existing module pigAge and use its pre-built pigAge_converter() function to calculate the human equivalent age of a pig. A year in a pig's life is equivalent to five years in a human's life. Output the human-equivalent age of the pig.
+
+The solution output should be in the format
+
+input_pig_age is converted_pig_age in human years
+--------------------------------------------------
+CODE:
+#import pigAge module and call pigAge_converter()
+#one pig year is equivalent to five human years
+#solution accepts integer input representing a pig's age
+#solution outputs the human equivalent age for a pig (i.e. "8 is 40 in human years")
+
+import pigAge
+
+input_pig_age = int(input())
+
+print('{} is {} in human years'.format(input_pig_age, pigAge.pigAge_converter(input_pig_age)))
+
+INPUT:
+8
+
+OUTPUT:
+8 is 40 in human years
