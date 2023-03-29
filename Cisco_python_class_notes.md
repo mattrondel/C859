@@ -54,3 +54,55 @@ operator	Example		Description
 -=			x -= 8		same as x = x - 8
 op=			x -= 8		same as x = x op 8
 *op can be any operator
+
+Augmented assignments as things like 
+x += 6
+
+OPERATORS PRECEDENCE 
+Highest precedence
+**
+----------------
++x, -x
+----------------
+*,/,//,%
+----------------
++-
+==, !=, <, <=, >, >=
+in,not in,is,is not
+----------------
+not x
+and
+----------------
+or
+Lowest precedence
+
+Precedence rules FOLLOW THE SAME AS YOU LEARNED IN MATH
+Parentheses can be used to change precedence, the same with multiple parentheses 
+MORE ON BOOLEAN OPERATORS
+In other languages it might use 1 or 0 in place of True or False
+True, False, None (none indicates absence of value) other languages might use NULL or nil
+“And” truth table
+x	y	x and y
+False	False	False
+False	True	False
+True	False	False
+True	True	True
+To summarize: The results are True only if both operands are True
+
+“or” truth table
+x	y	x and y
+False	False	False
+False	True	True
+True	False	True
+True	True	True
+To summarize: the result is True if at least one operand is True
+
+“not” truth table
+X	not x
+True	False
+false	True
+
+Short circuit evaluation
+Means: if the first operand is enough to determine the result, the second operand is not evaluated
+
+
