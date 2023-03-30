@@ -106,4 +106,9 @@ false	True
 Short circuit evaluation
 Means: if the first operand is enough to determine the result, the second operand is not evaluated
 
+Functions
+A function is a group of instructions that preform a specific task
+0 or more aggurements as input
+1 value as output (always)
+
 
