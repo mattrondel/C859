@@ -15,3 +15,7 @@ https://app.sophia.org/spcc/introduction-to-python-programming
 https://www.degreeforum.net/mybb/Thread-Sophia-Introduction-to-Python-Programming
 
 https://old.reddit.com/r/Political_Revolution/comments/1498ggi/as_ive_been_saying_for_over_a_year_corporations/
+
+
+Python docs
+https://docs.python.org/3/library/index.html#library-index
