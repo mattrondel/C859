@@ -10,6 +10,7 @@ note: This program is to calculate Pay, Both Hourly and Salary in USD
 # main = tk.Tk()
 # main.mainloop()
 
+#Welcome Message
 def thanks():
         print(uname +", Thank you for using my calculator!")
 # def clear():
@@ -33,6 +34,7 @@ def ask_user():
                 print(f"Please answer y or n")
                 print(error)
                 return ask_user()
+#additional Question
 def update():
         answerx = input(uname +", Do you want to input a projected wage? (y/n) ")
         try:
@@ -47,6 +49,7 @@ def update():
                 print(f"Please answer y or n")
                 print(error)
                 return update()
+#Overtime Question
 def calc():
         answery = input(uname +", Are you interested in finding out how much you could make per week with overtime? (y/n) ")
         try:
