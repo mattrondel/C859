@@ -1,3 +1,5 @@
+https://stackoverflow.com/questions/640001/how-can-i-remove-text-within-parentheses-with-a-regex
+
 This is WGUs Python class
 
 also called D335
