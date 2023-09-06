@@ -1,7 +1,5 @@
 """
 Program name: Salary Calc
-Author: JMcDonald
-date: 06/06/23
 note: This program is to calculate Pay, Both Hourly and Salary in USD
 """
 # from os import system, name
@@ -23,7 +21,7 @@ def thanks():
 # print("Simple Pay Calculator with Difference Calculation By Josh McDonald")
 uname=input("What is your name? ")
 def ask_user():
-        answer = input(uname +", Are you Salary? (y/n) ")
+        answer = input(uname +", Are you Salaried? (y/n) ")
         try:
                 if answer.lower() == 'y':
                         return True
