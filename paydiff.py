@@ -1,5 +1,5 @@
 """
-Program name: Salary Calc
+Program name: PayDiff
 note: This program is to calculate Pay, Both Hourly and Salary in USD
 """
 # from os import system, name
