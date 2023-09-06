@@ -18,7 +18,6 @@ def thanks():
 #         else:
 #                 _ = system('clear')
 # clear()
-# print("Simple Pay Calculator with Difference Calculation By Josh McDonald")
 uname=input("What is your name? ")
 def ask_user():
         answer = input(uname +", Are you Salaried? (y/n) ")
@@ -206,7 +205,7 @@ while True: #loop start
                         biweround=(newwage * 80)
                         groround=(newwage * 2080)
                         biweround=(newwage * 80)
-                        #output to user
+                        #Output to user
                         def sal_print():
                                 print("Your pay difference is $",wagediffround)
                                 print("Your new Bi-Weekly Income is $",(round(biweround,2)))
@@ -265,4 +264,5 @@ while True: #loop start
                         continue
                 else:
                         thanks()
+                        #Quit Calc
                         break
