@@ -1,3 +1,5 @@
+https://getassist.net/access-chegg-without-an-account/
+
 https://github.com/idacat41/workspace/blob/master/Pay_Difference/Pay_Difference.py
 
 https://stackoverflow.com/questions/640001/how-can-i-remove-text-within-parentheses-with-a-regex
