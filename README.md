@@ -1,3 +1,7 @@
+Where to pick up from:
+https://app.sophia.org/spcc/introduction-to-python-programming-challenge-3-2/5/13036/revisiting-the-employee-class-program
+
+
 https://getassist.net/access-chegg-without-an-account/
 
 https://github.com/idacat41/workspace/blob/master/Pay_Difference/Pay_Difference.py
