@@ -1,7 +1,7 @@
-"""
-Program name: PayDiff
-note: This program is to calculate Pay, Both Hourly and Salary in USD
-"""
+#"""
+#Program name: PayDiff
+#note: This program is to calculate Pay, Both Hourly and Salary in USD
+#"""
 # from os import system, name
 # import builtins
 # from colorama import Fore
