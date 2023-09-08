@@ -34,7 +34,7 @@ def ask_user():
                 print(f"Please answer y or n")
                 print(error)
                 return ask_user()
-#additional Question
+#Projected Wage
 def update():
         answerx = input(uname +", Do you want to input a projected wage? (y/n) ")
         try:
@@ -64,8 +64,9 @@ def calc():
                 print(f"Please answer y or n")
                 print(error)
                 return calc()
+#Another Calulation returns back to the loop
 def ans():
-        answerz = input(uname + ", do you want to perform another calculation? (y/n) ")
+        answerz = input(uname + ", Do you want to perform another calculation? (y/n) ")
         try:
                 if answerz.lower() == 'y':
                         return True
@@ -135,6 +136,7 @@ def tax():
     except ValueError:
         print("Please enter a valid number")
         return tax()
+#Local Are Tax Rate Calculation
 def taxask():
     taxaskq = input(uname +", Would you like to input your current local tax rate? (y/n) ")
     try:
