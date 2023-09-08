@@ -79,6 +79,7 @@ def ans():
                 print(f"Please answer y or n")
                 print(error)
                 return ans()
+#Current Salary
 def currentsal():
     try:
         currentsalx=float(input("How much do you currently make per year? $")) #using float for partial hour
@@ -114,13 +115,13 @@ def newwa():
     except ValueError:
         print("Please enter a valid number")
         return newwa()
-def hou():
+def hours():
     try:
         hoursx=float(input("How many hours do you project work? Up to 40? ")) #using float for partial hour entry
         return hoursx
     except ValueError:
         print("Please enter a valid number")
-        return hou()
+        return hours()
 def otx():
     try:
         oty=float(input("How many hours do you project to work over 40? "))
