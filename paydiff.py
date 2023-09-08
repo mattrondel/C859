@@ -127,9 +127,10 @@ def otx():
     except ValueError:
         print("Please enter a valid number")
         return otx()
+#Tax Rate Precentage
 def tax():
     try:
-        taxr=float(input("What is your local tax rate percentage? "))
+        taxr=float(input("What is your local tax rate percentage? please input without the % sign"))
         return (taxr / 100) 
     except ValueError:
         print("Please enter a valid number")
