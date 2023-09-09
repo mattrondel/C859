@@ -64,7 +64,7 @@ def calc():
                 print(f"Please answer y or n")
                 print(error)
                 return calc()
-#Another Calulation returns back to the loop
+#Extra calulation loop
 def ans():
         answerz = input(uname + ", Do you want to perform another calculation? (y/n) ")
         try:
