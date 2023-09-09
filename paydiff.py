@@ -6,7 +6,7 @@
 # import builtins
 # from colorama import Fore
 # from colorama import Style
-# import tkinter as tk
+# import tkinter
 # main = tk.Tk()
 # main.mainloop()
 
