@@ -137,7 +137,7 @@ def tax():
     except ValueError:
         print("Please enter a valid number")
         return tax()
-#Local Are Tax Rate Calculation
+#Local Area Tax Rate Calculation
 def taxask():
     taxaskq = input(uname +", Would you like to input your current local tax rate? (y/n) ")
     try:
