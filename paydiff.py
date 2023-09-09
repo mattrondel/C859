@@ -10,7 +10,7 @@
 # main = tk.Tk()
 # main.mainloop()
 
-#Welcome Message
+#Returns Welcome Message
 def thanks():
         print(uname +", Thank you for using my calculator!")
 # def clear():
