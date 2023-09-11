@@ -1,3 +1,6 @@
+Online text compare
+https://www.diffchecker.com/text-compare/
+
 Where to pick up from:
 https://app.sophia.org/spcc/introduction-to-python-programming-challenge-3-2/5/13036/revisiting-the-employee-class-program
 
