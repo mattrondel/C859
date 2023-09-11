@@ -1,3 +1,6 @@
+hope I dont need this:
+https://www.reddit.com/r/WGU_CompSci/comments/kklqhh/how_to_get_sophiaorg_official_transcript/
+
 Online text compare
 https://www.diffchecker.com/text-compare/
 
