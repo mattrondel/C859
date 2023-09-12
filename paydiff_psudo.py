@@ -1,12 +1,6 @@
 #Welcome Message
 def thanks():
         print(uname +", Thank you for using my calculator!")
-# def clear():
-#         if name == 'nt':
-#                 _ = system('cls')
-#         else:
-#                 _ = system('clear')
-# clear()
 uname=input("What is your name? ")
 def ask_user():
         answer = input(uname +", Are you Salaried? (y/n) ")
@@ -239,7 +233,8 @@ while True: #loop start
                         else:()
                 sal_print()
                 ansx=ans()
-                if ansx == True: #check answer for continuation or exit
+            #check answer for continuation or exit
+                if ansx == True: 
                         continue
                 else:
                         thanks()
