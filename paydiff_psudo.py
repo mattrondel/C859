@@ -142,6 +142,7 @@ def taxask():
             print(f"Please answer y or n")
             print(error)
             return taxask()
+
 while True: #loop start
     salary=ask_user()
     if salary==True:
