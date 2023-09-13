@@ -1,7 +1,10 @@
 #Welcome Message
 def thanks():
         print(uname +", Thank you for using my calculator!")
+#Ask User Name
+#Store input as user name
 uname=input("What is your name? ")
+#Ask if Salaried
 def ask_user():
         answer = input(uname +", Are you Salaried? (y/n) ")
         try:
@@ -16,7 +19,7 @@ def ask_user():
                 print(f"Please answer y or n")
                 print(error)
                 return ask_user()
-#Projected Wage
+#Ask user if they want to put in a projected wage
 def update():
         answerx = input(uname +", Do you want to input a projected wage? (y/n) ")
         try:
@@ -31,7 +34,7 @@ def update():
                 print(f"Please answer y or n")
                 print(error)
                 return update()
-#Overtime Question
+#Ask user if they want to calculate weekly overtime
 def calc():
         answery = input(uname +", Are you interested in finding out how much you could make per week with overtime? (y/n) ")
         try:
@@ -46,7 +49,7 @@ def calc():
                 print(f"Please answer y or n")
                 print(error)
                 return calc()
-#Extra calulation loop
+#Ask user if they want to preform additional calulations , this will restart the loop until they answer no
 def ans():
         answerz = input(uname + ", Do you want to perform another calculation? (y/n) ")
         try:
@@ -61,7 +64,7 @@ def ans():
                 print(f"Please answer y or n")
                 print(error)
                 return ans()
-#Current Salary
+#Ask user what they make per year
 def currentsal():
     try:
         currentsalx=float(input("How much do you currently make per year? $")) #using float for partial hour
@@ -69,6 +72,7 @@ def currentsal():
     except ValueError:
         print("Please enter a valid number")
         return currentsal()
+#Ask user what they expect the new salary to be
 def newsal():
     try:
         newsalx=float(input("What is the new salary? $"))
@@ -76,6 +80,7 @@ def newsal():
     except ValueError:
         print("Please enter a valid number")
         return newsal()
+#Ask user what their current wage is
 def currentwa():
     try:
         currentx=float(input("What is your current wage? $"))
@@ -83,6 +88,7 @@ def currentwa():
     except ValueError:
         print("Please enter a valid number")
         return currentwa()
+#Ask user how many estimated hours they plan to work in a week
 def worked():
     try:
         currentx=float(input("How many hours do you expect to work per week? "))
@@ -90,6 +96,7 @@ def worked():
     except ValueError:
         print("Please enter a valid number")
         return worked()
+#Ask user what their projected wage will be
 def newwa():
     try:
         newx=float(input("What is your projected wage? $"))
@@ -97,9 +104,10 @@ def newwa():
     except ValueError:
         print("Please enter a valid number")
         return newwa()
+#Ask user what their projected wage will be
 def hours():
     try:
-        hoursx=float(input("How many hours do you project work? Up to 40? ")) #using float for partial hour entry
+        hoursx=float(input("How many hours do you project to work? Up to 40? ")) #using float for partial hour entry
         return hoursx
     except ValueError:
         print("Please enter a valid number")
@@ -134,7 +142,6 @@ def taxask():
             print(f"Please answer y or n")
             print(error)
             return taxask()
-        
 while True: #loop start
     salary=ask_user()
     if salary==True:
@@ -181,7 +188,7 @@ while True: #loop start
                         biweround=(newwage * 80)
                         groround=(newwage * 2080)
                         biweround=(newwage * 80)
-                        #Output to user
+                        #print statements
                         def sal_print():
                                 print("Your pay difference is $",wagediffround)
                                 print("Your new Bi-Weekly Income is $",(round(biweround,2)))
