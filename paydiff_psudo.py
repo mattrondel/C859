@@ -1,10 +1,10 @@
-#Welcome Message
+#Thank you Message
 def thanks():
-        print(uname +", Thank you for using my calculator!")
+        print(uname +", Thank you for using my wage calculator!")
 #Ask User Name
 #Store input as user name
 uname=input("What is your name? ")
-#Ask if Salaried
+#Ask if Salaried, if N then skip down
 def ask_user():
         answer = input(uname +", Are you Salaried? (y/n) ")
         try:
@@ -36,7 +36,7 @@ def update():
                 return update()
 #Ask user if they want to calculate weekly overtime
 def calc():
-        answery = input(uname +", Are you interested in finding out how much you could make per week with overtime? (y/n) ")
+        answery = input(uname +", Are you interested in finding out how much you could make per week with overtime? (calculated at time and a half (y/n) ")
         try:
                 if answery.lower() == 'y':
                         return True
@@ -67,7 +67,8 @@ def ans():
 #Ask user what they make per year
 def currentsal():
     try:
-        currentsalx=float(input("How much do you currently make per year? $")) #using float for partial hour
+        currentsalx=float(input("How much do you currently make per year? $"))
+        # using float for partial hour
         return currentsalx
     except ValueError:
         print("Please enter a valid number")
@@ -75,7 +76,7 @@ def currentsal():
 #Ask user what they expect the new salary to be
 def newsal():
     try:
-        newsalx=float(input("What is the new salary? $"))
+        newsalx=float(input("What is the new salary? $ "))
         return newsalx
     except ValueError:
         print("Please enter a valid number")
@@ -128,27 +129,26 @@ def tax():
         print("Please enter a valid number")
         return tax()
 #Local Area Tax Rate Calculation
-def taxask():
-    taxaskq = input(uname +", Would you like to input your current local tax rate? (y/n) ")
-    try:
-        if taxaskq.lower() == 'y':
-            return tax()
-        elif taxaskq.lower() =='n':
-            return False
-        else:
-            print(f"Invalid response")
-            return taxask()
-    except Exception as error:
-            print(f"Please answer y or n")
-            print(error)
-            return taxask()
-
+#def taxask():
+#    taxaskq = input(uname +", Would you like to input your current local tax rate? (y/n) ")
+#    try:
+#        if taxaskq.lower() == 'y':
+#            return tax()
+#        elif taxaskq.lower() =='n':
+#            return False
+#        else:
+#            print(f"Invalid response")
+#            return taxask()
+#    except Exception as error:
+#            print(f"Please answer y or n")
+#            print(error)
+#            return taxask()
 while True: #loop start
     salary=ask_user()
     if salary==True:
         currentsalary=currentsal()
         newsalary=newsal()
-        taxaskr=taxask()      
+        #taxaskr=taxask()      
         grossdifference=(newsalary - currentsalary)
         weekly=round((newsalary/52),2)
         weekly=round((newsalary/52),2)
@@ -169,13 +169,13 @@ while True: #loop start
         #Your Gross pay Difference is _
         def sal_print():
                 print(f"Your Current Hourly rate is $",currentsalary / 2080)
-                #print(f"Your Current Hourly rate is$",currentsalary / 2080)
+                #Your Current Hourly rateneed to trim this down to just 2 decimals eventually
                 print(f"Your Hourly pay difference is $",differencerounded)
                 print(f"Your Estimated Weekly Pay Difference is $",weeklydif)
                 print(f"Your Estimated Weekly Pay is $",weekly)
                 print(f"Your Estimated Bi-Weekly Pay Difference is $",biweeklydiff)
                 print(f"Your Estimated Bi-Weekly Pay is $",biweekly)
-                print(f"Your Estimated Gross pay Difference is $",grossdifference)
+                #print(f"Your Estimated Gross pay Difference is $",grossdifference)
                 #print(f"Your Estimated Net Pay is $",(newsalary*(1 - taxaskr)))
         sal_print()
         ansy=ans()
@@ -187,7 +187,7 @@ while True: #loop start
     else:
                 currentwage=currentwa()
                 houworked=worked()
-                taxaskr=taxask()
+                #taxaskr=taxask()
                 updatex=update()
                 if updatex == True:
                         newwage=newwa()
@@ -214,8 +214,8 @@ while True: #loop start
                                 ot=otx()
                                 otRate=newwage*1.5
                                 pay=round(((newwage * hours)+(ot * otRate)),2) #calculations
-                                binet=((pay * 2)*(1 - taxaskr)*2)
-                                netan=((pay * 52) * (1 - taxaskr))
+                                #binet=((pay * 2)*(1 - taxaskr)*2)
+                                #netan=((pay * 52) * (1 - taxaskr))
                                 def sal_print():                                
                                         print("Your projected pay is $",pay,"for",hours+ot,"hours") #output to user
                                         print("Your projected Bi-Weekly pay is $",(pay * 2))
@@ -224,9 +224,9 @@ while True: #loop start
                                         print("Your projected Annual Net is $",(round(netan,2)))
                         else:()
                 else:
-                        anround=(((currentwage * houworked)*52) * (1 - taxaskr))
+                        #anround=(((currentwage * houworked)*52) * (1 - taxaskr))
                         bipayround=((currentwage * houworked)*2)
-                        netround=(bipayround *(1 - taxaskr))
+                        #netround=(bipayround *(1 - taxaskr))
                         angro= ((currentwage * houworked)* 52)
                         def sal_print(): 
                                 print("Your projected pay is $",(currentwage * houworked),"for",houworked,"hours") #output to user
@@ -240,8 +240,8 @@ while True: #loop start
                                 ot=otx()
                                 otRate=currentwage*1.5
                                 pay=((currentwage * hours)+(ot * otRate)) #calculations
-                                netan=((pay * 52) * (1 - taxaskr))
-                                binet=((pay * 2) * (1 - taxaskr))
+                                #netan=((pay * 52) * (1 - taxaskr))
+                                #binet=((pay * 2) * (1 - taxaskr))
                                 def sal_print():                              
                                         print("Your projected pay is $",pay, "for",hours+ot, "hours") #output to user
                                         print("Your projected Bi-Weekly pay is $",(pay * 2))
