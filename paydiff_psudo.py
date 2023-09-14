@@ -159,14 +159,15 @@ while True: #loop start
         difference=((newsalary / 2080)-(currentsalary / 2080)) 
         differencerounded=(round(difference,2))
         def sal_print():
-                print(f"Your Current Hourly rage is$",currentsalary / 2080)
+                print(f"Your Current Hourly rate is$",currentsalary / 2080)
                 print(f"Your Hourly pay difference is $",differencerounded) #output to user
-                print(f"Your Estimated Weekly Pay Difference is $",weeklydif)
+                print(f"Your Estimated Weekly Pay Difference is ",weeklydif,"%" )
+                #print(f"Your Estimated Weekly Pay Difference is $",weeklydif)
                 print(f"Your Estimated Weekly Pay is $",weekly)
                 print(f"Your Estimated Bi-Weekly Pay Difference is $",biweeklydiff)
-                print(f"Your Estimated Bi Weekly Pay is $",biweekly)
+                print(f"Your Estimated Bi-Weekly Pay is $",biweekly)
                 print(f"Your Estimated Gross pay Difference is $",grossdifference)
-                print(f"Your Estimated Net Pay is $",(newsalary*(1 - taxaskr)))
+                #print(f"Your Estimated Net Pay is $",(newsalary*(1 - taxaskr)))
         sal_print()
         ansy=ans()
         if(ansy==True): 
