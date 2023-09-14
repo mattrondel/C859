@@ -158,11 +158,20 @@ while True: #loop start
         biweeklydiff=round((grossdifference/26),2)
         difference=((newsalary / 2080)-(currentsalary / 2080)) 
         differencerounded=(round(difference,2))
+        # Print Statements
+        #Output statements all showing in U$D
+        #Your Current Hourly rate is _
+        #Your Hourly pay diff is _
+        #Your Weekly Pay Difference _
+        #Your Weekly Pay is $ _
+        #Your Bi-Weekly Pay Difference is _
+        #Your Bi-Weekly Pay is _
+        #Your Gross pay Difference is _
         def sal_print():
-                print(f"Your Current Hourly rate is$",currentsalary / 2080)
-                print(f"Your Hourly pay difference is $",differencerounded) #output to user
-                print(f"Your Estimated Weekly Pay Difference is ",weeklydif,"%" )
-                #print(f"Your Estimated Weekly Pay Difference is $",weeklydif)
+                print(f"Your Current Hourly rate is $",currentsalary / 2080)
+                #print(f"Your Current Hourly rate is$",currentsalary / 2080)
+                print(f"Your Hourly pay difference is $",differencerounded)
+                print(f"Your Estimated Weekly Pay Difference is $",weeklydif)
                 print(f"Your Estimated Weekly Pay is $",weekly)
                 print(f"Your Estimated Bi-Weekly Pay Difference is $",biweeklydiff)
                 print(f"Your Estimated Bi-Weekly Pay is $",biweekly)
