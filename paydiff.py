@@ -2,7 +2,7 @@
 def thanks():
         print(uname +", Thank you for using my wage calculator!")
 #Ask User Name
-#Store input as user name
+ #Store input as uname
 uname=input("What is your name? ")
 #Ask if Salaried, if N then move to hourly questions
 def ask_user():
@@ -20,6 +20,7 @@ def ask_user():
                 print(error)
                 return ask_user()
 #Ask user if they want to put in a projected wage
+# store input as update
 def update():
         answerx = input(uname +", Do you want to input a projected wage? (y/n) ")
         try:
@@ -35,6 +36,7 @@ def update():
                 print(error)
                 return update()
 #Hourly worker - Ask user if they want to calculate weekly overtime
+  #Store input as calc
 def calc():
         answery = input(uname +", Are you interested in finding out how much you could make per week with overtime? (calculated at time and a half (y/n) ")
         try:
@@ -66,6 +68,7 @@ def ans():
                 print(error)
                 return ans()
 #Salary worker - Ask user what they make per year
+ #Store input as currentsal
 def currentsal():
     try:
         currentsalx=float(input("How much do you currently make per year? $"))
@@ -75,6 +78,7 @@ def currentsal():
         print("Please enter a valid number")
         return currentsal()
 #Ask user what they expect the new salary to be
+ #Store Input as newsal
 def newsal():
     try:
         newsalx=float(input("What is the new salary? $ "))
@@ -83,6 +87,7 @@ def newsal():
         print("Please enter a valid number")
         return newsal()
 #Ask user what their current wage is
+   #store input as currentwa
 def currentwa():
     try:
         currentx=float(input("What is your current wage? $"))
@@ -91,6 +96,7 @@ def currentwa():
         print("Please enter a valid number")
         return currentwa()
 #Hourly worker - Ask user how many estimated hours they plan to work in a week
+ #Store input as worked
 def worked():
     try:
         currentx=float(input("How many hours do you expect to work per week? "))
@@ -99,6 +105,7 @@ def worked():
         print("Please enter a valid number")
         return worked()
 #Ask user what their projected wage will be
+  # Store input as newwa
 def newwa():
     try:
         newx=float(input("What is your projected wage? $"))
@@ -107,6 +114,7 @@ def newwa():
         print("Please enter a valid number")
         return newwa()
 #Hourly worker - Overtime - Ask user what their projected hours will be
+ #Store input as hours
 def hours():
     try:
         hoursx=float(input("How many hours do you project to work? Up to 40? ")) 
@@ -143,7 +151,7 @@ while True:
         biweeklydiff=round((grossdifference/26),2)
         difference=((newsalary / 2080)-(currentsalary / 2080)) 
         differencerounded=(round(difference,2))
-# Print Statements hourly worker
+# Print Statements if hourly worker
         def sal_print():
                 print(f"Your Current Hourly rate is $",currentsalary / 2080)
                 print(f"Your Hourly pay difference is $",differencerounded)
@@ -194,14 +202,13 @@ while True:
                                         print("Your projected Annual Gross is $",(pay * 52), "based off of working all 52 weeks")
                                         print("Your projected Annual Net is $",(round(netan,2)))
                         else:()
-# Print Statements - Salary worker
+# Print Statements - if Salary worker
                 else:
                         bipayround=((currentwage * houworked)*2)
                         angro= ((currentwage * houworked)* 52)
                         def sal_print(): 
                                 print("Your projected pay is $",(currentwage * houworked),"for",houworked,"hours")
                                 print("Your Estimated Bi-Weekly pay is $",(round(bipayround,2)))
-                                print("Your projected Bi-Weekly Net is $",(round(netround,2)))
                                 print("Your Estimated Annual Gross is $",(round(angro,2)))   
                                 print("Your Estimated Annual Net is $",(round(anround,2)))
                         calcx=calc()
@@ -218,12 +225,12 @@ while True:
                         else:()
                 sal_print()
                 ansx=ans()
-# ask if you would like to preform another calculation if True loop back 
-#if False print thank you message
+#Ask if you would like to preform another calculation if True loop back 
+#If False print thank you message
                 if ansx == True: 
                         continue
                 else:
                         thanks()
-                        # print thank you message from top
+                        # print thank you message
                         #Quit Calc
                         break
