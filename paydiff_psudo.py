@@ -4,7 +4,7 @@ def thanks():
 #Ask User Name
 #Store input as user name
 uname=input("What is your name? ")
-#Ask if Salaried, if N then skip down
+#Ask if Salaried, if N then move to hourly questions
 def ask_user():
         answer = input(uname +", Are you Salaried? (y/n) ")
         try:
@@ -34,7 +34,7 @@ def update():
                 print(f"Please answer y or n")
                 print(error)
                 return update()
-#Ask user if they want to calculate weekly overtime
+#Hourly worker - Ask user if they want to calculate weekly overtime
 def calc():
         answery = input(uname +", Are you interested in finding out how much you could make per week with overtime? (calculated at time and a half (y/n) ")
         try:
@@ -49,7 +49,8 @@ def calc():
                 print(f"Please answer y or n")
                 print(error)
                 return calc()
-#Ask user if they want to preform additional calulations , this will restart the loop until they answer no
+#Ask user if they want to preform additional calulations , 
+# this will restart the loop until they answer no
 def ans():
         answerz = input(uname + ", Do you want to perform another calculation? (y/n) ")
         try:
@@ -89,7 +90,7 @@ def currentwa():
     except ValueError:
         print("Please enter a valid number")
         return currentwa()
-#Ask user how many estimated hours they plan to work in a week
+#Hourly worker - Ask user how many estimated hours they plan to work in a week
 def worked():
     try:
         currentx=float(input("How many hours do you expect to work per week? "))
@@ -105,10 +106,11 @@ def newwa():
     except ValueError:
         print("Please enter a valid number")
         return newwa()
-#Ask user what their projected wage will be
+#Hourly worker - Ask user what their projected hours will be
 def hours():
     try:
-        hoursx=float(input("How many hours do you project to work? Up to 40? ")) #using float for partial hour entry
+        hoursx=float(input("How many hours do you project to work? Up to 40? ")) 
+        #using float for partial hour entry
         return hoursx
     except ValueError:
         print("Please enter a valid number")
@@ -187,7 +189,7 @@ while True: #loop start
     else:
                 currentwage=currentwa()
                 houworked=worked()
-                #taxaskr=taxask()
+                #taxaskr=taxask() to be added later
                 updatex=update()
                 if updatex == True:
                         newwage=newwa()
@@ -199,7 +201,6 @@ while True: #loop start
                         biweround=(newwage * 80)
                         groround=(newwage * 2080)
                         biweround=(newwage * 80)
-                        #print statements
                         def sal_print():
                                 print("Your pay difference is $",wagediffround)
                                 print("Your new Bi-Weekly Income is $",(round(biweround,2)))
@@ -217,7 +218,7 @@ while True: #loop start
                                 #binet=((pay * 2)*(1 - taxaskr)*2)
                                 #netan=((pay * 52) * (1 - taxaskr))
                                 def sal_print():                                
-                                        print("Your projected pay is $",pay,"for",hours+ot,"hours") #output to user
+                                        print("Your projected pay is $",pay,"for",hours+ot,"hours") 
                                         print("Your projected Bi-Weekly pay is $",(pay * 2))
                                         print("Your projected Bi-Weekly Net is $",(round(binet,2)))
                                         print("Your projected Annual Gross is $",(pay * 52), "based off of working all 52 weeks")
@@ -229,7 +230,7 @@ while True: #loop start
                         #netround=(bipayround *(1 - taxaskr))
                         angro= ((currentwage * houworked)* 52)
                         def sal_print(): 
-                                print("Your projected pay is $",(currentwage * houworked),"for",houworked,"hours") #output to user
+                                print("Your projected pay is $",(currentwage * houworked),"for",houworked,"hours")
                                 print("Your Estimated Bi-Weekly pay is $",(round(bipayround,2)))
                                 print("Your projected Bi-Weekly Net is $",(round(netround,2)))
                                 print("Your Estimated Annual Gross is $",(round(angro,2)))   
@@ -243,10 +244,11 @@ while True: #loop start
                                 #netan=((pay * 52) * (1 - taxaskr))
                                 #binet=((pay * 2) * (1 - taxaskr))
                                 def sal_print():                              
-                                        print("Your projected pay is $",pay, "for",hours+ot, "hours") #output to user
+                                        print("Your projected pay is $",pay, "for",hours+ot, "hours") 
                                         print("Your projected Bi-Weekly pay is $",(pay * 2))
                                         print("Your projected Bi-Weekly Net is $",(round(binet,2)))
-                                        print("Your projected Annual Gross is $",(pay * 52), "based off of working all 52 weeks")
+                                      # to be added later
+                                      # print("Your projected Annual Gross is $",(pay * 52), "based off of working all 52 weeks")
                                         print("Your projected Annual Net is $",(round(netan,2)))
                         else:()
                 sal_print()
