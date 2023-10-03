@@ -1,3 +1,13 @@
+
+
+
+
+
+Please submit your term account statement or detailed account summary page that shows the tuition and fees assessed, discounts received and payments made and applied. A convenience fee was charged for using the Vcard, but it does not appear on your tuition statement. Please provide a receipt for this fee. You should have received an email showing the fee when payment was made.
+
+
+
+
 flowchart definitions
 
 https://mundrisoft.com/tech-bytes/flowchart-in-software-engineering-testing/
