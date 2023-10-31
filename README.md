@@ -5,6 +5,9 @@ https://old.reddit.com/r/WGU/comments/14k12tq/c859_my_experience/
 
 Chapter 33 and 34
 
+WGU Programming Center
+
+https://westerngovernorsuniversity.sharepoint.com/sites/ProgrammingCenter/SitePages/Python.aspx
 
 
 flowchart definitions
