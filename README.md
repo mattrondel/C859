@@ -1,3 +1,7 @@
+re read this post
+
+https://old.reddit.com/r/WGU/comments/14k12tq/c859_my_experience/
+
 
 Chapter 33 and 34
 
