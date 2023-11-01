@@ -8,3 +8,22 @@ area_code_prefix = phone_number // 10000
 area_code = area_code_prefix // 1000
 prefix = area_code_prefix % 1000
 print('(',area_code,')',' ',prefix,'-',line_number, sep='')
+
+######################################################
+33.7.1: LAB: Smallest number
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/7
+
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+
+if (num1 < num2 and num1 < num3):
+    small = num1
+
+elif (num2 < num1 and num2 < num3): 
+    small = num2
+else:
+    small = num3
+print(small)
+
+######################################################
