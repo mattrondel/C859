@@ -1,11 +1,9 @@
+Chapter 33 and 34
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/3
+
 re read this post
 
 https://old.reddit.com/r/WGU/comments/14k12tq/c859_my_experience/
-
-
-Chapter 33 and 34
-
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/2
 
 WGU Programming Center
 
