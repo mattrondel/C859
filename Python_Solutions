@@ -2,12 +2,41 @@ Python solutions
 
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/6
 
+
+######################################################
+
+
+######################################################
+33.3 LAB: Convert to dollars
+https://www.youtube.com/watch?v=-DrJtzDdf4c
+
+
+######################################################
+33.4 LAB: Driving costs
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/4
+
+
+
+######################################################
+33.5 LAB: Input and formatted output: Right-facing arrow
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/5
+
+
+
+######################################################
+33.6 LAB: Phone number breakdown
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/6
+
 phone_number
 line_number = phone_number % 10000
 area_code_prefix = phone_number // 10000
 area_code = area_code_prefix // 1000
 prefix = area_code_prefix % 1000
 print('(',area_code,')',' ',prefix,'-',line_number, sep='')
+
+######################################################
+33.7 LAB: Smallest number
+
 
 ######################################################
 33.7.1: LAB: Smallest number
@@ -27,3 +56,5 @@ else:
 print(small)
 
 ######################################################
+33.8 LAB: Exact change
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/8
