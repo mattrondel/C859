@@ -11,5 +11,24 @@ Help me understand this python problem
 https://my.wgu.edu/home
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/1
 
+Breaking it apart
+"accepts three integer inputs"
+ "Output the total distance traveled to two decimal places "
 
- accepts three integer inputs
+since the example shows:
+Employee A: 15.62 miles
+Employee B: 41.85 miles
+Employee C: 32.67 miles
+
+I think these should be the variables:
+Employee A 
+Employee B 
+Employee C 
+
+so...
+
+Employee A = input()
+Employee B = input()
+Employee C = input()
+
+"integer input" means int(input)
