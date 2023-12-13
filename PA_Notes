@@ -32,3 +32,5 @@ Employee B = input()
 Employee C = input()
 
 "integer input" means int(input)
+
+"number of times" is misleading it makes you think its multiplication but if you look at "expected output"  and the example is ...
