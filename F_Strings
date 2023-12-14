@@ -1,6 +1,18 @@
 https://www.youtube.com/watch?v=nghuHvKLhJA
 
 
+Formatting 
+
+pi = 3.14159
+print(f'The value of pi to 2 decimal places is {pi:.2f}.')
+# Output:
+# 'The value of pi to 2 decimal places is 3.14.'
+
+:.2f modifies output
+
+
+
+
 Here's a basic explanation of how f-strings work:
 
 Syntax: An f-string is created by prefixing a string literal with the letter 'f' or 'F'. Inside the string, you can include expressions enclosed in curly braces {}.
@@ -9,6 +21,7 @@ code:
 name = "Alice"
 age = 30
 print(f"My name is {name} and I am {age} years old.")
+
 
 Expression Evaluation: The expressions inside the curly braces are evaluated at runtime and their values are inserted into the string.
 
