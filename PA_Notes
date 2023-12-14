@@ -35,3 +35,7 @@ Employee C = input()
 
 "number of times" is misleading it makes you think its multiplication but if you look at "expected output"  and the example is ...
 https://www.studocu.com/en-us/messages/question/3487487/create-a-python-solution-to-the-following-task-ensure-that-the-solution-produces-output-in-exactly
+
+need something for f strings
+ # Output the result in the specified format
+    print(f'Distance: {total_distance:.2f}')
