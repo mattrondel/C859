@@ -1,5 +1,5 @@
 Chapter 33 and 34
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/3
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/1
 
 re read this post
 
