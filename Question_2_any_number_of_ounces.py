@@ -1,3 +1,4 @@
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/2
 
 def convert_ounces(ounces):
     # Calculate tons, pounds, and remaining ounces
@@ -18,4 +19,4 @@ input_ounces = int(input())
 convert_ounces(input_ounces)
 
 
-You can run this script, enter the number of ounces when prompted, and it will display the converted result in the specified format.
+#You can run this script, enter the number of ounces when prompted, and it will display the converted result in the specified format.
