@@ -11,7 +11,7 @@ def convert_ounces(ounces):
     print(f"Ounces: {ounces}")
 
 # Get input from the user
-input_ounces = int(input("Enter the number of ounces: "))
+input_ounces = int(input())
 
 # Call the function with the input
 convert_ounces(input_ounces)
