@@ -1,5 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/6
 
+# "without hard-coded information, allowing the function to handle different input values"
+
 
 #Does not work::
 def format_student_id(student_id):
