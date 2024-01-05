@@ -1,3 +1,7 @@
+Course videos
+
+https://srm--c.vf.force.com/apex/coursearticle?Id=kA00c000001DYePCAW
+
 Chapter 33 and 34
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/1
 
