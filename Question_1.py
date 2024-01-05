@@ -1,19 +1,32 @@
-def calculate_total_distance(travels_a, travels_b, travels_c):
-  miles_per_employee = {
-      'A': 15.62,
-      'B': 41.85,
-      'C': 32.67
-  }
+#
+#Instructions:
+#Create a Python solution to the following task. Ensure that the solution produces output in exactly the same format shown in the sample(s) below, including capitalization and whitespace.
+# 
+#Task:
+#Create a solution that accepts three integer inputs representing the number of times an employee travels to a job site. Output the total distance traveled to two decimal places (:.2f) given the following miles per employee commute to the job site. Output the total distance traveled to two decimal places given the following miles per employee commute to the job site:
+#Employee A: 15.62 miles
+#Employee B: 41.85 miles
+#Employee C: 32.67 miles
+#The solution output should be in the format
+#Distance: total_miles_traveled
+# 
+#Sample Input/Output:
+#If the input is
+#1
+#2
+#3
+#then the expected output is
+#Distance: 197.33 miles
 
-  total_miles_traveled = (travels_a * miles_per_employee['A'] + travels_b * miles_per_employee['B'] + travels_c * miles_per_employee['C'])
 
-  return round(total_miles_traveled, 2)
 
-# Get user input
-travels_a = int(input(""))
-travels_b = int(input(""))
-travels_c = int(input(""))
+miles_per_employee = [15.62, 41.85, 32.67]
 
-# Calculate and display the result
-total_distance = calculate_total_distance(travels_a, travels_b, travels_c)
-print(f"Distance: {total_distance:.2f} miles")
+Travel_A = int(input())
+Travel_B = int(input())
+Travel_C = int(input())
+
+Total_Distance = (Travel_A * miles_per_employee [0]) + (Travel_A * miles_per_employee [1]) + (Travel_A * miles_per_employee [2])
+
+#print(f"{:.2f}")
+print(Distance: {Total_Distance:.2f} miles)
