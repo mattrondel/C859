@@ -1,13 +1,37 @@
 #this works for both PA and 
 #https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/4
+ 
+# Task:
+# Create a solution that accepts any three integer inputs representing the base (b1, b2) and height (h) measurements of a trapezoid in meters. 
+#Output the exact area of the trapezoid in square meters as a float value. <-- how to do this? NOTE this does it automatically
+# The exact area of a trapezoid can be calculated by finding the average of the two base measurements, then multiplying by the height measurement.
+# Trapezoid Area Formula:
+# A = [(b1 + b2) / 2] * h  <--- NOTE: IF you copy this it will use square brackets which is a list element and doesnt work
+# The solution output should be in the format
+# Trapezoid area: area_value square meters
+#  
+# Sample Input/Output:
+# If the input is
+# 3
+# 4
+# 5
+# then the expected output is
+# Trapezoid area: 17.5 square meters
+# Alternatively, if the input is
+# 3
+# 5
+# 7
+# then the expected output is
+# Trapezoid area: 28.0 square meters
 
-# Accept three integer inputs for base (b1, b2) and height (h)
+# "take three inputs" 
 b1 = int(input())
 b2 = int(input())
 h = int(input())
 
-# Calculate the trapezoid area
-area = ((b1 + b2) / 2) * h
+# "Trapezoid Area Formula:"
+area_value = [(b1 + b2) / 2] * h
 
-# Output the result in the required format
-print(f'Trapezoid area: {area} square meters')
+#again F strings to the rescue
+print(f"Trapezoid area: {area_value} square meters")
+
