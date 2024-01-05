@@ -24,7 +24,6 @@
 #String: 13627
 
 
-
 #solution accepts five integer inputs
 #solution outputs three sums of input values; convert before calculating sum
 #first output: sum of five inputs maintained as integer values
