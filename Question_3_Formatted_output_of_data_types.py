@@ -21,7 +21,11 @@
 index = int(input())
 various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
 print(f"Element {index}: {type(various_data_types[index])}")
-
+# above gave output errors
+# try below:
+index = int(input())
+various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
+print(f"Element {index}: {type(various_data_types[index]).__name__}")
 
 
 # this also works:
