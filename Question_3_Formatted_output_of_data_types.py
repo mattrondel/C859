@@ -1,3 +1,5 @@
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/3
+
 # Instructions:
 # Create a Python solution to the following task. Ensure that the solution produces output in exactly the same format shown in the sample(s) below, including capitalization and whitespace.
 #  
