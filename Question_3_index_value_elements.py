@@ -13,3 +13,6 @@
 # 4
 # then the expected output is
 # Element 4: tuple
+
+# "remove any error checking"
+# "do this without a tray and except and not with a funtion"
