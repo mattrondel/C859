@@ -16,3 +16,6 @@
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a funtion and have it condensed and simplifed
 
+index = int(input())
+various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
+print(f"Element {index}: {type(various_data_types[index])}")
