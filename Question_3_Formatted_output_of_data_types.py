@@ -27,18 +27,3 @@ index = int(input())
 various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
 print(f"Element {index}: {type(various_data_types[index]).__name__}")
 
-
-# this also works:
-def get_data_type(index):
-    various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
-
-    try:
-        element = various_data_types[index if index >= 0 else len(various_data_types) + index]
-        print(f"Element {index}: {type(element).__name__}")
-
-    except IndexError:
-        print(f"Element {index}: Index out of range.")
-
-# Example usage:
-get_data_type(int(input()))
-
