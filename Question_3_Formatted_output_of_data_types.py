@@ -24,7 +24,7 @@ print(f"Element {index}: {type(various_data_types[index])}")
 
 
 
-this also works:
+# this also works:
 def get_data_type(index):
     various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
 
