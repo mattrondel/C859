@@ -1,6 +1,6 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/7
 # 
-# # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a funtion and have it condensed and simplifed
+# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a funtion and have it condensed and simplifed
 #
 # Task:
 # Create a solution that accepts an integer input to compare against the following list:
