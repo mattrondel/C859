@@ -18,9 +18,6 @@
 # then the expected output is:
 # Error
 
-
-# need to check this:
-
 frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
 
 try:
