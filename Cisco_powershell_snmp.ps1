@@ -1,4 +1,5 @@
 https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/cannot-install-snmp-wmisnmpprovider
+dism.exe /Online /Enable-Feature /FeatureName:SNMP
 
 
 # Define switch details
