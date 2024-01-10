@@ -1,6 +1,6 @@
 https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/cannot-install-snmp-wmisnmpprovider
 # does not work as unable to install snmp modules without an internet connection on SHB
-
+# SHB uses 5.1
 
 # Define switch details
 $switchIpAddress = "your_switch_ip_address"
