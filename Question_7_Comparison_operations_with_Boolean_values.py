@@ -15,10 +15,8 @@
 # then the expected output is
 # Greater Than Max? False
 
-# need to try this:
-
 predef_list = [4, -27, 15, 33, -10]
-input_value = int(input("Enter an integer: "))
+input_value = int(input())
 result = input_value > max(predef_list)
 print(f"Greater Than Max? {result}")
 
