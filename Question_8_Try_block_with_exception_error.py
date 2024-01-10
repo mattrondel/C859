@@ -17,3 +17,14 @@
 # 7
 # then the expected output is:
 # Error
+
+
+# need to check this:
+
+frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
+
+try:
+    index = int(input())
+    print(frameworks[index])
+except (ValueError, IndexError):
+    print("Error")
