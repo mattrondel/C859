@@ -1,3 +1,6 @@
+https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/cannot-install-snmp-wmisnmpprovider
+
+
 # Define switch details
 $switchIpAddress = "your_switch_ip_address"
 $snmpCommunityString = "your_snmp_community_string"
