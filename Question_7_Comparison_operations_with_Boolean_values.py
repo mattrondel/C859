@@ -14,3 +14,12 @@
 # 20
 # then the expected output is
 # Greater Than Max? False
+
+# need to try this:
+
+predef_list = [4, -27, 15, 33, -10]
+input_value = int(input("Enter an integer: "))
+result = input_value > max(predef_list)
+print(f"Greater Than Max? {result}")
+
+# This code takes an integer input, compares it with the maximum value from the predef_list, and prints the result in the specified format.
