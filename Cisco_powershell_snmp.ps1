@@ -1,5 +1,5 @@
 https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/cannot-install-snmp-wmisnmpprovider
-dism.exe /Online /Enable-Feature /FeatureName:SNMP
+# does not work as unable to install snmp modules without an internet connection on SHB
 
 
 # Define switch details
