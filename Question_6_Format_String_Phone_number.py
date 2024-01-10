@@ -13,14 +13,7 @@
 # then the expected output is
 # 154-17-5430
 
+input_id = input()
 
-# Need to verify this:
-
-# Accept an integer input representing a 9-digit unformatted student identification number
-identification_number = int(input("Enter a 9-digit identification number: "))
-
-# Convert the integer to a string and format it with hyphens
-formatted_identification = f"{identification_number // 1000000}-{(identification_number // 10000) % 100}-{identification_number % 10000}"
-
-# Output the formatted identification number
-print(formatted_identification)
+formatted_output = f"{input_id[:3]}-{input_id[3:5]}-{input_id[5:]}"
+print(formatted_output)
