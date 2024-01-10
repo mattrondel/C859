@@ -1,6 +1,6 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/8
 
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a funtion and have it condensed and simplifed
+# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this with a try and except and not with a function and have it condensed and simplifed
 
 # Create a solution that accepts one integer input representing the index value for any of the string elements in the following list:
 # frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
