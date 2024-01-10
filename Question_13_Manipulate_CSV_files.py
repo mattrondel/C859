@@ -16,3 +16,9 @@
 # then the expected output is
 # {d:400,e:500,f:600}
 # {celery:2.81,milk:4.34,bread:5.63}
+
+# sample file:
+# input1.csv
+# contents:
+#  a, 100, b, 200, c, 300
+# bananas, 1.85, steak, 19.99, cookies, 4.52
