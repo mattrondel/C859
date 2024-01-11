@@ -28,3 +28,18 @@
 # then the expected output is
 # Frozen
 # Watch out for ice!
+
+# Need to test:
+temp = int(input())
+state = (
+    "Frozen" if temp < 33 else
+    "Cold" if temp <= 80 else
+    "Warm" if temp <= 115 else
+    "Hot" if temp <= 211 else
+    "Boiling"
+)
+safety_comment = "Caution: Hot!" if temp == 212 else "Watch out for ice!" if temp < 33 else ""
+
+print(state)
+print(safety_comment)
+
