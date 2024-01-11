@@ -1,6 +1,8 @@
 #this works for both PA and 
 #https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/4
- 
+
+# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
+
 # Task:
 # Create a solution that accepts any three integer inputs representing the base (b1, b2) and height (h) measurements of a trapezoid in meters. 
 #Output the exact area of the trapezoid in square meters as a float value. <-- how to do this? NOTE this does it automatically
