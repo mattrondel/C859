@@ -1,5 +1,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/11
 
+# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this with a try and except and not with a function and have it condensed and simplifed
+# can you break this down step by step so I can understand this
+
 # Create a solution that accepts a string input representing a grocery store item and an integer input identifying the number of items purchased on a recent visit. The following dictionary purchase lists available items as the key with the cost per item as the value.
 # purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
 # Additionally,
