@@ -50,3 +50,25 @@ else:
     result = f"{item_input} ${discounted_cost:.2f}"
     print(result)
 
+# this is without error checking, try this too
+
+# Dictionary containing the cost of each item
+# this is the supplied info
+purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
+
+# Sample Input
+item_input = input("Enter the item purchased: ").lower()
+quantity_input = int(input("Enter the quantity purchased: "))
+
+# Calculate total cost without discount
+total_cost = purchase.get(item_input, 0) * quantity_input
+
+# Determine discount based on quantity
+discount = 0 if quantity_input < 10 else 0.05 if 10 <= quantity_input <= 20 else 0.10
+
+# Calculate discounted cost
+discounted_cost = total_cost * (1 - discount)
+
+# Format and print the result
+result = f"{item_input} ${discounted_cost:.2f}"
+print(result)
