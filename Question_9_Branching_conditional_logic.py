@@ -43,3 +43,15 @@ safety_comment = "Caution: Hot!" if temp == 212 else "Watch out for ice!" if tem
 print(state)
 print(safety_comment)
 
+# instead of state you can do this with if else
+
+if temp < 33:
+    state = "Frozen"
+elif temp <= 80:
+    state = "Cold"
+elif temp <= 115:
+    state = "Warm"
+elif temp <= 211:
+    state = "Hot"
+else:
+    state = "Boiling"
