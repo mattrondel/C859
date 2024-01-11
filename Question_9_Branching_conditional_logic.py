@@ -44,6 +44,7 @@ print(state)
 print(safety_comment)
 
 # instead of state you can do this with if else
+# state = ( is the beginning of a ternary conditional expression in Python. It's a concise way of writing an if-else statement in a single line.
 
 if temp < 33:
     state = "Frozen"
