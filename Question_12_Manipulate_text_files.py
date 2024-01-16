@@ -24,3 +24,40 @@
 # chases
 # dog
 # cat chases dog
+# Step 1: Open the file "WordTextFile1.txt" in read mode and read its contents
+file_path = "WordTextFile1.txt"
+with open(file_path, "r") as file:
+    file_contents = file.read()
+
+# Step 2: Split the contents into a list of words
+words = file_contents.split()
+
+# Step 3: Combine the words into a sentence
+sentence = ' '.join(words)
+
+# Step 4: Open the file again in append mode and write the sentence to the end
+with open(file_path, "a") as file:
+    file.write("\n" + sentence)
+
+# Step 5: Open the file in read mode and print its updated contents
+with open(file_path, "r") as file:
+    updated_contents = file.read()
+
+print(updated_contents)
+
+# This script opens the file, reads its contents, combines the words into a sentence, appends the sentence to the file, and then reads and prints the updated contents.
+
+# Make sure to replace "WordTextFile1.txt" with the actual path to your file.
+
+# Now, let's condense it without error checking and functions:
+file_path = "WordTextFile1.txt"
+with open(file_path, "r") as file:
+    words = file.read().split()
+    sentence = ' '.join(words)
+
+with open(file_path, "a") as file:
+    file.write("\n" + sentence)
+
+print(open(file_path, "r").read())
+
+# This condensed version performs the same operations without using functions and without explicit error checking.
