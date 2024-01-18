@@ -24,8 +24,8 @@
 # chases
 # dog
 # cat chases dog
-# Step 1: Open the file "WordTextFile1.txt" in read mode and read its contents
-file_path = "WordTextFile1.txt"
+# Step 1: Open the file "WordTextFile1.txt" in read mode and read its contents, in the testing engine case you can't hard code anything so it has to accept any input 
+file_path = input()
 with open(file_path, "r") as file:
     file_contents = file.read()
 
@@ -45,12 +45,8 @@ with open(file_path, "r") as file:
 
 print(updated_contents)
 
-# This script opens the file, reads its contents, combines the words into a sentence, appends the sentence to the file, and then reads and prints the updated contents.
-
-# Make sure to replace "WordTextFile1.txt" with the actual path to your file.
-
-# Now, let's condense it without error checking and functions:
-file_path = "WordTextFile1.txt"
+####################################
+file_path = input()
 with open(file_path, "r") as file:
     words = file.read().split()
     sentence = ' '.join(words)
