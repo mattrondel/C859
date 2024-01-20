@@ -22,11 +22,13 @@
 import pigAge
 
 # Accept an integer input representing the age of a pig
-input_pig_age = int(input("Enter the age of the pig: "))
+input_pig_age = int(input())
 
 # Use the pigAge_converter() function to calculate the human equivalent age of the pig
 converted_pig_age = pigAge.pigAge_converter(input_pig_age)
 
+
+# I think the error lurks here
 # Calculate the human equivalent age (5 years in human's life for 1 year in pig's life)
 converted_pig_age *= 5
 
