@@ -67,3 +67,20 @@ print(f"{input_pig_age} is {converted_pig_age} in human years")
 # This line prints the final result in the specified format, using an f-string to include the entered pig age (input_pig_age) and the calculated human equivalent age (converted_pig_age).
 
 # So, in summary, the code imports the necessary module, takes user input, performs the conversion using the provided function, adjusts for the conversion ratio, and then prints the result.
+
+
+# need to try:
+  # Import the pigAge module
+import pigAge
+
+# Accept input as a string
+input_pig_age_str = input("Enter the age of the pig: ")
+
+# Use the pigAge_converter() function to calculate the human equivalent age of the pig
+converted_pig_age = pigAge.pigAge_converter(int(input_pig_age_str))
+
+# Alternative method to calculate the human equivalent age
+converted_pig_age = converted_pig_age * 5
+
+# Output the result with the multiplication operation
+print(f"{input_pig_age_str} is {converted_pig_age} in human years (calculated as {converted_pig_age} = {converted_pig_age / 5} * 5)")
