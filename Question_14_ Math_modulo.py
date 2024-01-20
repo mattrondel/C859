@@ -19,3 +19,40 @@
 # then the expected output is
 # 6
 # False
+
+# *****
+# 1. Accept an integer input.
+# 2. Import the math module.
+# 3. Calculate the factorial of the integer input using the factorial() method from the math module.
+# 4. Output the factorial value.
+# 5. Output a Boolean value indicating whether the factorial is greater than 100.
+
+# Here is the simplified code without error checking, try/except, and functions:
+# Step 1: Accept an integer input
+n = int(input())
+
+# Step 2: Import the math module
+import math
+
+# Step 3: Calculate the factorial of the input
+factorial_value = math.factorial(n)
+
+# Step 4: Output the factorial value
+print(factorial_value)
+
+# Step 5: Output a Boolean value indicating whether factorial > 100
+print(factorial_value > 100)
+
+# Now, let's understand each step:
+ 
+# Step 1: n = int(input()) takes an integer input from the user and assigns it to the variable n.
+ 
+# Step 2: import math imports the math module, which provides the factorial() method.
+ 
+# Step 3: factorial_value = math.factorial(n) calculates the factorial of the input n using the factorial() method from the math module and assigns it to factorial_value.
+ 
+# Step 4: print(factorial_value) outputs the calculated factorial value.
+ 
+# Step 5: print(factorial_value > 100) outputs a Boolean value indicating whether the factorial is greater than 100. If it is, it prints True; otherwise, it prints False.
+ 
+# You can use this code to input an integer, calculate its factorial, and check whether it's greater than 100.
