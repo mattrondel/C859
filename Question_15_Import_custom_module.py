@@ -34,7 +34,9 @@ print(f"{input_pig_age} is {converted_pig_age} in human years")
 # multiplies it by 5 (since 1 year in a pig's life is equivalent to 5 years in a human's life), and then prints the result in the specified format.
 
 # ********************************
-# Broken down step by step
+# Broken Down Step by Step
+# ********************************
+
 # 1. Import the pigAge module:
 import pigAge
 
