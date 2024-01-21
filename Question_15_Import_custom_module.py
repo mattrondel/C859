@@ -83,4 +83,5 @@ converted_pig_age = pigAge.pigAge_converter(int(input_pig_age_str))
 converted_pig_age = converted_pig_age * 5
 
 # Output the result with the multiplication operation
-print(f"{input_pig_age_str} is {converted_pig_age} in human years (calculated as {converted_pig_age} = {converted_pig_age / 5} * 5)")
+#print(f"{input_pig_age_str} is {converted_pig_age} in human years (calculated as {converted_pig_age} = {converted_pig_age / 5} * 5)")
+print(f"{input_pig_age_str} is {converted_pig_age} in human years
