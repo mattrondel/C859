@@ -84,6 +84,6 @@ converted_pig_age = converted_pig_age * 5
 
 # Output the result with the multiplication operation
 #print(f"{input_pig_age_str} is {converted_pig_age} in human years (calculated as {converted_pig_age} = {converted_pig_age / 5} * 5)")
-print(f"{input_pig_age_str} is {converted_pig_age} in human years
+print(f"{input_pig_age_str} is {converted_pig_age} in human years)
 # then the expected output is
 # 8 is 40 in human years
