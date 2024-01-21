@@ -74,7 +74,7 @@ print(f"{input_pig_age} is {converted_pig_age} in human years")
 import pigAge
 
 # Accept input as a string
-input_pig_age_str = input("Enter the age of the pig: ")
+input_pig_age_str = input()
 
 # Use the pigAge_converter() function to calculate the human equivalent age of the pig
 converted_pig_age = pigAge.pigAge_converter(int(input_pig_age_str))
