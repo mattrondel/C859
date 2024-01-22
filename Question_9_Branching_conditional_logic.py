@@ -29,23 +29,8 @@
 # Frozen
 # Watch out for ice!
 
-# Need to test:
-temp = int(input())
-state = (
-    "Frozen" if temp < 33 else
-    "Cold" if temp <= 80 else
-    "Warm" if temp <= 115 else
-    "Hot" if temp <= 211 else
-    "Boiling"
-)
-safety_comment = "Caution: Hot!" if temp == 212 else "Watch out for ice!" if temp < 33 else ""
 
-print(state)
-print(safety_comment)
-
-# instead of state you can do this with if else
-# state = ( is the beginning of a ternary conditional expression in Python. It's a concise way of writing an if-else statement in a single line.
-
+temp = int(input().strip())
 if temp < 33:
     state = "Frozen"
 elif temp <= 80:
@@ -56,3 +41,9 @@ elif temp <= 211:
     state = "Hot"
 else:
     state = "Boiling"
+safety_comment = "Caution: Hot!\n" if temp == 212 else "Watch out for ice!\n" if temp < 33 else ""
+
+print(state)
+print(safety_comment, end='')
+
+# the bigest gotcha is the \n new lines
