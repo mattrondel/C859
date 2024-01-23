@@ -24,3 +24,8 @@
 # contents:
 #  a, 100, b, 200, c, 300
 # bananas, 1.85, steak, 19.99, cookies, 4.52
+
+import csv
+csv_file = input()
+csv.open() 
+csv.reader() 
