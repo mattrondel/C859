@@ -1,5 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/6
 
+# This is using slicing need to 
+
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
 # Task:
@@ -17,3 +19,11 @@ input_id = input()
 
 formatted_output = f"{input_id[:3]}-{input_id[3:5]}-{input_id[5:]}"
 print(formatted_output)
+
+
+# input_phone = int(input())
+# print(f"input_phoneinput_phoneinput_phone")
+# f" {}-{}-{}" 
+# because this is a string not integeter there is no need for ( ) on the f string 
+# 
+# slicing utilizes square Brackets
