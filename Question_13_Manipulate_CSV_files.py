@@ -35,3 +35,18 @@ import csv
 csv_file = input()
 csv.open() 
 csv.reader() 
+
+# This works:
+
+import csv
+
+file_name = input()
+
+with open(file_name, 'r') as file:
+    csv_reader = csv.reader(file)
+    dict1, dict2 = ({row[i].strip(): row[i + 1].strip() for i in range(0, len(row), 2)} for row in [next(csv_reader), next(csv_reader)])
+
+print(dict1)
+print(dict2)
+
+explained:
