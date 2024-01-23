@@ -19,3 +19,5 @@
 
 total_price = sum(stocks[input().strip()] for _ in range(int(input())))
 print(f'Total price: ${total_price:.2f}')
+
+# two decimal places keyword for :.2f
