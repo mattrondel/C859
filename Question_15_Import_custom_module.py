@@ -24,3 +24,17 @@ input_pig_age = int(input())
 converted_pig_age = pigAge.pigAge_converter(input_pig_age)
 
 print(f"{input_pig_age} is {converted_pig_age} in human years")
+
+
+stuff I put in the PA
+import pigAge
+input_pig_age = int(input())
+# .strip() is optional with it looks like this:
+# input_pig_age = int(input().strip())
+
+converted_pig_age = pigAge.pigAge_converter(input_pig_age)
+# you always need to address/call out a funtion from a module by ModuleName.ModuleFunction
+
+# print statement reflects the original input
+print(f"{input_pig_age} is {converted_pig_age} in human years")
+# input_pig_age is converted_pig_age in human years
