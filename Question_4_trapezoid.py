@@ -35,7 +35,7 @@ b2 = int(input())
 h = int(input())
 
 # "Trapezoid Area Formula:"
-area_value = [(b1 + b2) / 2] * h
+area_value = ((b1 + b2) / 2) * h
 
 #again F strings to the rescue
 print(f"Trapezoid area: {area_value} square meters")
