@@ -30,5 +30,4 @@ Travel_C = int(input())
 
 Total_Distance = (Travel_A * miles_per_employee [0]) + (Travel_A * miles_per_employee [1]) + (Travel_A * miles_per_employee [2])
 
-#print(f"{:.2f}")
-print(Distance: {Total_Distance:.2f} miles)
+print(f"Distance: {Total_Distance:.2f} miles")
