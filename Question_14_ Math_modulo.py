@@ -43,16 +43,42 @@ print(factorial_value)
 # Step 5: Output a Boolean value indicating whether factorial > 100
 print(factorial_value > 100)
 
-# Now, let's understand each step:
- 
+########### Easier to Read ###########
+import math
+n = int(input())
+factorial_value = math.factorial(n)
+print(factorial_value)
+print(factorial_value > 100)
+
+# Now, let's understand each step as stated by the questions
+#Create a solution that accepts an integer input - in my case I'm sending it to variable n
+n = int(input())
+
+# Import the built-in module math but make sure it goes to the top of the script
+import math
+
+# as stated "Use its factorial() method to calculate the factorial of the integer input." 
+# Literarly copy factorial() and put our variable in the bracets but you have to call the funtion with the module name because its the rules baby!
+#factorial() -> math.factorial() with our variable in the braces
+# math.factorial(n)
+# then send this to a variable like so:
+# output = math.factorial(n)
+# it says "value of the factorial" so lets change this to factorial value like so:
+factorial_value = math.factorial(n)
+
+#Now the print statements:
+# They are asking for statements on two lines like so:
+# "Output the value of the factorial, as well as a Boolean value identifying whether the factorial output is greater than 100." so two print statements
+
+print(factorial_value)
+print(factorial_value > 100)
+
+
+
+######################## Older notes ########################
 # Step 1: n = int(input()) takes an integer input from the user and assigns it to the variable n.
- 
 # Step 2: import math imports the math module, which provides the factorial() method.
- 
 # Step 3: factorial_value = math.factorial(n) calculates the factorial of the input n using the factorial() method from the math module and assigns it to factorial_value.
- 
 # Step 4: print(factorial_value) outputs the calculated factorial value.
- 
 # Step 5: print(factorial_value > 100) outputs a Boolean value indicating whether the factorial is greater than 100. If it is, it prints True; otherwise, it prints False.
- 
 # You can use this code to input an integer, calculate its factorial, and check whether it's greater than 100.
