@@ -1,5 +1,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/3
 
+# need this part explained and why the [index] is nested
+# {type(various_data_types[index])
+
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
 # Instructions:
