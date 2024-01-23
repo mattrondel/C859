@@ -51,6 +51,29 @@ safety_comment = "Caution: Hot!\n" if temp == 212 else "Watch out for ice!\n" if
 print(state)
 print(safety_comment, end='')
 
+########################################################
+##### Interestingly I can get away with the following:
+########################################################
+
+temp = int(input())
+if temp < 33:
+    state = "Frozen"
+elif temp <= 80:
+    state = "Cold"
+elif temp <= 115:
+    state = "Warm"
+elif temp <= 211:
+    state = "Hot"
+else:
+    state = "Boiling"
+safety_comment = "Caution: Hot!" if temp == 212 else "Watch out for ice!" if temp < 33 else ""
+
+print(state)
+print(safety_comment)
+
+
+
+
 # the bigest gotcha is the \n new lines
 
 # Statements broken down my attmpt to figure it out by statements:
