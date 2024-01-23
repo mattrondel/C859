@@ -22,7 +22,7 @@ index = int(input())
 various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
 print(f"Element {index}: {type(various_data_types[index]).__name__}")
 
-# comment out the below:
+
 # The .__name__ attribute is used to obtain the name of a class or type in Python. When applied to the result of the type() function, it returns the name of the data type as a string.
 
 # In the provided solution, type(various_data_types[index]).__name__ is used to extract the name of the data type of the element at the specified index in the list various_data_types.
