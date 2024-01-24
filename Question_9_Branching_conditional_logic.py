@@ -1,5 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/9
 
+# got wrong on PA
+
 # Need to distinguash between if vs elif
 # Don't forget the the colon after the IF elif statements!
 # if temp < 33:
