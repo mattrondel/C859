@@ -31,11 +31,6 @@
 #  a, 100, b, 200, c, 300
 # bananas, 1.85, steak, 19.99, cookies, 4.52
 
-import csv
-csv_file = input()
-csv.open() 
-csv.reader() 
-
 # This works:
 
 import csv
@@ -49,4 +44,72 @@ with open(file_name, 'r') as file:
 print(dict1)
 print(dict2)
 
-explained:
+#########################################
+# Explained:
+#########################################
+
+# 1. Import the csv module:
+
+import csv
+
+# This line imports the csv module, which provides functionality for reading and writing CSV files.
+
+# 2. Accept the CSV file name as input:
+
+file_name = input()
+
+# This line prompts the user to enter the name of the CSV file, and the input is stored in the variable file_name
+
+# Step 3 Open the CSV file for reading:
+
+with open(file_name, 'r') as file:
+
+# This line uses a with statement to open the specified CSV file (file_name) in read mode ('r'). The with statement ensures that the file is properly closed after reading.
+
+# 4. Create a CSV reader:
+
+csv_reader = csv.reader(file)
+
+# This line creates a CSV reader object (csv_reader) using the opened file. The reader object is used to iterate through the rows of the CSV file.
+
+# 5. Read two rows of comma-separated values:
+
+row1 = next(csv_reader)
+row2 = next(csv_reader)
+
+# These lines use the next() function to retrieve the next two rows from the CSV file. Each row is a list of comma-separated values.
+
+# 6. Create dictionaries for the two rows:
+
+dict1 = {row[i].strip(): row[i + 1].strip() for i in range(0, len(row), 2)} for row in [row1]
+dict2 = {row[i].strip(): row[i + 1].strip() for i in range(0, len(row), 2)} for row in [row2]
+
+# These lines use dictionary comprehensions to create dictionaries for each row. The strip() method is applied to remove leading and trailing whitespaces from the keys and values.
+
+7. Print the dictionaries:
+
+print(dict1)
+print(dict2)
+
+# These lines print the resulting dictionaries to the console.
+#########
+
+# Step 6 broken down:
+# Step 6 Is where dictionaries are created for the two rows of comma-separated values.
+
+dict1 = {row[i].strip(): row[i + 1].strip() for i in range(0, len(row), 2)} for row in [row1]
+dict2 = {row[i].strip(): row[i + 1].strip() for i in range(0, len(row), 2)} for row in [row2]
+
+# Here, row1 and row2 are the two rows of comma-separated values obtained from the CSV file. For the sake of explanation, let's focus on dict1:
+
+# 1. {...} for row in [row1]: This is a dictionary comprehension that iterates over the elements of row1. The for row in [row1] part ensures that we are iterating over a list containing row1. In this context, row represents each row of comma-separated values.
+
+# 2. for i in range(0, len(row), 2): This part iterates over the indices of row with a step of 2. It means we are considering every second element in row, which corresponds to the keys in the dictionary.
+
+# 3. row[i].strip(): row[i + 1].strip(): This is the key-value pair in the dictionary. row[i].strip() represents the key, and row[i + 1].strip() represents the value. The .strip() method is used to remove any leading or trailing whitespaces from both the key and the value.
+
+# Putting it all together, the dictionary comprehension creates a dictionary where keys are obtained from even-indexed elements (after stripping whitespaces) and values are obtained from the corresponding odd-indexed elements (after stripping whitespaces).
+
+# So, for example, if row1 is [' a', ' 100', ' b', ' 200', ' c', ' 300'], the resulting dict1 would be {'a': '100', 'b': '200', 'c': '300'} after stripping whitespaces.
+
+# The same logic applies to dict2 for the second row (row2).
