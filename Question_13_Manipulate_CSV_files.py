@@ -115,3 +115,9 @@ dict2 = {row[i].strip(): row[i + 1].strip() for i in range(0, len(row), 2)} for 
 # So, for example, if row1 is [' a', ' 100', ' b', ' 200', ' c', ' 300'], the resulting dict1 would be {'a': '100', 'b': '200', 'c': '300'} after stripping whitespaces.
 
 # The same logic applies to dict2 for the second row (row2).
+
+
+################### Next operator
+
+# The next() function in Python is used to retrieve the next item from an iterator. 
+# It can be used with various iterable objects like lists, tuples, sets, and, importantly, with iterators such as those returned by file objects and certain generator functions.
