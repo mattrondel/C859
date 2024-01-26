@@ -1,5 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/8
 
+# Read more here https://docs.python.org/3/library/exceptions.html
+
 # Need this one explained mainly the ValueError and IndexError 
 # that and why does the except (ValueError, IndexError): not contain a colon after the except:
 
