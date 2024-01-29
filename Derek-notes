@@ -2,9 +2,12 @@ PJTV.2.A - C859 Intro to Python
 ==================================================
 QUESTION 1
 ==================================================
--A similar question appeared in my OA, but instead of computing total distance traveled you had to compute total cost of stocks purchased. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of computing total distance traveled you had to compute total cost of stocks purchased. 
+The solution and output were almost exactly the same.
 
-Create a solution that accepts three integer inputs representing the number of times an employee travels to a job site. Output the total distance traveled to two decimal places given the following miles per employee commute to the job site. Output the total distance traveled to two decimal places given the following miles per employee commute to the job site:
+Create a solution that accepts three integer inputs representing the number of times an employee travels to a job site. 
+Output the total distance traveled to two decimal places given the following miles per employee commute to the job site. 
+Output the total distance traveled to two decimal places given the following miles per employee commute to the job site:
 
     Employee A: 15.62 miles
     Employee B: 41.85 miles
@@ -45,7 +48,8 @@ QUESTION 2
 ==================================================
 -A similar question appeared in my OA, but instead of converting weight (oz, lbs, tons) you had to convert time (minutes, hours, days). The solution and output were almost exactly the same.
 
-Create a solution that accepts an integer input representing any number of ounces. Output the converted total number of tons, pounds, and remaining ounces based on the input ounces value. There are 16 ounces in a pound and 2,000 pounds in a ton.
+Create a solution that accepts an integer input representing any number of ounces. Output the converted total number of tons, pounds, and remaining ounces based on the input ounces value. 
+There are 16 ounces in a pound and 2,000 pounds in a ton.
 
 The solution output should be in the format
 
@@ -86,9 +90,11 @@ Ounces: 3
 ==================================================
 QUESTION 3
 
-* I got this wrong when I took the PA because I didn't know how to get the name of the data type by using the .name attribute. I didn't read all of the details provided with the question, and a hint on how to use it was right there.
+* I got this wrong when I took the PA because I didn't know how to get the name of the data type by using the .name attribute. 
+I didn't read all of the details provided with the question, and a hint on how to use it was right there.
 ==================================================
--A similar question appeared in my OA, but instead of needing to use the .__name__ attribute to output the data type, you only had to output the data type using the default output of the type() function. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of needing to use the .__name__ attribute to output the data type, you only had to output the data type using the default output of the type() function. 
+The solution and output were almost exactly the same.
 
 Create a solution that accepts an integer input representing the index value for any any of the five elements in the following list:
 
@@ -122,7 +128,8 @@ QUESTION 4
 ==================================================
 -A similar question appeared in my OA, but instead of computing the area of a trapezoid you had to compute the area of a triangle. The solution and output were almost exactly the same.
 
-Create a solution that accepts any three integer inputs representing the base (b1, b2) and height (h) measurements of a trapezoid in meters. Output the exact area of the trapezoid in square meters as a float value. The exact area of a trapezoid can be calculated by finding the average of the two base measurements, then multiplying by the height measurement.
+Create a solution that accepts any three integer inputs representing the base (b1, b2) and height (h) measurements of a trapezoid in meters. 
+Output the exact area of the trapezoid in square meters as a float value. The exact area of a trapezoid can be calculated by finding the average of the two base measurements, then multiplying by the height measurement.
 
 Trapezoid Area Formula:
 A = [(b1 + b2) / 2] * h
@@ -154,9 +161,11 @@ Trapezoid area: 17.5 square meters
 ==================================================
 QUESTION 5
 
-* I got this wrong when I took the PA because I didn't follow the instructions on how to convert the inputs exactly. I did not initially convert the inputs to integer, instead I converted them when I computed the integer sum.
+* I got this wrong when I took the PA because I didn't follow the instructions on how to convert the inputs exactly. 
+I did not initially convert the inputs to integer, instead I converted them when I computed the integer sum.
 ==================================================
--A similar question appeared in my OA, but instead of outputting the sum of five inputs you only had to output the sum of three inputs. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of outputting the sum of five inputs you only had to output the sum of three inputs. 
+The solution and output were almost exactly the same.
 
 Create a solution that accepts five integer inputs. Output the sum of the five inputs three times, converting the inputs to the requested data type prior to finding the sum.
 
@@ -205,9 +214,11 @@ String: 13627
 ==================================================
 QUESTION 6
 ==================================================
--A similar question appeared in my OA, but instead of a 9-digit student ID you had to format an 11-digit phone number. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of a 9-digit student ID you had to format an 11-digit phone number. 
+The solution and output were almost exactly the same.
 
-Create a solution that accepts an integer input representing a 9-digit unformatted student identification number. Output the identification number as a string with no spaces.
+Create a solution that accepts an integer input representing a 9-digit unformatted student identification number. 
+Output the identification number as a string with no spaces.
 
 The solution output should be in the format
 
@@ -234,7 +245,8 @@ OUTPUT:
 ==================================================
 QUESTION 7
 ==================================================
--A similar question appeared in my OA, but instead of determining if the input integer was greater than the maximum value in the list you had to determine if the input integer was greater than or equal to the maximum value in the list. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of determining if the input integer was greater than the maximum value in the list you had to determine if the input integer was greater than or equal to the maximum value in the list. 
+The solution and output were almost exactly the same.
 
 Create a solution that accepts an integer input to compare against the following list:
 
@@ -264,7 +276,8 @@ Greater Than Max? False
 ==================================================
 QUESTION 8
 ==================================================
--A similar question appeared in my OA, but instead of outputting the string element of the input index value you had to output the index based on the input string value. The solution and output were almost exactly the same. Instead of using frameworks[user_input] use frameworks.index(user_input)
+-A similar question appeared in my OA, but instead of outputting the string element of the input index value you had to output the index based on the input string value. 
+The solution and output were almost exactly the same. Instead of using frameworks[user_input] use frameworks.index(user_input)
 
 Create a solution that accepts one integer input representing the index value for any of the string elements in the following list:
 
@@ -298,9 +311,11 @@ CherryPy
 ==================================================
 QUESTION 9
 ==================================================
--A similar question appeared in my OA, but instead of outputting a description of the water state based on the input water temperature you had to output a letter grade based on the input number grade. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of outputting a description of the water state based on the input water temperature you had to output a letter grade based on the input number grade. 
+The solution and output were almost exactly the same.
 
-Create a solution that accepts an integer input representing water temperature in degrees Fahrenheit. Output a description of the water state based on the following scale:
+Create a solution that accepts an integer input representing water temperature in degrees Fahrenheit. 
+Output a description of the water state based on the following scale:
 
     If the temperature is below 33° F, the water is “Frozen”.
     If the water is between 33° F and 80° F (including 33), the water is “Cold”.
@@ -361,7 +376,8 @@ Hot
 ==================================================
 QUESTION 10
 ==================================================
--A similar question appeared in my OA, but instead of computing the total cost of stocks selected you had to compute the total cost of snacks selected from a vending machine. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of computing the total cost of stocks selected you had to compute the total cost of snacks selected from a vending machine. 
+The solution and output were almost exactly the same.
 
 Create a solution that accepts an integer input identifying how many shares of stock are to be purchased from the Old Town Stock Exchange, followed by an equivalent number of string inputs representing the stock selections. The following dictionary stock lists available stock selections as the key with the cost per selection as the value.
 
@@ -400,9 +416,11 @@ Total price: $150.53
 ==================================================
 QUESTION 11
 ==================================================
--A similar question appeared in my OA, but instead of computing the total purchase cost of an input number of a specified grocery store item and calculating a discount, you had to compute the total cost of tuition for an input number of course credits for a specified school and calculate a discount. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of computing the total purchase cost of an input number of a specified grocery store item and calculating a discount, you had to compute the total cost of tuition for an input number of course credits for a specified school and calculate a discount. 
+The solution and output were almost exactly the same.
 
-Create a solution that accepts a string input representing a grocery store item and an integer input identifying the number of items purchased on a recent visit. The following dictionary purchase lists available items as the key with the cost per item as the value.
+Create a solution that accepts a string input representing a grocery store item and an integer input identifying the number of items purchased on a recent visit. 
+The following dictionary purchase lists available items as the key with the cost per item as the value.
 
 purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
 
@@ -454,7 +472,8 @@ QUESTION 12
 ==================================================
 -I had a different file related coding problem in my OA. My coding problem was to accept a string input, open a specified file, read the content of the file using the file.read() method, add the string input to the end of the content with a ' ' character in front of it, write the modified content back to the file, and then output the modified content of the file. The solution and output were not the same as this question.
 
-Create a solution that accepts an input identifying the name of a text file, for example, "WordTextFile1.txt". Each text file contains three rows with one word per row. Using the open() function and write() and read() methods, interact with the input text file to write a new sentence string composed of the three existing words to the end of the file contents on a new line. Output the new file contents.
+Create a solution that accepts an input identifying the name of a text file, for example, "WordTextFile1.txt". 
+Each text file contains three rows with one word per row. Using the open() function and write() and read() methods, interact with the input text file to write a new sentence string composed of the three existing words to the end of the file contents on a new line. Output the new file contents.
 
 The solution output should be in the format
 
@@ -499,9 +518,13 @@ QUESTION 13
 
 * I got this wrong when I took the PA because I forgot the syntax for using the CSV reader method.
 ==================================================
--A similar question appeared in my OA, but instead of reading the CSV file content and creating a dictionary you had to create a list. The solution is mostly similar and the output was almost exactly the same. Once you have the CSV file open and ready to read the rows of content, instead of creating dictionary KEY and VALUE pairs and adding them to a dictionary, just use the list.append() method to add each row to a list.
+-A similar question appeared in my OA, but instead of reading the CSV file content and creating a dictionary you had to create a list. 
+The solution is mostly similar and the output was almost exactly the same. 
+Once you have the CSV file open and ready to read the rows of content, instead of creating dictionary KEY and VALUE pairs and adding them to a dictionary, just use the list.append() method to add each row to a list.
 
-Create a solution that accepts an input identifying the name of a CSV file, for example, "input1.csv". Each file contains two rows of comma-separated values. Import the built-in module csv and use its open() function and reader() method to create a dictionary of key:value pairs for each row of comma-separated values in the specified file. Output the file contents as two dictionaries.
+Create a solution that accepts an input identifying the name of a CSV file, for example, "input1.csv". Each file contains two rows of comma-separated values. 
+Import the built-in module csv and use its open() function and reader() method to create a dictionary of key:value pairs for each row of comma-separated values in the specified file. 
+Output the file contents as two dictionaries.
 
 The solution output should be in the format
 
@@ -536,9 +559,11 @@ OUTPUT:
 ==================================================
 QUESTION 14
 ==================================================
--A similar question appeared in my OA, but instead of importing the math module, using the factorial() method on an integer input, and then determining if the result was greater than 100, you had to use the sqrt() method on an integer input and determine if the result was a perfect square. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of importing the math module, using the factorial() method on an integer input, and then determining if the result was greater than 100, you had to use the sqrt() method on an integer input and determine if the result was a perfect square. 
+The solution and output were almost exactly the same.
 
-Create a solution that accepts an integer input. Import the built-in module math and use its factorial() method to calculate the factorial of the integer input. Output the value of the factorial, as well as a Boolean value identifying whether the factorial output is greater than 100.
+Create a solution that accepts an integer input. Import the built-in module math and use its factorial() method to calculate the factorial of the integer input. 
+Output the value of the factorial, as well as a Boolean value identifying whether the factorial output is greater than 100.
 
 The solution output should be in the format
 
@@ -569,9 +594,11 @@ QUESTION 15
 
 * I got this wrong when I took the PA because I forgot that when you use a function defined in an imported module you have to preface the function with the name of the module.
 ==================================================
--A similar question appeared in my OA, but instead of importing and using a module that calculates the human equivalent age of a pig you import and use a module that calculates the human equivalent age of a dog. The solution and output were almost exactly the same.
+-A similar question appeared in my OA, but instead of importing and using a module that calculates the human equivalent age of a pig you import and use a module that calculates the human equivalent age of a dog. 
+The solution and output were almost exactly the same.
 
-Create a solution that accepts an integer input representing the age of a pig. Import the existing module pigAge and use its pre-built pigAge_converter() function to calculate the human equivalent age of a pig. A year in a pig's life is equivalent to five years in a human's life. Output the human-equivalent age of the pig.
+Create a solution that accepts an integer input representing the age of a pig. Import the existing module pigAge and use its pre-built pigAge_converter() function to calculate the human equivalent age of a pig. 
+A year in a pig's life is equivalent to five years in a human's life. Output the human-equivalent age of the pig.
 
 The solution output should be in the format
 
