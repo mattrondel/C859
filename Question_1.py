@@ -30,6 +30,7 @@ Travel_A = int(input())
 Travel_B = int(input())
 Travel_C = int(input())
 
-Total_Distance = (Travel_A * miles_per_employee [0]) + (Travel_A * miles_per_employee [1]) + (Travel_A * miles_per_employee [2])
+# "the number of times an employee travels to a job site."
+Total_Distance = (Travel_A * miles_per_employee [0]) + (Travel_B * miles_per_employee [1]) + (Travel_C * miles_per_employee [2])
 
 print(f"Distance: {Total_Distance:.2f} miles")
