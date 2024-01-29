@@ -9,7 +9,8 @@
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a funtion and have it condensed and simplifed
 
-# Create a solution that accepts an integer input representing water temperature in degrees Fahrenheit. Output a description of the water state based on the following scale:
+# Create a solution that accepts an integer input representing water temperature in degrees Fahrenheit. 
+# Output a description of the water state based on the following scale:
 #  
 # If the temperature is below 33° F, the water is “Frozen”.
 # If the water is between 33° F and 80° F (including 33), the water is “Cold”.
