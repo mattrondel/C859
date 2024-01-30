@@ -39,7 +39,7 @@ def convert_ounces(ounces):
 # Get input from the user
 input_ounces = int(input())
 
-# Call the function with the input
+# Call the function with the input <--- need to understand this part from chat
 convert_ounces(input_ounces)
 
 
