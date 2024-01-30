@@ -26,7 +26,14 @@ print(formatted_output)
 # So if your you want 1-4 your slice should be [1:5]
 # alternativly if you want a number to the end use [4:]
 
-my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-           0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-         -10,-9,-8,-7,-6,-5,-4,-3,-2,-1
-print my_list[:]
+# my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+#            0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+#          -10,-9,-8,-7,-6,-5,-4,-3,-2,-1
+# print my_list[:]
+
+# If you are trying to take a phone number and output it like from 16617226300 you would do something like this:
+#phone = str(16617226300)
+
+#formatted_input = f"{phone[0:1]}-{phone[1:4]}-{phone[4:7]}-{phone[7:]}"
+
+#print(formatted_input)
