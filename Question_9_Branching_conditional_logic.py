@@ -2,6 +2,8 @@
 
 # got wrong on PA
 
+# https://www.youtube.com/watch?v=rfscVS0vtbw&t=6847s
+
 # Need to distinguash between if vs elif
 # Don't forget the the colon after the IF elif statements!
 # if temp < 33:
