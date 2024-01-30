@@ -3,6 +3,9 @@
 # got wrong on PA
 
 # https://www.youtube.com/watch?v=rfscVS0vtbw&t=6847s
+# good example of what the PA might have:
+# https://www.bitdegree.org/learn/best-code-editor/python-if-else-example-5
+
 
 # Need to distinguash between if vs elif
 # Don't forget the the colon after the IF elif statements!
