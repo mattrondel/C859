@@ -21,11 +21,12 @@ input_id = input()
 formatted_output = f"{input_id[:3]}-{input_id[3:5]}-{input_id[5:]}"
 print(formatted_output)
 
+# Slicing is done by [START:END:STEP]
+# Note that END is non-inclusive meaning it won't be included with your slice
+# So if your you want 1-4 your slice should be [1:5]
+# alternativly if you want a number to the end use [4:]
 
-# Stupid chicken scratch:
-# input_phone = int(input())
-# print(f"input_phoneinput_phoneinput_phone")
-# f" {}-{}-{}" 
-# because this is a string not integeter there is no need for ( ) on the f string 
-# 
-# slicing utilizes square Brackets
+my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+           0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+         -10,-9,-8,-7,-6,-5,-4,-3,-2,-1
+print my_list[:]
