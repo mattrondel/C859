@@ -76,9 +76,6 @@ safety_comment = "Caution: Hot!" if temp == 212 else "Watch out for ice!" if tem
 print(state)
 print(safety_comment)
 
-
-
-
 # the bigest gotcha is the \n new lines
 
 # Statements broken down my attmpt to figure it out by statements:
@@ -98,3 +95,31 @@ if temp <= 115
 # If the water is between 115° F and 211° (including 115) F, the water is “Hot".
 if temp <= 211
     state = "Hot"
+
+####################################
+# Dereks take on this is good too
+####################################
+
+temperature = int(input())
+
+water_state = ""
+safety_comment = ""
+
+if temperature >= 212:
+    water_state = "Boiling"
+elif 115 <= temperature < 211:
+    water_state = "Hot"
+elif 80 <= temperature < 115:
+    water_state = "Warm"
+elif 33 <= temperature < 80:
+    water_state = "Cold"
+elif temperature < 33:
+    water_state = "Frozen"
+    safety_comment = "Watch out for ice!"
+
+if temperature == 212:
+    safety_comment = "Caution: Hot!"
+
+print(water_state)
+if safety_comment != "":
+    print(safety_comment)
