@@ -2,6 +2,9 @@
 
 # got wrong on PA
 
+# need to know why use a funtion and the benefits of this or find out what this would look like without being a function
+# https://www.youtube.com/watch?v=6iF8Xb7Z3wQ
+
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/2
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
