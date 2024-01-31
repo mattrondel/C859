@@ -1,6 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/9
 
 # got wrong on PA
+# Remember when you see "possible variable name is __" equate the is as =
 
 # https://www.youtube.com/watch?v=rfscVS0vtbw&t=6847s
 # good example of what the PA might have:
