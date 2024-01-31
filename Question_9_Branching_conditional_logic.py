@@ -2,6 +2,7 @@
 
 # got wrong on PA
 # Remember when you see "possible variable name is __" equate the is as =
+# need to learn more about mulitple if, else, else statements on one line
 
 # https://www.youtube.com/watch?v=rfscVS0vtbw&t=6847s
 # good example of what the PA might have:
