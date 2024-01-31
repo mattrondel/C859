@@ -416,7 +416,8 @@ Total price: $150.53
 ==================================================
 QUESTION 11
 ==================================================
--A similar question appeared in my OA, but instead of computing the total purchase cost of an input number of a specified grocery store item and calculating a discount, you had to compute the total cost of tuition for an input number of course credits for a specified school and calculate a discount. 
+-A similar question appeared in my OA, but instead of computing the total purchase cost of an input number of a specified grocery store item and calculating a discount, 
+you had to compute the total cost of tuition for an input number of course credits for a specified school and calculate a discount. 
 The solution and output were almost exactly the same.
 
 Create a solution that accepts a string input representing a grocery store item and an integer input identifying the number of items purchased on a recent visit. 
