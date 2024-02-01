@@ -1,11 +1,6 @@
-IPO chart
+C859 Videos & Recorded Live Sessions
 
-https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3100facd-f778-492e-8320-b022010228f7
-
-
-treadmill:
-
-https://www.youtube.com/watch?v=ccv0opEZ5UY
+https://srm--c.vf.force.com/apex/coursearticle?Id=kA00c000001DYePCAW
 
 Course videos
 
