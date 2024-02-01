@@ -29,6 +29,8 @@
 # dog
 # cat chases dog
 # Step 1: Open the file "WordTextFile1.txt" in read mode and read its contents, in the testing engine case you can't hard code anything so it has to accept any input 
+# the "With" block closes the file once the with block exits
+
 file_path = input()
 with open(file_path, "r") as file:
     file_contents = file.read()
