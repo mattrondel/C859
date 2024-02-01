@@ -1,5 +1,10 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/15
 
+# I got this wrong when I took the PA because I forgot that when you use a function defined in an imported module you have to preface the function with the name of the module.
+# ==================================================
+# -A similar question appeared in my OA, but instead of importing and using a module that calculates the human equivalent age of a pig you import and use a module that calculates the human equivalent age of a dog. 
+# The solution and output were almost exactly the same.
+
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, 
 #do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
