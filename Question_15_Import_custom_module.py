@@ -1,4 +1,6 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/15
+# Book material is Chapter 13 
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/13/section/1
 
 # I got this wrong when I took the PA because I forgot that when you use a function defined in an imported module you have to preface the function with the name of the module.
 # ==================================================
