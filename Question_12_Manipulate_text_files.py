@@ -51,7 +51,7 @@ with open(file_path, "r") as file:
 
 print(updated_contents)
 
-####################################
+#################################### Bottom used with 2/1 PA but displayed odd
 file_path = input()
 with open(file_path, "r") as file:
     words = file.read().split()
