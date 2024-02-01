@@ -31,7 +31,7 @@ converted_pig_age = pigAge.pigAge_converter(input_pig_age)
 print(f"{input_pig_age} is {converted_pig_age} in human years")
 
 
-stuff I put in the PA
+# Stuff I put in the PA
 import pigAge
 input_pig_age = int(input())
 # .strip() is optional with it looks like this:
