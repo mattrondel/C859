@@ -1,5 +1,6 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/14
-
+# "-A similar question appeared in my OA, but instead of importing the math module, using the factorial() method on an integer input, and then determining if the result was greater than 100, you had to use the sqrt() method on an integer input and determine if the result was a perfect square. 
+# The solution and output were almost exactly the same."
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
