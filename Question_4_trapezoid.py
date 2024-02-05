@@ -6,6 +6,8 @@
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
+# -A similar question appeared in my OA, but instead of computing the area of a trapezoid you had to compute the area of a triangle.
+
 # Task:
 # Create a solution that accepts any three integer inputs representing the base (b1, b2) and height (h) measurements of a trapezoid in meters. 
 #Output the exact area of the trapezoid in square meters as a float value. <-- how to do this? NOTE this does it automatically
