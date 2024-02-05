@@ -75,7 +75,7 @@ csv_reader = csv.reader(file)
 # This line creates a CSV reader object (csv_reader) using the opened file. The reader object is used to iterate through the rows of the CSV file.
 
 # 5. Read two rows of comma-separated values:
-
+# The next() function returns the next item in an iterator. An iterable is anything that you can loop over.
 row1 = next(csv_reader)
 row2 = next(csv_reader)
 
