@@ -8,6 +8,9 @@
 # Good video by Jerry 
 # https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=333562d4-a5de-443e-a56b-ae1e01639376
 
+# Try this lab
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/14/section/8
+
 # Issue with Zybooks is its the older way to do this and can conflict with what instructors teach and is also less efficent
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
