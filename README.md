@@ -1,3 +1,8 @@
+watch this
+
+https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6d311436-df1f-43aa-a225-af1a015d0dff
+
+
 working on this problem
 
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/14/section/11
