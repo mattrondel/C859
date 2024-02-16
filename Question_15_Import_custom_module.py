@@ -2,6 +2,9 @@
 # Book material is Chapter 13 
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/13/section/1
 
+# Try this lab:
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/15
+
 # I got this wrong when I took the PA because I forgot that when you use a function defined in an imported module you have to preface the function with the name of the module.
 # ==================================================
 # -A similar question appeared in my OA, but instead of importing and using a module that calculates the human equivalent age of a pig you import and use a module that calculates the human equivalent age of a dog. 
