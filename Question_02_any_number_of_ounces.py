@@ -62,7 +62,7 @@ def convert_ounces(ounces):
 # Get input from the user
 input_ounces = int(input())
 
-# Call the function with the input
+# Call the function with the input above
 convert_ounces(input_ounces)
 
 #You can run this script, enter the number of ounces when prompted, and it will display the converted result in the specified format.
