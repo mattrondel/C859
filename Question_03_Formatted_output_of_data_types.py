@@ -39,6 +39,7 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 # step 3 is outputing and modifying as requested, in this case its a two-part print statement -one being the index number from input and the other "the tricky part of this problem"
 print(f"Element {index}: {type(various_data_types[index]).__name__}")
 
+the .__name__ will output the name of the type like "int" or "bool" if you do not add the .__name__ you get  "<class 'int'>" or "<class 'bool'>"
 
 #".name attribute" is called this but means dunder .name or .__name__
 
