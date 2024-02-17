@@ -54,6 +54,7 @@ def convert_ounces(ounces):
     # 16 is how many ounces in a pound
 
     # Output the result in the required format
+    # this is just the case of copying the output they are asking for and formatting it with f" strings
     print(f"Tons: {tons}")
     print(f"Pounds: {pounds}")
     print(f"Ounces: {ounces}")
