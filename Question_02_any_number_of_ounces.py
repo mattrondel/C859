@@ -37,13 +37,15 @@
 # Ounces: 3
 
 
-# // means floor division it divides two numbers and rounds the result down to the nearest integer. 
+# // means floor division it divides two numbers and rounds the result down to the nearest integer. SO THINK // MEANS REMAINDER ROUNDED DOWN
 # The floor division operator // is used for this operation, and it returns an integer result without any decimal places
 
-# % is modulus or modulo aka MOD its used to calculate the remainder of a division operation between two numbers like 5 % 2, 2 goes into 5 two times with a remander of 1
+# % is modulus or modulo (aka MOD) its used to calculate the remainder of a division operation between two numbers like 5 % 2, 2 goes into 5 two times with a remander of 1, so THINK % MEANS REMAIDER ROUNDED DOWN
 
 def convert_ounces(ounces):
     # Calculate tons, pounds, and remaining ounces
+    #  16  oz in a pound and 2000 in a ton we are mulitpling them together becuase the input is in ounces, this is no different that asking how many minutes in a day, week, or month
+    # the // floor division is there to divide and round down the parameter value placed in "(ounces):"
     tons = ounces // (16 * 2000)
     remaining_ounces = ounces % (16 * 2000)
     # notice that we just need to figure out these top two then work with the results
