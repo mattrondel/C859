@@ -8,6 +8,10 @@
 # if the PA follows this logic then this might be a similar problem:
 # https://www.studytonight.com/python-howtos/how-to-convert-seconds-to-hours-minutes-and-seconds-in-python
 
+# More importantly its still a function
+
+# https://www.geeksforgeeks.org/python-program-to-convert-seconds-into-hours-minutes-and-seconds/
+
 # need to know why use a funtion and the benefits of this or find out what this would look like without being a function
 # https://www.youtube.com/watch?v=6iF8Xb7Z3wQ
 
