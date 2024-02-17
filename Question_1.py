@@ -22,8 +22,6 @@
 #then the expected output is
 #Distance: 197.33 miles
 
-
-
 miles_per_employee = [15.62, 41.85, 32.67]
 
 Travel_A = int(input())
