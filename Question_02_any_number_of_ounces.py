@@ -37,6 +37,12 @@
 # Ounces: 3
 
 
+# // means floor division it divides two numbers and rounds the result down to the nearest integer. 
+# The floor division operator // is used for this operation, and it returns an integer result without any decimal places
+
+# % is modulus or modulo aka MOD its used to calculate the remainder of a division operation between two numbers like 5 % 2, 2 goes into 5 two times with a remander of 1
+
+
 def convert_ounces(ounces):
     # Calculate tons, pounds, and remaining ounces
     tons = ounces // (16 * 2000)
