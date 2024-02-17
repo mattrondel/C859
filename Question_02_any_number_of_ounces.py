@@ -37,7 +37,7 @@
 # Ounces: 3
 
 
-# // means floor division it divides two numbers and rounds the result down to the nearest integer. SO THINK // MEANS REMAINDER ROUNDED DOWN
+# // means floor division it divides two numbers and rounds the result down to the nearest integer. SO THINK // MEANS REMAINDER ROUNDED DOWN "double forward slash remainder rounded down"
 # The floor division operator // is used for this operation, and it returns an integer result without any decimal places
 
 # % is modulus or modulo (aka MOD) its used to calculate the remainder of a division operation between two numbers like 5 % 2, 2 goes into 5 two times with a remander of 1, so THINK % MEANS REMAIDER ROUNDED DOWN or percentage means remainder rounded down
