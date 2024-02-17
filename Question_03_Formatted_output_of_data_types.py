@@ -36,7 +36,7 @@ index = int(input())
 # Step 2 is copying the provided stuff they give you
 various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
 
-# step 3 is outputing  and modifying as requested
+# step 3 is outputing and modifying as requested, in this case its a two-part print statement -one being the index number from input and the other "the tricky part of this problem"
 print(f"Element {index}: {type(various_data_types[index]).__name__}")
 
 
