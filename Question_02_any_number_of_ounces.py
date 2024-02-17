@@ -45,7 +45,7 @@
 def convert_ounces(ounces):
     # Calculate tons, pounds, and remaining ounces
     #  16  oz in a pound and 2000 in a ton we are mulitpling them together becuase the input is in ounces, this is no different that asking how many minutes in a day, week, or month
-    # the // floor division is there to divide and round down the parameter value placed in "(ounces):"
+    # the // floor division is there to divide and round down the function's parameter value placed in "(ounces):"
     tons = ounces // (16 * 2000)
     remaining_ounces = ounces % (16 * 2000)
     # notice that we just need to figure out these top two then work with the results
