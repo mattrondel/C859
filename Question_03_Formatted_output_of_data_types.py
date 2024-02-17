@@ -3,6 +3,9 @@
 # need this part explained and why the [index] is nested
 # {type(various_data_types[index])
 
+# book material on this:
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/4/section/1
+
 # Derek:
 # * I got this wrong when I took the PA because I didn't know how to get the name of the data type by using the .name attribute. 
 # I didn't read all of the details provided with the question, and a hint on how to use it was right there.
