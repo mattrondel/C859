@@ -43,13 +43,17 @@ except (ValueError, IndexError):
 
 # Let's break down the code:
 
-# 1. index = int(input()): This line takes user input and converts it to an integer. If the user enters something that cannot be converted to an integer (e.g., a string or a floating-point number), a ValueError will be raised.
+# 1. index = int(input()): This line takes user input and converts it to an integer. 
+# If the user enters something that cannot be converted to an integer (e.g., a string or a floating-point number), a ValueError will be raised.
 
-# 2. print(frameworks[index]): This line tries to access an element at the specified index in the frameworks list. If the index is out of bounds (i.e., it is greater than or equal to the length of the list), an IndexError will be raised.
+# 2. print(frameworks[index]): This line tries to access an element at the specified index in the frameworks list. 
+# If the index is out of bounds (i.e., it is greater than or equal to the length of the list), an IndexError will be raised.
 
-# 3. except (ValueError, IndexError):: This block catches any ValueError or IndexError that might occur in the preceding try block. If either of these exceptions is raised, the code inside the except block will be executed.
+# 3. except (ValueError, IndexError):: This block catches any ValueError or IndexError that might occur in the preceding try block. 
+# If either of these exceptions is raised, the code inside the except block will be executed.
 
 # 4. print("Error"): This line prints the message "Error" to the console if a ValueError or IndexError occurs.
 
-# In summary, the ValueError is used to handle cases where the user enters input that cannot be converted to an integer, and the IndexError is used to handle cases where the index used to access the frameworks list is out of bounds. 
-    # The except block is responsible for handling these specific types of exceptions and printing an error message.
+# In summary, the ValueError is used to handle cases where the user enters input that cannot be converted to an integer, and the IndexError
+# is used to handle cases where the index used to access the frameworks list is out of bounds. 
+# The except block is responsible for handling these specific types of exceptions and printing an error message.
