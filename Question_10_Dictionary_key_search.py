@@ -1,5 +1,9 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/10
 
+# Derek
+# -A similar question appeared in my OA, but instead of computing the total cost of stocks selected you had to compute the total cost of snacks selected from a vending machine. 
+# The solution and output were almost exactly the same.
+
 # NEED DETAILED EXPLAINING ON THIS ONE
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, 
