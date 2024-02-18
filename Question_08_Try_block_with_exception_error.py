@@ -1,5 +1,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/8
 
+# book matreial on this
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/12/section/1
+
 # Read more here https://docs.python.org/3/library/exceptions.html
 
 # Need this one explained mainly the ValueError and IndexError 
