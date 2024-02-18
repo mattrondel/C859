@@ -6,7 +6,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/7/section/1
 
 # Derek 
-# -A similar question appeared in my OA, but instead of converting weight (oz, lbs, tons) you had to convert time (minutes, hours, days). The solution and output were almost exactly the same.
+# -A similar question appeared in my OA, but instead of converting weight (oz, lbs, tons) you had to convert time (minutes, hours, days). 
+# The solution and output were almost exactly the same.
 
 # if the PA follows this logic then this might be a similar problem:
 # https://www.studytonight.com/python-howtos/how-to-convert-seconds-to-hours-minutes-and-seconds-in-python
