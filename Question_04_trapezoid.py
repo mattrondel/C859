@@ -9,6 +9,8 @@
 
 # Derek
 # -A similar question appeared in my OA, but instead of computing the area of a trapezoid you had to compute the area of a triangle.
+# probably this lab used in the exam:
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/5
 
 # Task:
 # Create a solution that accepts any three integer inputs representing the base (b1, b2) and height (h) measurements of a trapezoid in meters. 
