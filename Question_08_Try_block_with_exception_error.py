@@ -6,6 +6,10 @@
 
 # Read more here https://docs.python.org/3/library/exceptions.html
 
+# Derek
+# -A similar question appeared in my OA, but instead of outputting the string element of the input index value you had to output the index based on the input string value. 
+# The solution and output were almost exactly the same. Instead of using frameworks[user_input] use frameworks.index(user_input)
+
 # Need this one explained mainly the ValueError and IndexError 
 # that and why does the except (ValueError, IndexError): not contain a colon after the except:
 
