@@ -10,6 +10,11 @@
 # or
 # https://drbeane.github.io/python/pages/branching.html
 
+# Derek
+# -A similar question appeared in my OA, but instead of outputting a description of the water state based on the input water 
+# temperature you had to output a letter grade based on the input number grade. 
+# The solution and output were almost exactly the same.
+
 # Need to distinguash between if vs elif
 # Don't forget the the colon after the IF elif statements!
 # if temp < 33:
