@@ -8,6 +8,13 @@
 # Is this similar to Question 12 but the csv module? Need help solving
 #######################################################
 
+# Derek
+# * I got this wrong when I took the PA because I forgot the syntax for using the CSV reader method.
+# ==================================================
+# -A similar question appeared in my OA, but instead of reading the CSV file content and creating a dictionary you had to create a list. 
+# The solution is mostly similar and the output was almost exactly the same. 
+# Once you have the CSV file open and ready to read the rows of content, instead of creating dictionary KEY and VALUE pairs and adding them to a dictionary, just use the list.append() method to add each row to a list.
+
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
