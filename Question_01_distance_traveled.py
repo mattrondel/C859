@@ -35,3 +35,11 @@ Total_Distance = (Travel_A * miles_per_employee [0]) + (Travel_B * miles_per_emp
 # adding precision output to f strings (same video: https://youtu.be/nghuHvKLhJA?t=539
 
 print(f"Distance: {Total_Distance:.2f} miles")
+
+
+# Here's how it works:
+# 
+#     1. miles_per_employee is a list that contains the miles for each employee's commute.
+#     2. The code takes three inputs (Travel_A, Travel_B, and Travel_C) representing the number of times each employee travels to a job site.
+#     3. It calculates the total distance traveled by multiplying the number of travels for each employee by their corresponding miles per commute and summing them up.
+#     4. Finally, it prints the result in the specified format with two decimal places using f-string formatting.
