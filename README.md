@@ -1,3 +1,8 @@
+Manditory when working with homework:
+
+https://www.youtube.com/watch?v=jfKfPfyJRdk
+
+
 watch this
 
 https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6d311436-df1f-43aa-a225-af1a015d0dff
