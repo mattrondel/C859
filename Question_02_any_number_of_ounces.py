@@ -2,6 +2,9 @@
 
 # got wrong on PA
 
+this problem is about functions
+refresher from corey https://www.youtube.com/watch?v=9Os0o3wzS_I
+
 # Book Material:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/7/section/1
 
