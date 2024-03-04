@@ -6,9 +6,6 @@
 # list you had to determine if the input integer was greater than or equal to the maximum value in the list. 
 # The solution and output were almost exactly the same.
 
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without 
-# a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
-#
 # Task:
 # Create a solution that accepts an integer input to compare against the following list:
 # predef_list = [4, -27, 15, 33, -10]
