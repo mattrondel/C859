@@ -1,4 +1,4 @@
-#this works for both PA and 
+ 
 # PRO TIP: WHEN YOU COPY THE EQUALTION ITS IN SQUARE BRACKETS YOU NEED TO CHANGE THEM TO CURLY ONES
 # THIS PROBLEM BASICALLY GIVES YOU EVEYTHING YOU NEED FROM THE MATH EQUATION TO THE 3 INPUTS AND PRINT STATEMENT, ALL YOU HAVE TO DO IS PUT IT TOGETHER
 
@@ -9,8 +9,31 @@
 
 # Derek
 # -A similar question appeared in my OA, but instead of computing the area of a trapezoid you had to compute the area of a triangle.
+
+########################################
 # probably this lab used in the exam:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/5
+
+# This triangle is solved like so: 
+# import math
+ 
+# a = float(input())
+# b = float(input())
+# c = float(input())
+
+# # Calculate half of the triangle's perimeter this is part of herons formula
+# s = (a + b + c) / 2
+ 
+# # give the above example:
+# # area = the square root of s(s-a)(s-b)(s-c)
+# # Calculate the area using Heron's formula
+# area = math.sqrt(s * (s - a) * (s - b) * (s - c))
+ 
+# # like file extensions functions from a module llook the same like the above
+# # math.sqrt()
+ 
+# print(f"The area of the triangle is: {area:.3f}")
+########################################
 
 # Task:
 # Create a solution that accepts any three integer inputs representing the base (b1, b2) and height (h) measurements of a trapezoid in meters. 
@@ -42,7 +65,3 @@ h = int(input())
 
 # "Trapezoid Area Formula:"
 area_value = ((b1 + b2) / 2) * h
-
-#again F strings to the rescue
-print(f"Trapezoid area: {area_value} square meters")
-
