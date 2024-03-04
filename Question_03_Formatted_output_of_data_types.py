@@ -38,21 +38,35 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 
 # step 3 is outputing and modifying as requested, in this case its a two-part print statement -one being the index number from input and the other "the tricky part of this problem"
 print(f"Element {index}: {type(various_data_types[index]).__name__}")
-
-the .__name__ will output the name of the type like "int" or "bool" if you do not add the .__name__ you get  "<class 'int'>" or "<class 'bool'>"
-
+# the .__name__ will output the name of the type like "int" or "bool" if you do not add the .__name__ you get  "<class 'int'>" or "<class 'bool'>"
 #".name attribute" is called this but means dunder .name or .__name__
-
 # The .__name__ attribute is used to obtain the name of a class or type in Python. When applied to the result of the type() function, it returns the name of the data type as a string.
-
 # In the provided solution, type(various_data_types[index]).__name__ is used to extract the name of the data type of the element at the specified index in the list various_data_types.
-
 # Here's the explanation of each part:
-
 # type(various_data_types[index]): This part gets the type (class) of the element at the specified index in the list.
-
 # .__name__: This part accesses the __name__ attribute of the type, which holds the name of the type as a string.
-
 # So, in short, .__name__ is used to obtain a human-readable name for the type.
-
 # If you want to avoid using .__name__, you could directly print the result of type() without the attribute. However, using .__name__ provides a cleaner and more readable output in this context. Here's an alternative without .__name__:
+
+#Tips on building this out 3/4/24:
+index = int(input())
+various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
+
+# print(f"Element {index}: {type(various_data_types[index]).__name__}")
+# start by builing out the print statement asits stated in the example
+# print(f"Element {index}: {data_type}")
+# note that it says data_type but don't take this too literal just go by type() above
+
+# use the type() but since we're working with fstrings we use {} instead of () on the outside so do it like so:
+# print(f"Element {index}: {type()}")
+
+# now add in the various_data_types variable becuase thats what we need type() run against
+#print(f"Element {index}: {type(various_data_types)}")
+
+# now add [index] next to various data types so it can retrieve the element from the list, this is the same index variable used in the begining.  
+# print(f"Element {index}: {type(various_data_types[index])}")
+
+#Now like a file extension in order to get the name of the type add .__name__ (Thats dot dunder name dunder ) to the tail end of type()
+#like so:
+print(f"Element {index}: {type(various_data_types[index]).__name__}")
+# then blam-o your done
