@@ -11,6 +11,9 @@
 # Try this lab
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/14/section/8
 
+# Linked in:
+# https://www.linkedin.com/learning/python-essential-training-18764650/opening-reading-and-writing?resume=false&u=2045532
+
 # Derek
 # * I got this wrong when I took the PA because I did not follow the instructions exactly. Instead of using the file.read() method I used the file.readlines() method.
 # ==================================================
