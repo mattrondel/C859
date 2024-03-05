@@ -5,10 +5,7 @@
 #  I did not initially convert the inputs to integer, instead I converted them when I computed the integer sum.
 #  ==================================================
 #  -A similar question appeared in my OA, but instead of outputting the sum of five inputs you only had to output the sum of three inputs.
-
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
-
-#  
+  
 # Task:
 # Create a solution that accepts five integer inputs. 
 # Output the sum of the five inputs three times, converting the inputs to the requested data type prior to finding the sum.
