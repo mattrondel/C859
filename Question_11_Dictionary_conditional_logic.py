@@ -27,6 +27,8 @@
 # then the expected output is
 # cookies $585.79
 
+# purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
+
 # Sample Input
 item_input = input()
 quantity_input = int(input())
