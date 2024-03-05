@@ -4,6 +4,7 @@ Manditory when working with homework:
 
 https://www.youtube.com/watch?v=jfKfPfyJRdk
 
+https://www.linkedin.com/learning/python-essential-training-18764650/getting-started-with-python?autoplay=true&trk=course_preview&upsellOrderOrigin=lynda_redirect_learning
 
 watch this
 
