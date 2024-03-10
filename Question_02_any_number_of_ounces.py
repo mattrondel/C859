@@ -1,4 +1,4 @@
-# Need this one fully explained as each operattion is confusing
+# Need this one fully explained as each operation is confusing
 
 # got wrong on PA
 
