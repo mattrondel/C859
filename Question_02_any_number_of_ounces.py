@@ -2,8 +2,8 @@
 
 # got wrong on PA
 
-this problem is about functions
-refresher from corey https://www.youtube.com/watch?v=9Os0o3wzS_I
+# this problem is about functions
+# refresher from corey https://www.youtube.com/watch?v=9Os0o3wzS_I
 
 # Book Material:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/7/section/1
@@ -14,8 +14,8 @@ refresher from corey https://www.youtube.com/watch?v=9Os0o3wzS_I
 Lab that deals with time is found here:
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/2
 
-The value 3600 is used because there are 60 seconds in a minute and 60 minutes in an hour. 
-Therefore, to convert seconds to hours, you divide the number of seconds by the total number of seconds in an hour (60 seconds/minute * 60 minutes/hour = 3600 seconds/hour).
+# The value 3600 is used because there are 60 seconds in a minute and 60 minutes in an hour. 
+# Therefore, to convert seconds to hours, you divide the number of seconds by the total number of seconds in an hour (60 seconds/minute * 60 minutes/hour = 3600 seconds/hour).
 
 
 # if the PA follows this logic then this might be a similar problem:
