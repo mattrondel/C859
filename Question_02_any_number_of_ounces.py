@@ -30,9 +30,11 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/2
 
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/2
 
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
-# Create a solution that accepts an integer input representing any number of ounces. Output the converted total number of tons, pounds, and remaining ounces based on the input ounces value. There are 16 ounces in a pound and 2,000 pounds in a ton.
+# Create a solution that accepts an integer input representing any number of ounces. 
+# Output the converted total number of tons, pounds, and remaining ounces based on the input ounces value. 
+# There are 16 ounces in a pound and 2,000 pounds in a ton.
+
 # The solution output should be in the format
 # Tons: value_1
 # Pounds: value_2
