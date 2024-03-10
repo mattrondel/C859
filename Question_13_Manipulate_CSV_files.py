@@ -4,6 +4,8 @@
 # Try this lab:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/13
 
+Coreys video: https://www.youtube.com/watch?v=q5uM4VKywbA
+
 #######################################################
 # Is this similar to Question 12 but the csv module? Need help solving
 #######################################################
