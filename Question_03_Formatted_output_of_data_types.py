@@ -9,10 +9,12 @@
 # Derek:
 # * I got this wrong when I took the PA because I didn't know how to get the name of the data type by using the .name attribute. 
 # I didn't read all of the details provided with the question, and a hint on how to use it was right there.
-# -A similar question appeared in my OA, but instead of needing to use the .__name__ attribute to output the data type, you only had to output the data type using the default output of the type() function. 
+# -A similar question appeared in my OA, but instead of needing to use the .__name__ attribute to output the data type, you only had to 
+# output the data type using the default output of the type() function. 
 # The solution and output were almost exactly the same.
 
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
+# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, 
+# do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
 # Instructions:
 # Create a Python solution to the following task. Ensure that the solution produces output in exactly the same format shown in the sample(s) below, including capitalization and whitespace.
