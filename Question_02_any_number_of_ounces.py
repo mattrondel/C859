@@ -11,8 +11,8 @@ refresher from corey https://www.youtube.com/watch?v=9Os0o3wzS_I
 # Derek 
 # -A similar question appeared in my OA, but instead of converting weight (oz, lbs, tons) you had to convert time (minutes, hours, days). 
 # The solution and output were almost exactly the same.
-# a lab that deals with time is found here:
-# https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/2
+Lab that deals with time is found here:
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/2
 
 The value 3600 is used because there are 60 seconds in a minute and 60 minutes in an hour. 
 Therefore, to convert seconds to hours, you divide the number of seconds by the total number of seconds in an hour (60 seconds/minute * 60 minutes/hour = 3600 seconds/hour).
