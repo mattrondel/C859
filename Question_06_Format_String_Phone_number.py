@@ -3,8 +3,6 @@
 # THIS UTILIZES SLICING NEED TO READ UP ON THIS MORE
 # https://www.youtube.com/watch?v=ajrtAuDg3yw&t=453s
 
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
-
 # Task:
 # Create a solution that accepts an integer input representing a 9-digit unformatted student identification number. Output the identification number as a string with no spaces.
 # The solution output should be in the format
