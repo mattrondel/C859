@@ -34,7 +34,9 @@ item_input = input()
 quantity_input = int(input())
 
 # Calculate total cost without discount
-total_cost = purchase.get(item_input, 0) * quantity_input
+# The 0 in .get(item_input, 0) is there for error checking and is optional
+# total_cost = purchase.get(item_input, 0) * quantity_input
+total_cost = purchase.get(item_input) * quantity_input
 
 # Determine discount based on quantity
 discount = 0 if quantity_input < 10 else 0.05 if 10 <= quantity_input <= 20 else 0.10
