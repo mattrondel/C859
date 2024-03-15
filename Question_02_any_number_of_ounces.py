@@ -28,6 +28,7 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/2
 # need to know why use a funtion and the benefits of this or find out what this would look like without being a function
 # https://www.youtube.com/watch?v=6iF8Xb7Z3wQ
 
+# Zybooks exercise:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/2
 
 
@@ -78,3 +79,39 @@ input_ounces = int(input())
 convert_ounces(input_ounces)
 
 #You can run this script, enter the number of ounces when prompted, and it will display the converted result in the specified format.
+
+##########################
+##########################
+
+SIMILARITIES COMPARED TO THE TWO VERSIONS
+
+# OUNCES
+def convert_ounces(ounces):
+    tons = ounces // (16 * 2000)
+    remaining_ounces = ounces % (16 * 2000)
+    pounds = remaining_ounces // 16
+    ounces = remaining_ounces % 16
+    
+    print(f"Tons: {tons}")
+    print(f"Pounds: {pounds}")
+    print(f"Ounces: {ounces}")
+
+input_ounces = int(input())
+
+convert_ounces(input_ounces)
+
+
+# TIME
+def ConvertSeconds(seconds):
+    Hours = seconds // 3600
+    remaining_seconds = seconds % 3600
+    Minutes = remaining_seconds // 60
+    Seconds = remaining_seconds % 60
+
+    print(f"Hours: {Hours}")
+    print(f"Minutes: {Minutes}")
+    print(f"Seconds: {Seconds}")
+
+inputseconds = int(input())
+ConvertSeconds(inputseconds)
+
