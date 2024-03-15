@@ -74,4 +74,4 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 # This is how we run it against the built-in type() funtion
 # like so:
 print(f"Element {index}: {type(various_data_types[index]).__name__}")
-# then blam-o your done
+# then Blammo! you're done
