@@ -56,7 +56,7 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 
 # Start by builing out the print statement as its stated in the example (copy/paste then edit for f strings
 # print(f"Element {index}: {data_type}")
-# Note that it says data_type but don't take this too literal just go by type() above
+# Note that it says data_type but don't take this too literal just go by type() above, we are just using the suggested varable in the example
 
 # Use the type() as requested but since we're working with f strings we use {} instead of () on the outside so do it like so:
 # print(f"Element {index}: {type()}")
@@ -69,7 +69,8 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 # It should now look like this:
 # print(f"Element {index}: {type(various_data_types[index])}")
 
-# Now like a file extension in order to get the name of the type add .__name__ (Thats dot dunder name dunder ) to the tail end of type()
+# Now like a file extension in order to get the name of the type add .__name__ (Thats dot dunder name dunder) to the tail end of type() 
+# This is how we run it against the built-in type() funtion
 # like so:
 print(f"Element {index}: {type(various_data_types[index]).__name__}")
 # then blam-o your done
