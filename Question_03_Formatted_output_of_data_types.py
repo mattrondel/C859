@@ -58,11 +58,12 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 # print(f"Element {index}: {data_type}")
 # Note that it says data_type but don't take this too literal just go by type() above, we are just using the suggested varable in the example
 
-# Use the type() as requested but since we're working with f strings we use {} instead of () on the outside so do it like so:
-# print(f"Element {index}: {type()}")
+# Use the built-in funtion type() as requested but since we're working with f strings we use {} instead of () on the outside so do it like so:
+# Basically we nest the suggested varable inside type()
+# print(f"Element {index}: {type(various_data_types)}")
 
 # Now add in the various_data_types variable becuase thats what we need type() run against
-#print(f"Element {index}: {type(various_data_types)}")
+# print(f"Element {index}: {type(various_data_types)}")
 
 # Now add [index] next to various data types so it can retrieve the element from the list 
 # Note that this is the same index variable used in the begining and since its a list it uses the square brackets []. 
