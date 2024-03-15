@@ -85,6 +85,7 @@ convert_ounces(input_ounces)
 
 SIMILARITIES COMPARED TO THE TWO VERSIONS
 
+
 # OUNCES
 def convert_ounces(ounces):
     tons = ounces // (16 * 2000)
@@ -112,5 +113,18 @@ def ConvertSeconds(seconds):
     print(f"Seconds: {Seconds}")
 
 inputseconds = int(input())
-ConvertSeconds(inputseconds)
+ConvertSeconds(inputseconds).
 
+
+# FIRST LINE IS SMALL DIVIDED TO BIG
+#NEXT LINE IS REMAINDER (%) FROM SMALL LOOKS LIKE THE FIRST LINE JUST WITH %
+# THEN REMAINING // INTO THE WHOLE NUMBER AKA WHAT MAKES IT A SINGLE UNIT , 16 OZ IN LB OR 60 SECONDS TO HOUR
+# COPY PASTE THIS LINE BUT SWAP OUT THE // FOR A %
+
+#copy paste the output and reformat for fstring statements 
+#TAKE THOSE VARIABLES AND INJECT THEM TO THE F STRINGS
+
+#leave the funtion and create the input statement then the function callout 
+# funtion callout is basically the funtion name with the varable you setup for the integer intput callout
+
+DONT FORGET TO PUT IN THE INPUT VALUE IN THE FUNCTION!!!
