@@ -1,3 +1,6 @@
+# Zybooks exercise:
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/2
+
 # Need this one fully explained as each operation is confusing
 
 # got wrong on PA
@@ -27,9 +30,6 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/2
 
 # need to know why use a funtion and the benefits of this or find out what this would look like without being a function
 # https://www.youtube.com/watch?v=6iF8Xb7Z3wQ
-
-# Zybooks exercise:
-# https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/2
 
 
 # Create a solution that accepts an integer input representing any number of ounces. 
