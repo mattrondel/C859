@@ -50,3 +50,6 @@ string_sum = str(num1) + str(num2) + str(num3) + str(num4) + str(num5)
 print(f"Integer: {integer_sum}")
 print(f"Float: {float_sum}")
 print(f"String: {string_sum}")
+
+# DOUBLE CHECK ALL VARIABLES ARE CORRECLTY NAMED BEFORE MOVING ONE
+# MAKE SURE YOU HAVE ALL PRINT STATEMENTS 
