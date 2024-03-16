@@ -36,3 +36,10 @@ print(formatted_output)
 #formatted_input = f"{phone[0:1]}-{phone[1:4]}-{phone[4:7]}-{phone[7:]}"
 
 #print(formatted_input)
+
+# Things to remeber:
+# Says integer input but this is "string" slicing
+# You can't go directly from slicing to printing you need to slice then send to variable then print
+
+REMEMBER:
+COPY THE OUTPUT WITH BOTH WHAT IS DESIRED THEN WITHOUT ADDITIVES THEN COUNT
