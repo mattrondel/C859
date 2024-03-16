@@ -1,5 +1,22 @@
 3/15 PA only attempted 1-6 and 15
 
+need to master 8, its simple enough
+
+9 seems complicated
+
+review 10 its similar to 3
+
+11 is also similar to 3
+
+12 will make you hate life with text import
+
+13 is like 13 only with csv hate blended in
+
+14 might be doable with practice
+
+all of the above practice with the similar wgu zybook page test it and then put lessions learned in each page
+
+
 
 https://pythontutor.com/render.html#mode=edit
 
