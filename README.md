@@ -8,9 +8,9 @@ review 10 its similar to 3
 
 11 is also similar to 3
 
-12 will make you hate life with text import
+12 will make you hate life with the text import statenents
 
-13 is like 13 only with csv hate blended in
+13 is like 12 only with csv hate blended in
 
 14 might be doable with practice
 
