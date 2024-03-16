@@ -29,7 +29,7 @@ total_price = sum(stocks[input().strip()] for _ in range(int(input())))
 print(f'Total price: ${total_price:.2f}')
 
 # two decimal places keyword for :.2f
-# THINK OF THE .2 AS IN .2 DECINAL PLACES AND THE f IS FOR FORMAT
+# THINK OF THE .2 AS IN .2 DECINAL PLACES AND THE f IS FOR FORMAT, thje F stands for float and the .2 is how many decimal places will show
 
 # .strip() is optional without it it would look like:
 # total_price = sum(stocks[input()] for _ in range(int(input())))
