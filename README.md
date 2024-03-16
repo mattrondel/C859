@@ -1,3 +1,6 @@
+3/15 PA only attempted 1-6 and 15
+
+
 https://pythontutor.com/render.html#mode=edit
 
 Manditory when working with homework:
