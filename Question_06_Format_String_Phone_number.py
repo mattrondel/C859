@@ -3,6 +3,7 @@
 # Derek notes
 # -A similar question appeared in my OA, but instead of a 9-digit student ID you had to format an 11-digit phone number. 
 # The solution and output were almost exactly the same.
+# this is probaly the lab used in the PA https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/6
 
 # THIS UTILIZES SLICING NEED TO READ UP ON THIS MORE
 # https://www.youtube.com/watch?v=ajrtAuDg3yw&t=453s
