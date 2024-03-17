@@ -36,3 +36,4 @@ Boolean_value = input_value > max(predef_list)
 
 print(f"Greater Than Max? {Boolean_value}")
 
+DONT FORGET TO BUILD YOUR F STRINGS CORRECLY!!
