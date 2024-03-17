@@ -46,6 +46,17 @@ except (ValueError, IndexError):
 
 # Again this is a case of use the provided text 
 
+# Breaking this down (again)
+# this is the provided text just make sure its present
+#frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
+
+# This is begining of the try block it starts the program as normal but has error checking enabled and the code becomes indented, if it fails then it gets "bumped" to the except block section when it sees the errors stated in the 
+# try:
+#     index = int(input())
+#     print(frameworks[index])
+# except (ValueError, IndexError):
+#     print("Error")
+
 
 
 #############
