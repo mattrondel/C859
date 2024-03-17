@@ -11,28 +11,28 @@
 # -A similar question appeared in my OA, but instead of computing the area of a trapezoid you had to compute the area of a triangle.
 
 ########################################
-# probably this lab used in the exam:
+Probably this lab used in the exam:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/5
 
 # This triangle is solved like so: 
-# import math
+import math
  
-# a = float(input())
-# b = float(input())
-# c = float(input())
+a = float(input())
+b = float(input())
+c = float(input())
 
 # # Calculate half of the triangle's perimeter this is part of herons formula
-# s = (a + b + c) / 2
+s = (a + b + c) / 2
  
 # # give the above example:
 # # area = the square root of s(s-a)(s-b)(s-c)
-# # Calculate the area using Heron's formula
-# area = math.sqrt(s * (s - a) * (s - b) * (s - c))
- 
-# # like file extensions functions from a module llook the same like the above
+# # Calculate the area using Heron's formula - this is the math.sqrt(s * (s - a) * (s - b) * (s - c)) 
+# hopefully this is displayed in the exam because Heron's formula is not directly included in the standard Python math module. 
+# # like file extensions functions from a module look the same:
 # # math.sqrt()
+area = math.sqrt(s * (s - a) * (s - b) * (s - c))
  
-# print(f"The area of the triangle is: {area:.3f}")
+ print(f"The area of the triangle is: {area:.3f}")
 ########################################
 
 # Task:
