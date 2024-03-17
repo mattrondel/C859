@@ -60,7 +60,7 @@ def convert_ounces(ounces):
     #  16  oz in a pound and 2000 in a ton we are mulitpling them together becuase the input is in ounces, this is no different that asking how many minutes in a day, week, or month
     # the // floor division is there to divide and round down the function's parameter value placed in "(ounces):"
     tons = ounces // (16 * 2000)
-    remaining_ounces = ounces % (16 * 2000)
+    remaining_ounces = ounces % 32000
     # notice that we just need to figure out these top two then work with the results
     pounds = remaining_ounces // 16
     ounces = remaining_ounces % 16
@@ -100,6 +100,10 @@ def convert_ounces(ounces):
 input_ounces = int(input())
 convert_ounces(input_ounces)
 
+# the tons = ounces // (16 * 2000) can also be done as tons = ounces // 32000 basically solve the (16 * 2000) but it says 16 oz in a pound and 2,000 pounds in a ton.
+# 1 ton = 2000 pounds
+# 1 pound = 16 ounces
+# To convert ounces to tons, we need to divide the number of ounces by the total number of ounces in a ton, which is 2000 pounds * 16 ounces.
 
 # TIME
 def ConvertSeconds(seconds):
@@ -148,7 +152,7 @@ print(f"Ounces: {Ounces}")
 Output the converted total number of tons, pounds, and remaining ounces based on the input ounces value.
 
 Question to understand is how do I know that this should be a function?
-
+since we're converting tons, pounds and ounces at the same time a function is better suited for this
 
 
 There are 16 ounces in a pound and 2,000 pounds in a ton.
