@@ -3,7 +3,9 @@
 20% 9-11
 
 27% 12-15
+
    12 might end up skipping
+
    13 might end up skipping
 
 3/15 PA only attempted 1-6 and 15
