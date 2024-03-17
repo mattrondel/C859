@@ -162,8 +162,8 @@ since we've built the print statements we know what variable to put in it
 also we're converting_ounces so thats what we are going to call the function
 def convert_ounces():
     
-then add in the varables along with a reamaining ounces varable becuase thats what we are working with the get the values, also keep it in order for easier readablity
-def convert_ounces():
+then add in the varables along with a reamaining ounces varable becuase thats what we are working with the get the values, also keep it in order for easier readablity, also add ounces inside the () as we are taking ounces as input
+def convert_ounces(ounces):
     Tons = 
     remaining_ounces = 
     Pounds= 
@@ -179,7 +179,7 @@ There are 16 ounces in a pound and 2,000 pounds in a ton.
 To convert ounces to tons, we need to divide the number of ounces by the total number of ounces in a ton, which is 2000 pounds * 16 ounces.
 so make this changes to the function:
 
-def convert_ounces():
+def convert_ounces(ounces):
     Tons = ounces // (16 * 2000)
     remaining_ounces = ounces %  (16 * 2000)
     Pounds = remaining_ounces // 16
@@ -190,3 +190,18 @@ converting ounces and displaying the results within the same function. This make
 
 Placing the print statements outside the function would require the caller of the function to handle the printing of results separately, 
 which could make the code less organized and harder to understand, especially if the conversion function is reused in multiple places.
+
+def convert_ounces(ounces):
+   Tons = ounces // (16 * 2000)
+   remaining_ounces = ounces %  (16 * 2000)
+   Pounds = remaining_ounces // 16
+   ounces = remaining_ounces // 16
+  
+   print(f"Tons: {Tons}")
+   print(f"Pounds: {Pounds}")
+   print(f"Ounces: {Ounces}")
+
+add in the int input statement and the call to the function like so:
+
+convert_ounces = int(input())
+convert_ounces(convert_ounces).
