@@ -67,7 +67,7 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 # print(f"Element {index}: {type(various_data_types)}")
 
 # Now add [index] next to various data types so it can retrieve the element from the list 
-# Note that this is the same index variable used in the begining and since its a list it uses the square brackets []. 
+# Note that this is the same index variable used in the begining (so make it match!) and since its a list it uses the square brackets []. 
 # It should now look like this:
 # print(f"Element {index}: {type(various_data_types[index])}")
 
