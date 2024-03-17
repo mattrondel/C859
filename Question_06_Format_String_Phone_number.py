@@ -23,7 +23,7 @@
 input_id = input()
 
 # you need to send the sliced string somewhere as you can't directly print a a sliced string 
-# copy paste and edit the desired output as f strings
+# copy paste and edit the desired output as f strings no need to include () as this is the native strings
 formatted_output = f"{input_id[:3]}-{input_id[3:5]}-{input_id[5:]}"
 # print the formatted and sliced string
 print(formatted_output)
