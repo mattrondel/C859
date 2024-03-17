@@ -1,6 +1,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/6
 
-# Derek notes?
+# Derek notes
+# -A similar question appeared in my OA, but instead of a 9-digit student ID you had to format an 11-digit phone number. 
+# The solution and output were almost exactly the same.
 
 # THIS UTILIZES SLICING NEED TO READ UP ON THIS MORE
 # https://www.youtube.com/watch?v=ajrtAuDg3yw&t=453s
