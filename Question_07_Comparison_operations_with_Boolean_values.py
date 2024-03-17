@@ -22,7 +22,7 @@
 # This is the provided List:
 predef_list = [4, -27, 15, 33, -10]
 
-# "Create a solution that accepts an integer input" send that int input to some variable
+# "Create a solution that accepts an integer input" so send that integer input to some variable
 input_value = int(input())
 
 # This is the meat and poatatoes of the problem:
