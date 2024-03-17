@@ -24,7 +24,7 @@ review 10 its similar to 3
 
 13 is like 12 only with csv hate blended in
 
-14 might be doable with practice
+14 might be doable with practice - the math module
 
 all of the above practice with the similar wgu zybook page test it and then put lessions learned in each page
 
