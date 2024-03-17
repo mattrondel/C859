@@ -1,3 +1,8 @@
+53% 1-8
+20% 9-11
+27% 12-15
+
+
 3/15 PA only attempted 1-6 and 15
 
 need to master 8, its simple enough
