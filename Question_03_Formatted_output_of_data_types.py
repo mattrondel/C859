@@ -77,3 +77,6 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 # like so:
 print(f"Element {index}: {type(various_data_types[index]).__name__}")
 # then Blammo! you're done
+
+
+MAKE SURE TO CLOSE YOUR INPUT STATEMENTS!
