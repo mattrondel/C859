@@ -32,7 +32,7 @@
 # Step one is taking the "what kind of input are we wanting"
 index = int(input())
 
-# Step 2 is copying the provided stuff they give you
+# Step 2 is copying the provided stuff they give you unless its already there then skip
 various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
 
 # step 3 is outputing and modifying as requested, in this case its a two-part print statement -one being the index number from input and the other "the tricky part of this problem"
