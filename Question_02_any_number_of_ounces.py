@@ -105,7 +105,9 @@ convert_ounces(input_ounces)
 # 1 pound = 16 ounces
 # To convert ounces to tons, we need to divide the number of ounces by the total number of ounces in a ton, which is 2000 pounds * 16 ounces.
 
-# TIME
+
+# TIME CONVERSION
+
 def ConvertSeconds(seconds):
     Hours = seconds // 3600
     remaining_seconds = seconds % 3600
