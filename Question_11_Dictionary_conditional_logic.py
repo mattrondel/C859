@@ -29,7 +29,7 @@
 
 # purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
 
-# NEED A BREAK DOWN OF THIS AS THE QUESTION PRESENTS ITSELF
+# NEED A BREAK DOWN OF THIS AS THE QUESTION PRESENTS ITSELF JUST AS I DID FOR THE FIRST FEW QUESTIONS
 
 # Sample Input
 item_input = input()
