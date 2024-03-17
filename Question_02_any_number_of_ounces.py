@@ -128,3 +128,27 @@ ConvertSeconds(inputseconds).
 # funtion callout is basically the funtion name with the varable you setup for the integer intput callout
 
 DONT FORGET TO PUT IN THE INPUT VALUE IN THE FUNCTION!!!
+
+# Breaking this down as it reads:
+Create a solution that accepts an integer input representing any number of ounces. 
+"integer input" and "input" "ounces"
+input_ounces = int(input())
+
+and with the obvious is build the print statement
+then the expected output is
+
+Tons: 1
+Pounds: 2
+Ounces: 3
+to:
+print(f"Tons: {Tons}")
+print(f"Pounds: {Pounds}")
+print(f"Ounces: {Ounces}")
+
+Output the converted total number of tons, pounds, and remaining ounces based on the input ounces value.
+
+Question to understand is how do I know that this should be a function?
+
+
+
+There are 16 ounces in a pound and 2,000 pounds in a ton.
