@@ -56,7 +56,8 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 
 # Start by builing out the print statement as its stated in the example (copy/paste then edit for f strings
 # print(f"Element {index}: {various_data_types}")
-# Note that it says data_type but don't take this too literal just use the varable from the sample then wrap type()
+# Note that it says data_type but don't take this too literal just use the varable from the sample then wrap type() as requested at:
+# output the data type using the default output of the type() function
 
 # Use the built-in funtion type() as requested but since we're working with f strings we use {} instead of () on the outside so do it like so:
 # Basically we nest the suggested varable inside type()
