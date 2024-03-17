@@ -25,9 +25,14 @@
 # then the expected output is
 # Total price: $150.53
 
+# provided line:
+stocks = {'TSLA': 912.86, 'BBBY': 24.84, 'AAPL': 174.26, 'SOFI': 6.92, 'KIRK': 8.72, 'AURA': 22.12, 'AMZN': 141.28, 'EMBK': 12.29, 'LVLU': 2.33}
 
-print(f'Total price: ${total_price:.2f}')
-total_price = sum(stocks[input()] for _ in range(int(input())))
+num_shares = int(input())
+total_price = sum(stocks.get(input().strip(), 0) for _ in range(num_shares))
+
+print(f"Total price: ${total_price:.2f}")
+
 
 # two decimal places keyword for :.2f
 # THINK OF THE .2 AS IN .2 DECINAL PLACES AND THE f IS FOR FORMAT, thje F stands for float and the .2 is how many decimal places will show
