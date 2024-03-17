@@ -25,6 +25,12 @@ input_id = input()
 # you need to send the sliced string somewhere as you can't directly print a a sliced string 
 # copy paste and edit the desired output as f strings 
 # string Slicing is done by [START:END:STEP] but we wont be using the :STEP part but the slicing is added within the {} next to the variable for the string we are slicing
+# Pro-tip for slicing, copy the sample input and shift arrow key and count from 0 up to get the desired range 
+# again its [START:STOP]
+# Stop is always one number more than what you want aka non-inclusive
+# for example if you want 154 out of 154175430 count one number higher than the 4 and thats what you need
+# other protip: if you are trying to get one charater and the rest of the line you put the start charater then leave the stop as blank like so [5:] like if you wanted 5430 out of 154175430
+
 formatted_id = (f"{input_id[0:3]}-{input_id[3:5]}-{input_id[5:]}")
 # You can remove the () but you don't have to like so:
 # formatted_output = f"{input_id[:3]}-{input_id[3:5]}-{input_id[5:]}"
