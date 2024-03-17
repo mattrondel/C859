@@ -34,16 +34,19 @@
 # first output: sum of five inputs maintained as integer values
 # second output: sum of five inputs converted to float values
 # third output: sum of five inputs converted to string values (concatenate)
-# Accepting five integer inputs
+
+# "Create a solution that accepts five integer inputs."
 num1 = int(input())
 num2 = int(input())
 num3 = int(input())
 num4 = int(input())
 num5 = int(input())
 
-# Calculating sums
+# First output: sum of five inputs maintained as integer values
 integer_sum = num1 + num2 + num3 + num4 + num5
+# Second output: sum of five inputs converted to float values
 float_sum = float(integer_sum)
+# Third output: sum of five inputs converted to string values (concatenate)
 string_sum = str(num1) + str(num2) + str(num3) + str(num4) + str(num5)
 
 # Outputting the results
