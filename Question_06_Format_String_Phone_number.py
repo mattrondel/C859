@@ -19,10 +19,13 @@
 # 154-17-5430
 
 # Create a solution that accepts an integer input as a a 9-digit unformatted student identification number (or 11-digit phone number)
-# Funny part of this is we will be using string slicing so don't use int(input())
+# Funny part of this is we will be using string slicing so don't use int(input()) just the plain vanilla string input()
 input_id = input()
 
+# you need to send the sliced string somewhere as you can't directly print a a sliced string 
+# copy paste and edit the desired output as f strings
 formatted_output = f"{input_id[:3]}-{input_id[3:5]}-{input_id[5:]}"
+# print the formatted and sliced string
 print(formatted_output)
 
 # Slicing is done by [START:END:STEP]
