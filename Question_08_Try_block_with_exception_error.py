@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=rfscVS0vtbw&t=4173s
 #     index = frameworks.index(search_string)
 #     print(index)
 # except ValueError:
-#     print("Error: String not found in the list")
+#     print("Error")
 
 # In this code:
 
