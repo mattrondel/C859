@@ -5,7 +5,8 @@
 
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/4
 
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
+# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try 
+# and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
 # Derek
 # -A similar question appeared in my OA, but instead of computing the area of a trapezoid you had to compute the area of a triangle.
@@ -37,7 +38,7 @@ area = math.sqrt(s * (s - a) * (s - b) * (s - c))
 
 # Task:
 # Create a solution that accepts any three integer inputs representing the base (b1, b2) and height (h) measurements of a trapezoid in meters. 
-#Output the exact area of the trapezoid in square meters as a float value. <-- how to do this? NOTE this does it automatically
+# Output the exact area of the trapezoid in square meters as a float value. <-- how to do this? NOTE this does it automatically
 # The exact area of a trapezoid can be calculated by finding the average of the two base measurements, then multiplying by the height measurement.
 # Trapezoid Area Formula:
 # A = [(b1 + b2) / 2] * h  <--- NOTE: IF you copy this it will use square brackets which is a list element and doesnt work
@@ -58,10 +59,12 @@ area = math.sqrt(s * (s - a) * (s - b) * (s - c))
 # then the expected output is
 # Trapezoid area: 28.0 square meters
 
-# "take three inputs" 
-b1 = int(input())
-b2 = int(input())
-h = int(input())
+# "take three inputs as floats" 
+b1 = float(input())
+b2 = float(input())
+h =  float(input())
 
-# "Trapezoid Area Formula:"
-area_value = ((b1 + b2) / 2) * h
+# "Trapezoid Area Formula: as displayed "
+Area = ((b1 + b2) / 2) * h
+
+print(f"Trapezoid area: {Area} square meters")
