@@ -64,6 +64,17 @@ try:
 except (ValueError, IndexError):
     print("Error")
 
+# AS READ IN THE QUESTION - this is tricky as what derek says this might be drastiucally different so I'm not doing a question break down on this
+# "Create a solution that accepts one integer input representing the index value"
+index = int(input())
+# The solution should be placed in a try block and implement an exception of "Error" if an incompatible integer input is provided.
+# try:
+#     index = int(input())
+#     print(frameworks[index])
+# except (ValueError, IndexError):
+#     print("Error")
+
+
 # BREAKING THIS DOWN (again)
 # This is the provided text just make sure its present
 frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
