@@ -33,6 +33,19 @@ square_root = math.sqrt(factorial_result)
 if square_root.is_integer():
     print("Factorial of", number, "is greater than 100 and its square root is a perfect square:", int(square_root))
 
+# using f strings instead
+
+import math
+
+number = 5
+factorial_result = math.factorial(number)
+square_root = math.sqrt(factorial_result)
+
+if square_root.is_integer():
+    print(f"Factorial of {number} is greater than 100 and its square root is a perfect square: {int(square_root)}")
+
+
+
 # ------------
 
 
