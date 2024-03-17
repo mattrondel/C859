@@ -62,7 +62,7 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 # Basically we nest the suggested varable inside type()
 # print(f"Element {index}: {type(various_data_types)}")
 
-# Now add in the various_data_types variable becuase thats what we need type() run against
+# Now add in the various_data_types variable becuase thats what we need type() run against in the question. Again the sample says data_type but I think its there to throw you off 
 # print(f"Element {index}: {type(various_data_types)}")
 
 # Now add [index] next to various data types so it can retrieve the element from the list 
