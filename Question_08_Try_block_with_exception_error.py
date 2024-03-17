@@ -12,9 +12,33 @@ https://www.youtube.com/watch?v=rfscVS0vtbw&t=4173s
 # Derek
 # -A similar question appeared in my OA, but instead of outputting the string element of the input index value you had to output the index based on the input string value. 
 # The solution and output were almost exactly the same. Instead of using frameworks[user_input] use frameworks.index(user_input)
+----------------------------------------
+# What Derek is talking about might look like this:
 
-# Need this one explained mainly the ValueError and IndexError 
+# frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
+
+# try:
+#     search_string = int(input())
+#     index = frameworks.index(search_string)
+#     print(index)
+# except ValueError:
+#     print("Error: String not found in the list")
+
+# In this code:
+
+# - Instead of converting the input directly into an integer (index = int(input())), we directly take the input as a string (search_string = input()).
+# - We use the index() method of lists to find the index of the input string value within the frameworks list.
+# - If the input string is not found in the list, a ValueError will be raised. We catch this ValueError to handle the case where the 
+# input string is not found in the list and print an error message accordingly.
+----------------------------------------
+
+
+# Need this one explained mainly the ValueError and IndexError - see below @ "BREAKING THIS DOWN (again)"
 # that and why does the except (ValueError, IndexError): not contain a colon after the except:
+
+
+
+
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
@@ -44,25 +68,29 @@ try:
 except (ValueError, IndexError):
     print("Error")
 
-# Again this is a case of use the provided text 
-
-# Breaking this down (again)
-# this is the provided text just make sure its present
+# BREAKING THIS DOWN (again)
+# This is the provided text just make sure its present
 frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
 
 # This is begining of the try block it starts the program as normal but has error checking enabled 
 # and the code becomes indented, if it fails then it gets "bumped" to the except block section when it sees the errors stated in the 
 try:
-    index = int(input())
 # The try block begins. Inside this block, the program tries to execute the following steps:
+    index = int(input())
 # a. It prompts the user to input an integer value. This integer represents the index of the framework they want to access from the list.
 # b. It attempts to convert the user input to an integer using the int() function.
-# c. It then tries to print the framework name located at the index provided by the user within the frameworks list.
     print(frameworks[index])
+# c. It then tries to print the framework name located at the index provided by the user within the frameworks list.
 except (ValueError, IndexError):
+# If any exceptions occur during these steps, the except block is triggered. This block catches two types of exceptions:
+# a. ValueError: This occurs if the user input cannot be converted to an integer. For example, if the user enters a non-numeric value like "abc".
+# b. IndexError: This occurs if the index provided by the user is out of range for the frameworks list. For example, if the user enters an index that is too large or negative.
     print("Error")
+# If either a ValueError or IndexError occurs, the program prints "Error".
 
-
+# Exception types explained
+# ValueError - if the user provides input that cannot be converted to an integer, it would be appropriate to raise this exception type
+# IndexError - This exception occurs when you're trying to access an index in a list that doesn't exist
 
 #############
 # In the provided Python code, ValueError and IndexError are used to handle potential exceptions that might occur during the execution of the code within the try block.
