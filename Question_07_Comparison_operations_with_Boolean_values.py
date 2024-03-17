@@ -2,7 +2,7 @@
 #  Explain line 21 of result = input_value > max(predef_list) and how to interprite the question to a python solution
 
 # Derek
-# -A similar question appeared in my OA, but instead of determining if the input integer was greater than the maximum value in the 
+# A similar question appeared in my OA, but instead of determining if the input integer was greater than the maximum value in the 
 # list you had to determine if the input integer was greater than or equal to the maximum value in the list. 
 # The solution and output were almost exactly the same.
 
@@ -19,9 +19,20 @@
 # then the expected output is
 # Greater Than Max? False
 
+# This is the provided List:
 predef_list = [4, -27, 15, 33, -10]
-input_value = int(input())
-result = input_value > max(predef_list)
-print(f"Greater Than Max? {result}")
 
-# This code takes an integer input, compares it with the maximum value from the predef_list, and prints the result in the specified format.
+# "Create a solution that accepts an integer input" send that int input to some variable
+input_value = int(input())
+
+# This is the meat and poatatoes of the problem:
+# "maximum value from predef_list" this is refering to max() built-in function
+# the max() function is a built-in function used to find the maximum element from a collection in this case its the predef_list as requested
+# This statement is basically saying take the input value from the begining of the script and is it > (or >= depending on the question) the maximum element aka number found in the predef_list supplied
+Boolean_value = input_value > max(predef_list)
+
+# The solution output should be in the format: Greater Than Max? Boolean_value" 
+# Just copy paste and turn it into f strings take that provded varable and use it in the meat and potatoes
+
+print(f"Greater Than Max? {Boolean_value}")
+
