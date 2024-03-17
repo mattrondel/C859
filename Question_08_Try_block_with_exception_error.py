@@ -48,14 +48,19 @@ except (ValueError, IndexError):
 
 # Breaking this down (again)
 # this is the provided text just make sure its present
-#frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
+frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
 
-# This is begining of the try block it starts the program as normal but has error checking enabled and the code becomes indented, if it fails then it gets "bumped" to the except block section when it sees the errors stated in the 
-# try:
-#     index = int(input())
-#     print(frameworks[index])
-# except (ValueError, IndexError):
-#     print("Error")
+# This is begining of the try block it starts the program as normal but has error checking enabled 
+# and the code becomes indented, if it fails then it gets "bumped" to the except block section when it sees the errors stated in the 
+try:
+    index = int(input())
+# The try block begins. Inside this block, the program tries to execute the following steps:
+# a. It prompts the user to input an integer value. This integer represents the index of the framework they want to access from the list.
+# b. It attempts to convert the user input to an integer using the int() function.
+# c. It then tries to print the framework name located at the index provided by the user within the frameworks list.
+    print(frameworks[index])
+except (ValueError, IndexError):
+    print("Error")
 
 
 
