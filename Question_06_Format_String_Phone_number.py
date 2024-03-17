@@ -1,5 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/6
 
+# Derek notes?
+
 # THIS UTILIZES SLICING NEED TO READ UP ON THIS MORE
 # https://www.youtube.com/watch?v=ajrtAuDg3yw&t=453s
 
