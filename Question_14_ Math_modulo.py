@@ -12,7 +12,7 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/8
 # if Derek is correct then it might look like this:
 import math
 # Define an integer input
-number = 5
+number = int(input())
 # Calculate the factorial
 factorial_result = math.factorial(number)
 # Print the result
@@ -24,7 +24,7 @@ More accurately with the full details he provided it might look closer to this:
 
 import math
 
-number = 5
+number = int(input())
 factorial_result = math.factorial(number)
 square_root = math.sqrt(factorial_result)
 
@@ -34,15 +34,12 @@ if square_root.is_integer():
 # using f strings instead
 
 import math
-
-number = 5
+number = int(input())
 factorial_result = math.factorial(number)
 square_root = math.sqrt(factorial_result)
 
 if square_root.is_integer():
     print(f"Factorial of {number} is greater than 100 and its square root is a perfect square: {int(square_root)}")
-
-# to make it accept any input and not hard coded to 5 it would look like this:
 
 import math
 
