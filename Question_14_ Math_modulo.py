@@ -8,6 +8,20 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/8
 # "-A similar question appeared in my OA, but instead of importing the math module, using the factorial() method on an integer input, and then determining if the result was greater than 100, you had to use the sqrt() method on an integer input and determine if the result was a perfect square. 
 # The solution and output were almost exactly the same."
 
+# if Derek is correct then it might look like this:
+import math
+
+# Define an integer input
+number = 5
+
+# Calculate the factorial
+factorial_result = math.factorial(number)
+
+# Print the result
+print("The factorial of", number, "is:", factorial_result)
+
+
+
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
 # Create a solution that accepts an integer input. Import the built-in module math and use its factorial() method to calculate the factorial of the integer input. Output the value of the factorial, as well as a Boolean value identifying whether the factorial output is greater than 100.
