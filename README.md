@@ -9,7 +9,8 @@
    13 might end up skipping
 
 
-3/15 PA only attempted 1-6 and 15
+
+3/15 PA only attempted 1-6 and 15 -this was not enough to pass
 
 need to master 8, its simple enough
 
