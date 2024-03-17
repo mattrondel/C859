@@ -20,6 +20,17 @@ factorial_result = math.factorial(number)
 # Print the result
 print("The factorial of", number, "is:", factorial_result)
 
+more accurately with the full details he provided it might look closer to this:
+
+import math
+
+number = 5
+factorial_result = math.factorial(number)
+square_root = math.sqrt(factorial_result)
+
+if square_root.is_integer():
+    print("Factorial of", number, "is greater than 100 and its square root is a perfect square:", int(square_root))
+# ----
 
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
