@@ -72,6 +72,7 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 # print(f"Element {index}: {type(various_data_types[index])}")
 
 # Now like a file extension, in order to get the name of the type add .__name__ (Thats dot dunder name dunder) to the tail end of type() 
+# the .__name__: is an attribute of Python types that returns the name of the type as a string
 # This is how we run it against the built-in type() funtion
 # like so:
 print(f"Element {index}: {type(various_data_types[index]).__name__}")
