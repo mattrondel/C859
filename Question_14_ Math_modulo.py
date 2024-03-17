@@ -44,6 +44,21 @@ square_root = math.sqrt(factorial_result)
 if square_root.is_integer():
     print(f"Factorial of {number} is greater than 100 and its square root is a perfect square: {int(square_root)}")
 
+# to make it accept any input and not hard coded to 5 it would look like this:
+import math
+
+# Accept user input for the number
+number = int(input())
+
+# Calculate the factorial
+factorial_result = math.factorial(number)
+
+# Calculate the square root
+square_root = math.sqrt(factorial_result)
+
+# Check if the square root is a perfect square
+if square_root.is_integer():
+    print(f"Factorial of {number} is greater than 100 and its square root is a perfect square: {int(square_root)}")
 
 
 # ------------
