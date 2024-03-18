@@ -1,4 +1,19 @@
 Post exam notes:
+
+Areas I sucked in:
+try/except
+loops I didnt use any anywhere I didn where to use them
+
+QUOTED STUFF FROM HERE: https://github.com/mattrondel/C859/edit/main/CI_Advice_after_1srt
+
+ being able to open files and read from and write to them  NEED TO CHECK THIS "is covered pretty well in Ch 14 and 31 and their Labs."
+ 
+"Remember, it’s a good idea to use the str strip() method on input() calls almost by default. Watch lines inside of file content and strip those line returns if 
+
+needed as well. Take a look at zyDE 10.3.2 for a perfect example of how (and why) to do this."
+
+"D335/C859 v4 Exam Review recording. (2 hours, 25 min)"
+
 dictaries how to get the ID of an item in a dictionary like you input a name of somthing in a dictonary or list how can you get the ID back
 in dicts how 
 
