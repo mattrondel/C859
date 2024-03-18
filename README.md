@@ -1,3 +1,20 @@
+Post exam notes:
+dictaries how to get the ID of an item in a dictionary like you input a name of somthing in a dictonary or list how can you get the ID back
+in dicts how 
+
+candy machine
+int input first then how to request that many after the fact
+
+
+if else statements
+what order do they go in smallest largest etc, think of the grade question
+
+ranges like 80 to 85 on test 
+
+
+perfect square in math.sqrt
+
+
 53% 1-8
 
 20% 9-11
