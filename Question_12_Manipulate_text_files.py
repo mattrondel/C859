@@ -16,10 +16,10 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=97e48d86-7612-4703-9
 Corey Schafer: Reading + Writing to Files
 https://www.youtube.com/watch?v=Uh2ebFW8OYM&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=25
 
-FreeCodeCamp Video: Reading Files (3:12:41)
+FreeCodeCamp Video: Reading Files (@ 3:12:41)
 https://www.youtube.com/watch?v=rfscVS0vtbw&t=11561s
 
-FreeCodeCamp Video: Writing to Files (3:21:26) 
+FreeCodeCamp Video: Writing to Files (@ 3:21:26) 
 https://www.youtube.com/watch?v=rfscVS0vtbw&t=12086s
 
 ########################################################################################################################
