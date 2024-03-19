@@ -9,6 +9,19 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1b7b151-0134-46f9-8
 V4 Python Building Blocks - Branching
 https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d9f6621-6f99-49b8-9cbe-ae2100e51fee
 
+FreeCodeCamp Video:
+
+If Statements (1:40:06) 
+https://www.youtube.com/watch?v=rfscVS0vtbw&t=6006s
+
+If Statements & Comparison (1:54:07) 
+https://www.youtube.com/watch?v=rfscVS0vtbw&t=6847s
+
+LinkedIn Learning Videos:
+
+LinkedIn Learning; Python if/else - Conditionals
+
+LinkedIn Learning; Python if/else - Conditional syntax
 
 # got wrong on PA
 # Remember when you see "possible variable name is __" equate the is as =
