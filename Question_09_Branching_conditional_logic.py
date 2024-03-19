@@ -1,5 +1,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/9
 
+Socratica: If/Else in Python
+https://www.youtube.com/watch?v=f4KOjWS_KZs
+
 # got wrong on PA
 # Remember when you see "possible variable name is __" equate the is as =
 # need to learn more about mulitple if, else, else statements on one line
