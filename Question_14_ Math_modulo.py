@@ -7,7 +7,7 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43b25501-be6b-4b36-8
 # Try this lab:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/14
 
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/8
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/8
 
 # "-A similar question appeared in my OA, but instead of importing the math module, using the factorial() method on an integer input, and then determining if the result was greater than 100, 
 # you had to use the sqrt() method on an integer input and determine if the result was a perfect square. 
