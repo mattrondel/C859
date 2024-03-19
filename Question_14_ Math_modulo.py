@@ -1,5 +1,9 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/14
 
+
+WGU help function 
+https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43b25501-be6b-4b36-868b-a89b01034524
+
 # Try this lab:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/14
 
