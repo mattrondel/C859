@@ -3,6 +3,13 @@
 Socratica: If/Else in Python
 https://www.youtube.com/watch?v=f4KOjWS_KZs
 
+WGU Branches, Loops, and Functions
+https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1b7b151-0134-46f9-899c-a8a900df6da4
+
+V4 Python Building Blocks - Branching
+https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d9f6621-6f99-49b8-9cbe-ae2100e51fee
+
+
 # got wrong on PA
 # Remember when you see "possible variable name is __" equate the is as =
 # need to learn more about mulitple if, else, else statements on one line
