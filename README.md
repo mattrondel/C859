@@ -1,3 +1,7 @@
+Full list of WGU media:
+
+https://srm--c.vf.force.com/apex/coursearticle?Id=kA00c000001DYePCAW
+
 Post exam notes:
 
 Areas I sucked in:
