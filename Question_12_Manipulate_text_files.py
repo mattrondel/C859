@@ -1,6 +1,27 @@
 
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/12
 
+WGU Chapter 14 (Files) (33 min)
+https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa186513-b69e-47ff-a359-ade2013b4768
+
+WGU Chapter 13 (Files) (19 min)  <-- This is now an optional chapter
+https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5222edde-40eb-45b3-9848-adde01176d0d
+
+WGU The Gotchas: Working with Files: Reading (25 min)
+https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=333562d4-a5de-443e-a56b-ae1e01639376
+
+WGU V4 Python Building Blocks - Files
+https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=97e48d86-7612-4703-9afe-ae49010debf4
+
+Corey Schafer: Reading + Writing to Files
+https://www.youtube.com/watch?v=Uh2ebFW8OYM&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=25
+
+FreeCodeCamp Video: Reading Files (3:12:41)
+https://www.youtube.com/watch?v=rfscVS0vtbw&t=11561s
+
+FreeCodeCamp Video: Writing to Files (3:21:26) 
+https://www.youtube.com/watch?v=rfscVS0vtbw&t=12086s
+
 ########################################################################################################################
 # This is the file read and can be complicated so I need to practice with this, need a break down step-by-step on this
 ########################################################################################################################
