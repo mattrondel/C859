@@ -1,5 +1,11 @@
-# practice here: 
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/8
+
+FreeCodeCamp Video: (3:04:17) Try / Except
+https://www.youtube.com/watch?v=rfscVS0vtbw&t=11057s
+
+WGU Chapter 11 (Exceptions) (30 min)
+https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ceab3ff7-8098-4cd5-b976-add60029f03e
+
 
 # book material on this
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/12/section/1
