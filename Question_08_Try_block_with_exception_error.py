@@ -6,6 +6,8 @@ https://www.youtube.com/watch?v=rfscVS0vtbw&t=11057s
 WGU Chapter 11 (Exceptions) (30 min)
 https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ceab3ff7-8098-4cd5-b976-add60029f03e
 
+Automate the boring
+https://automatetheboringstuff.com/2e/chapter8/
 
 # book material on this
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/12/section/1
