@@ -1,5 +1,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/11
 
+# zybooks on Dictonaries
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/11/section/12
+
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this with a try and except and not with a function and have it condensed and simplifed
 # can you break this down step by step so I can understand this
 
