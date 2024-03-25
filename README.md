@@ -1,3 +1,7 @@
+pick up here:
+
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/11
+
 https://mimo.org/
 
 Full list of WGU media:
