@@ -1,6 +1,6 @@
 pick up here:
 
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/11
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
 
 https://mimo.org/
 
