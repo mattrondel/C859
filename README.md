@@ -1,3 +1,10 @@
+pick up here:
+
+13.1.1: Enter the output of modules.
+
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/13/section/1
+
+
 START WITH THIS WHEN THINGS ARE TOUGH:
 
 https://www.youtube.com/watch?v=DhOYMAhrvbM
