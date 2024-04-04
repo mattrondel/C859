@@ -1,3 +1,26 @@
+
+from:
+https://ondemandelearning.cisco.com/apollo-alpha/mc_naec10_03/pages/2
+
+dir() and help()
+To list the methods that can be used on a particular data type, create a variable with that type and then issue the dir() built-in method.
+example:
+>>> vendor = "Cisco"
+>>> dir(vendor)
+['__add__', '__class__', '__contain....
+
+To learn how to use each method, you can use the help() function.
+
+>>> help(vendor.upper)
+
+Help on built-in function upper:
+upper(...)
+    S.upper() -> string
+Return a copy of the string S converted to uppercase.
+
+
+
+
 WGU - How to use library help() (2 min)
 https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43b25501-be6b-4b36-868b-a89b01034524
 
