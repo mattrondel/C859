@@ -1,5 +1,17 @@
 pick up here:
 
+HERE:::
+
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/24/section/5
+
+https://www.w3schools.com/python/ref_string_title.asp
+
+https://www.reddit.com/r/CompetitiveEDH/comments/15pu7kx/im_running_magda_against_kinnan/
+
+Check out the magda discord for more tailored deck help : 
+
+https://discord.gg/jZJ8H7yBMA
+
 [13.1.1: Enter the output of modules.
 
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/13/section/1
