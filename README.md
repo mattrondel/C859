@@ -1,5 +1,6 @@
+University of Hawaii Python playlist 
 
-Python playlist https://www.youtube.com/watch?v=2qYLcgOB-b8&list=PLY7demSBDgigNMKOOXqOnzGzBbC2QqNT4
+https://www.youtube.com/watch?v=2qYLcgOB-b8&list=PLY7demSBDgigNMKOOXqOnzGzBbC2QqNT4
 
 pick up here:
 
