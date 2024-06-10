@@ -1,3 +1,10 @@
+
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/24/section/5
+
+https://replit.com/@mrondel/Mainpy#main.py
+
+https://www.youtube.com/watch?v=rbMv6o1_3gA
+
 University of Hawaii Python playlist 
 
 https://www.youtube.com/watch?v=2qYLcgOB-b8&list=PLY7demSBDgigNMKOOXqOnzGzBbC2QqNT4
@@ -5,8 +12,6 @@ https://www.youtube.com/watch?v=2qYLcgOB-b8&list=PLY7demSBDgigNMKOOXqOnzGzBbC2Qq
 pick up here:
 
 HERE:::
-
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/24/section/5
 
 https://www.w3schools.com/python/ref_string_title.asp
 
