@@ -1,6 +1,3 @@
-Would this be helpful?
-
-https://www.coursera.org/professional-certificates/google-it-automation?irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3294490&utm_content=b2c
 
 Python playlist https://www.youtube.com/watch?v=2qYLcgOB-b8&list=PLY7demSBDgigNMKOOXqOnzGzBbC2QqNT4
 
