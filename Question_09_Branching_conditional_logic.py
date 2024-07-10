@@ -1,5 +1,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/9
 
+looks like what the exam had
+https://www.bitdegree.org/learn/best-code-editor/python-if-else-example-5
+
 Socratica: If/Else in Python
 https://www.youtube.com/watch?v=f4KOjWS_KZs
 
