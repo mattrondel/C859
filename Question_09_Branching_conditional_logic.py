@@ -9,6 +9,9 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1b7b151-0134-46f9-8
 V4 Python Building Blocks - Branching
 https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d9f6621-6f99-49b8-9cbe-ae2100e51fee
 
+WGU C859/D335:  Course Tips (link removed from course page on C859)
+https://srm--c.vf.force.com/apex/coursearticle?Id=kA03x000000l9u2CAA
+
 FreeCodeCamp Video: If Statements (1:40:06) 
 https://www.youtube.com/watch?v=rfscVS0vtbw&t=6006s
 
