@@ -10,17 +10,15 @@ Corey Schafer [if __name__ == 'main'](https://www.youtube.com/watch?v=sugvnHA7El
 
 
 
- Socratica You Tube Videos:
-
-    Socratica: If/Else in Python (note that this video references the Python 2 raw_input() function, but the main content on branches is no different in Python 3)
-    Socratica: Python Strings
-    Socratica: Python Lists
-    Socratica: Python Dictionaries
-    Socratica: Python Sets
-    Socratica: Python Tuples
-    Socratica: Python Functions
-    Socratica: Datetime Module
-    Socratica: List Comprehensions
+* [Socratica: If/Else in Python (note that this video references the Python 2 raw_input() function, but the main content on branches is no different in Python 3)
+* [Socratica: Python Strings](https://www.youtube.com/watch?v=iAzShkKzpJo)
+* [Socratica: Python Lists]
+* [Socratica: Python Dictionaries]
+* [Socratica: Python Sets]
+* [Socratica: Python Tuples]
+* [Socratica: Python Functions]
+* [Socratica: Datetime Module]
+* [Socratica: List Comprehensions]
 
 Corey Schafer videos:
 
