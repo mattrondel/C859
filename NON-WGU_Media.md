@@ -1,5 +1,8 @@
 They call it "Supplemental Videos"
 
+example
+
+[I'm an inline-style link](https://www.google.com)
 
 not mentioned but you should know
 Corey Schafer if __name__ == 'main'
