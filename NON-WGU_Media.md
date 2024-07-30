@@ -50,7 +50,7 @@ LinkedIn Learning Videos:
 
 FreeCodeCamp Video:
 
-    Learn Python - Full Course for Beginners
+    (Learn Python) - Full Course for Beginners (https://www.youtube.com/watch?v=rfscVS0vtbw&t=7907s)
         (0:00) Introduction
         (1:45) Installing Python & PyCharm
         (6:40) Setup & Hello World
