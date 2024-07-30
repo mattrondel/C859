@@ -1,6 +1,6 @@
 They call it "Supplemental Videos"
 
-example
+**EXAMPLE**
 
 [I'm an inline-style link](https://www.google.com)
 
