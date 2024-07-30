@@ -5,7 +5,9 @@
 
 *Not mentioned but you should know*
 
-Corey Schafer [if __name__ == 'main'](https://www.youtube.com/watch?v=sugvnHA7ElY)
+* Corey Schafer [if __name__ == 'main'](https://www.youtube.com/watch?v=sugvnHA7ElY)
+
+* [Corey Schafer CSV Module - How to Read, Parse, and Write CSV Files](https://www.youtube.com/watch?v=q5uM4VKywbA)
 
 
  Socratica You Tube Videos:
