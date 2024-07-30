@@ -41,11 +41,11 @@ Corey Schafer videos:
 
 LinkedIn Learning Videos:
 
-    LinkedIn Learning; Python if/else - Conditionals
-    LinkedIn Learning; Python if/else - Conditional syntax
-    LinkedIn Learning; Python Loops
-    LinkedIn Learning; Python for loops
-    LinkedIn Learning; Python while loops
+* [LinkedIn Learning; Python if/else - Conditionals](https://www.linkedin.com/learning/python-essential-training-2/conditionals?u=2045532)
+* [LinkedIn Learning; Python if/else - Conditional syntax](https://www.linkedin.com/learning/python-essential-training-2/conditional-syntax?u=2045532)
+* [LinkedIn Learning; Python Loops](https://www.linkedin.com/learning/python-essential-training-2/loops?u=2045532)
+* [LinkedIn Learning; Python for loops](https://www.linkedin.com/learning/python-essential-training-2/the-for-loop?u=2045532)
+* [LinkedIn Learning; Python while loops](https://www.linkedin.com/learning/python-essential-training-2/the-while-loop?u=2045532)
 
 FreeCodeCamp Video:
 
