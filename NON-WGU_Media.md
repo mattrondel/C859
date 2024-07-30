@@ -9,34 +9,35 @@ not mentioned but you should know
 Corey Schafer [if __name__ == 'main'](https://www.youtube.com/watch?v=sugvnHA7ElY)
 
 
+ Socratica You Tube Videos:
 
-* [Socratica: If/Else in Python (note that this video references the Python 2 raw_input() function, but the main content on branches is no different in Python 3)
+* [Socratica: If/Else in Python (note that this video references the Python 2 raw_input() function, but the main content on branches is no different in Python 3)](https://www.youtube.com/watch?v=f4KOjWS_KZs)
 * [Socratica: Python Strings](https://www.youtube.com/watch?v=iAzShkKzpJo)
-* [Socratica: Python Lists]
-* [Socratica: Python Dictionaries]
-* [Socratica: Python Sets]
-* [Socratica: Python Tuples]
-* [Socratica: Python Functions]
-* [Socratica: Datetime Module]
-* [Socratica: List Comprehensions]
+* [Socratica: Python Lists](https://www.youtube.com/watch?v=ohCDWZgNIU0)
+* [Socratica: Python Dictionaries](https://www.youtube.com/watch?v=XCcpzWs-CI4)
+* [Socratica: Python Sets](https://www.youtube.com/watch?v=sBvaPopWOmQ)
+* [Socratica: Python Tuples](https://www.youtube.com/watch?v=NI26dqhs2Rk)
+* [Socratica: Python Functions](https://www.youtube.com/watch?v=NE97ylAnrz4)
+* [Socratica: Datetime Module](https://www.youtube.com/watch?v=RjMbCUpvIgw)
+* [Socratica: List Comprehensions](https://www.youtube.com/watch?v=AhSvKGTh28Q)
 
 Corey Schafer videos:
 
-    Corey Schafer: Python Beginner Tutorial
-    Corey Schafer: Integers & Floats
-    Corey Schafer: Conditionals and Booleans
-    Corey Schafer: Loops, For vs While
-    Corey Schafer: Python Functions
-    Corey Schafer: Python Strings
-    Corey Schafer: Adv String Formatting
-    Corey Schafer: Lists, Tuples, & Set
-    Corey Schafer: Dictionaries + Key-Value Pairs
-    Corey Schafer: Slicing Strings & Lists
-    Corey Schafer: Sorting Lists, Tuples, & Other Objects
-    Corey Schafer: Importing Modules + Using Standard Library
-    Corey Schafer: Datetime Module
-    Corey Schafer: OS Module
-    Corey Schafer: Reading + Writing to Files
+1. [Corey Schafer: Python Beginner Tutorial](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU)
+2. [Corey Schafer: Integers & Floats](https://www.youtube.com/watch?v=khKv-8q7YmY&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=3)
+3. [Corey Schafer: Conditionals and Booleans](https://www.youtube.com/watch?v=DZwmZ8Usvnk&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=6)
+4. [Corey Schafer: Loops, For vs While](https://www.youtube.com/watch?v=6iF8Xb7Z3wQ)
+5. [Corey Schafer: Python Functions](https://www.youtube.com/watch?v=9Os0o3wzS_I&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=8)
+6. [Corey Schafer: Python Strings](https://www.youtube.com/watch?v=k9TUPpGqYTo&t)
+7. [Corey Schafer: Adv String Formatting](https://www.youtube.com/watch?v=vTX3IwquFkc&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=22)
+8. [Corey Schafer: Lists, Tuples, & Set](https://www.youtube.com/watch?v=W8KRzm-HUcc&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=4)
+9. [Corey Schafer: Dictionaries + Key-Value Pairs](https://www.youtube.com/watch?v=daefaLgNkw0&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=5)
+10. [Corey Schafer: Slicing Strings & Lists](https://www.youtube.com/watch?v=ajrtAuDg3yw&t=453s)
+11. [Corey Schafer: Sorting Lists, Tuples, & Other Objects](https://www.youtube.com/watch?v=D3JvDWO-BY4&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=21)
+12. [Corey Schafer: Importing Modules + Using Standard Library]()
+13. [Corey Schafer: Datetime Module](https://www.youtube.com/watch?v=eirjjyP2qcQ&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=24)
+14. [Corey Schafer: OS Module](https://www.youtube.com/watch?v=tJxcKyFMTGo&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=23)
+15. [Corey Schafer: Reading + Writing to Files](https://www.youtube.com/watch?v=Uh2ebFW8OYM&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=25)
 
 LinkedIn Learning Videos:
 
