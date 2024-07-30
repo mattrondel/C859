@@ -49,49 +49,49 @@ LinkedIn Learning Videos:
 
 FreeCodeCamp Video:
 
-Learn Python) - Full Course for Beginners (https://www.youtube.com/watch?v=rfscVS0vtbw&t=7907s)
+[Learn Python) - Full Course for Beginners](https://www.youtube.com/watch?v=rfscVS0vtbw&t=7907s)
 * [(0:00)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=0s) Introduction
-* (1:45) Installing Python & PyCharm
-* (6:40) Setup & Hello World
-* (10:23) Drawing a Shape
-* (15:06) Variables & Data Types
-* (27:03) Working With Strings
-* (38:18) Working With Numbers
-* (48:26) Getting Input From Users
-* (52:37) Building a Basic Calculator
-* (58:27) Mad Libs Game
-* (1:03:10) Lists
-* (1:10:44) List Functions
-* (1:18:57) Tuples
-* (1:24:15) Functions
-* (1:34:11) Return Statement
-* (1:40:06) If Statements
-* (1:54:07) If Statements & Comparisons
-* (2:00:37) Building a better Calculator
-* (2:07:17) Dictionaries
-* (2:14:13) While Loop
-* (2:20:21) Building a Guessing Game
-* (2:32:44) For Loops
-* (2:41:20) Exponent Function
-* (2:47:13) 2D Lists & Nested Loops
-* (2:52:41) Building a Translator
-* (3:00:18) Comments
-* (3:04:17) Try / Except
-* (3:12:41) Reading Files
-* (3:21:26) Writing to Files
-* (3:28:13) Modules & Pip
-* (3:43:56) Classes & Objects
-* (3:57:37) Building a Multiple Choice Quiz
-* (4:08:28) Object Functions
-* (4:12:37) Inheritance
-* (4:20:43) Python Interpreter
+* [(1:45)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=105s) Installing Python & PyCharm
+* [(6:40)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=400s) Setup & Hello World
+* [(10:23)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=623s) Drawing a Shape
+* [(15:06)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=906s) Variables & Data Types
+* [(27:03)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=1623s) Working With Strings
+* [(38:18)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=2298s) Working With Numbers
+* [(48:26)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=2906s) Getting Input From Users
+* [(52:37)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=3157s) Building a Basic Calculator
+* [(58:27)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=3507s) Mad Libs Game
+* [(1:03:10)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=3790s) Lists
+* [(1:10:44)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=4244s) List Functions
+* [(1:18:57)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=4737s) Tuples
+* [(1:24:15)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=5055s) Functions
+* [(1:34:11)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=5651s) Return Statement
+* [(1:40:06)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=6006s) If Statements
+* [(1:54:07)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=6847s) If Statements & Comparisons
+* [(2:00:37)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=7237s) Building a better Calculator
+* [(2:07:17)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=7637s) Dictionaries
+* [(2:14:13)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=8053s) While Loop
+* [(2:20:21)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=8421s) Building a Guessing Game
+* [(2:32:44)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=9164s) For Loops
+* [(2:41:20)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=9680s) Exponent Function
+* [(2:47:13)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=10033s) 2D Lists & Nested Loops
+* [(2:52:41)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=10361s) Building a Translator
+* [(3:00:18)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=10818s) Comments
+* [(3:04:17)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=11057s) Try / Except
+* [(3:12:41)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=11561s) Reading Files
+* [(3:21:26)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=12086s) Writing to Files
+* [(3:28:13)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=12493s) Modules & Pip
+* [(3:43:56)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=13436s) Classes & Objects
+* [(3:57:37)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=14257s) Building a Multiple Choice Quiz
+* [(4:08:28)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=14908s) Object Functions
+* [(4:12:37)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=15157s) Inheritance
+* [(4:20:43)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=15643s) Python Interpreter
 
 Python for Network Professionals
 
 Here some resources BSNOS students might find helpful on using Python for network tasks:
 
-    Useful Python Libraries for Network Engineers
-    GNS3 Talks: Python for Network Engineers with GNS3 (Part 1). Network programmability made easy.
-    CCIEPython: Learn Python, Netmiko, NAPALM, Paramiko, SSH, Telnet and much more! Network automation!
-    Introduction to Python for Cisco Networking Professionals
-    Python | Tutorials, APIs, SDKs, Docs | AWS Developer Center
+* [Useful Python Libraries for Network Engineers](https://www.youtube.com/watch?v=Y4vfA11fPo0)
+* [GNS3 Talks: Python for Network Engineers with GNS3 (Part 1). Network programmability made easy.](https://www.youtube.com/watch?v=IhroIrV9_7w)
+* [CCIEPython: Learn Python, Netmiko, NAPALM, Paramiko, SSH, Telnet and much more! Network automation!](https://www.youtube.com/watch?v=-1Z6ygHO--8&list=PLhfrWIlLOoKPn7T9FtvbOWX8GxgsFFNwn)
+* [Introduction to Python for Cisco Networking Professionals](https://www.youtube.com/watch?v=21sD7n3M8Ew)
+* [Python | Tutorials, APIs, SDKs, Docs | AWS Developer Center](https://aws.amazon.com/developer/language/python/)
