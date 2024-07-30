@@ -1,4 +1,3 @@
-They call it "Supplemental Videos"
 
 **EXAMPLE**
 
