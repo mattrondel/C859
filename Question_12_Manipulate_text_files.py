@@ -1,11 +1,14 @@
 
+practice here:
+https://github.com/mattrondel/C859/blob/main/Question_12_Manipulate_text_files.py
+
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/12
 
-WGU Chapter 14 (Files) (33 min)
-https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa186513-b69e-47ff-a359-ade2013b4768
+# WGU Chapter 14 (Files) (33 min)
+# https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa186513-b69e-47ff-a359-ade2013b4768
 
-WGU Chapter 13 (Files) (19 min)  <-- This is now an optional chapter
-https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5222edde-40eb-45b3-9848-adde01176d0d
+# WGU Chapter 13 (Files) (19 min)  <-- This is now an optional chapter
+# https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5222edde-40eb-45b3-9848-adde01176d0d
 
 WGU The Gotchas: Working with Files: Reading (25 min)
 https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=333562d4-a5de-443e-a56b-ae1e01639376
