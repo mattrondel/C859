@@ -9,7 +9,7 @@
 
 * Corey Schafer [CSV Module - How to Read, Parse, and Write CSV Files](https://www.youtube.com/watch?v=q5uM4VKywbA)
 
-* Corey Schafer [Python Tutorial: Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8)
+* Corey Schafer [Using Try/Except Blocks for Error Handling](https://www.youtube.com/watch?v=NIWwJbo-9_8)
 
  Socratica You Tube Videos:
 
