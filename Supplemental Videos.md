@@ -1,7 +1,7 @@
 
 **EXAMPLE**
 
-[I'm an inline-style link](https://www.google.com)
+[I'm an inline-style link copy this line to make new links](https://www.google.com)
 
 *Not mentioned but you should know*
 
