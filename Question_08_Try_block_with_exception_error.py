@@ -1,27 +1,27 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/8
 
-FreeCodeCamp Video: (3:04:17) Try / Except
-https://www.youtube.com/watch?v=rfscVS0vtbw&t=11057s
+# FreeCodeCamp Video: (3:04:17) Try / Except
+# https://www.youtube.com/watch?v=rfscVS0vtbw&t=11057s
 
-WGU Chapter 11 (Exceptions) (30 min)
-https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ceab3ff7-8098-4cd5-b976-add60029f03e
+# WGU Chapter 11 (Exceptions) (30 min)
+# https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ceab3ff7-8098-4cd5-b976-add60029f03e
 
-lesson that goes with it
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/12/section/9
+# lesson that goes with it
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/12/section/9
 
-Automate the boring stuff
-https://automatetheboringstuff.com/2e/chapter8/
+# Automate the boring stuff
+# https://automatetheboringstuff.com/2e/chapter8/
 
-good quick nugget on try except
-https://www.youtube.com/watch?v=PTD0OlYjM2s
+# good quick nugget on try except
+# https://www.youtube.com/watch?v=PTD0OlYjM2s
 
 # book material on this
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/12/section/1
 
 # Read more here https://docs.python.org/3/library/exceptions.html
 
-FREE CODE CAMP:
-https://www.youtube.com/watch?v=rfscVS0vtbw&t=4173s
+# FREE CODE CAMP:
+# https://www.youtube.com/watch?v=rfscVS0vtbw&t=4173s
 
 # Derek
 # -A similar question appeared in my OA, but instead of outputting the string element of the input index value you had to output the index based on the input string value. 
