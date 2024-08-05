@@ -6,6 +6,9 @@
 
 Coreys video: https://www.youtube.com/watch?v=q5uM4VKywbA
 
+practice here:
+https://replit.com/@mrondel/Mailpy#main.py
+
 #######################################################
 # Is this similar to Question 12 but the csv module? Need help solving
 #######################################################
