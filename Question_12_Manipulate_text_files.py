@@ -45,7 +45,6 @@ https://github.com/mattrondel/C859/blob/main/Question_12_Manipulate_text_files.p
 # file using the file.read() method, add the string input to the end of the content with a ' ' character in front of it, write the modified content back 
 # to the file, and then output the modified content of the file. The solution and output were not the same as this question.
 
-
 # Issue with Zybooks is its the older way to do this and can conflict with what instructors teach and is also less efficent
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
