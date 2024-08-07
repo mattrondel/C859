@@ -1,3 +1,7 @@
+helpful link:
+
+https://realpython.com/working-with-files-in-python/#pythons-with-open-as-pattern
+
 # test.txt
 # 1) This is a test file
 # 2) With multiple lines of data...
