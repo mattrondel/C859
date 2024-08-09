@@ -1,3 +1,13 @@
+"Chapter 34 over and over until you get it without help. Then do the PA, and if you do well at that you can take the OA and pass"
+
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/1
+
+###
+
+###
+
+###
+
 https://www.youtube.com/watch?v=UdEX0E9lIQM&t=229s
 
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/24/section/5
