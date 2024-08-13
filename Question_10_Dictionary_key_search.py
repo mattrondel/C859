@@ -13,6 +13,9 @@ WGU  - Strings, Lists, and Dictionaries
 Chapter 11 (Lists and Dictionaries) (24 min)
 https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=905f48cc-26b5-4ed1-b79e-add6010a9bde
 
+# dictionaryies go as follows:
+# Dictonaryname = {key:value}
+# muliple dictonary items are seprated with commas
 
 # Derek
 # -A similar question appeared in my OA, but instead of computing the total cost of stocks selected you had to compute the total cost of snacks selected from a vending machine. 
