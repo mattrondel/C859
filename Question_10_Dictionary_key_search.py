@@ -18,6 +18,8 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=905f48cc-26b5-4ed1-b
 # muliple dictonary items are seprated with commas
 # Dictonaryname.get(key) fetches the key
 
+# Further learning on dicotonaries https://www.practicepython.org/exercise/2017/01/24/33-birthday-dictionaries.html
+
 # Derek
 # -A similar question appeared in my OA, but instead of computing the total cost of stocks selected you had to compute the total cost of snacks selected from a vending machine. 
 # The solution and output were almost exactly the same.
