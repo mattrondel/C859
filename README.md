@@ -1,3 +1,10 @@
+***
+
+“If you really want to do something, you'll find a way. If you don't, you'll find an excuse.”
+― Jim Rohn 
+
+***
+
 "Chapter 34 over and over until you get it without help. Then do the PA, and if you do well at that you can take the OA and pass"
 
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/1
