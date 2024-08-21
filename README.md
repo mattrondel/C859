@@ -1,3 +1,5 @@
+pycharm community edition https://www.jetbrains.com/pycharm/download/other.html
+
 ***
 
 https://claude.ai/new
