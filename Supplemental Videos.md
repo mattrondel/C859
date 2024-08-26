@@ -93,6 +93,21 @@ FreeCodeCamp Video:
 * [(4:12:37)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=15157s) Inheritance
 * [(4:20:43)](https://www.youtube.com/watch?v=rfscVS0vtbw&t=15643s) Python Interpreter
 
+Python - the Gotchas
+
+
+
+* [Intro to ZyLabs 1: Input](https://youtu.be/mm7oI-VOrLA)
+* [Intro to ZyLabs 2: Submit Mode, Unit Tests, and Whitespace](https://youtu.be/X_rEKsCwvmo)
+* The Gotchas: All the Ways to Build Strings... and print()
+* [The Gotchas: For Loops](https://youtu.be/OyB3g6NUMaU)
+* The Gotchas: Functions + Methods
+* The Gotchas: Input Patterns
+* The Gotchas: Working with Files, Reading Files
+* The Gotchas: Exam Review
+
+
+
 Python for Network Professionals
 
 Here some resources BSNOS students might find helpful on using Python for network tasks:
