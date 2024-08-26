@@ -99,12 +99,12 @@ Python - the Gotchas
 
 * [Intro to ZyLabs 1: Input](https://youtu.be/mm7oI-VOrLA)
 * [Intro to ZyLabs 2: Submit Mode, Unit Tests, and Whitespace](https://youtu.be/X_rEKsCwvmo)
-* The Gotchas: All the Ways to Build Strings... and print()
+* [The Gotchas: All the Ways to Build Strings... and print()](https://youtu.be/HVjZjK5i4vE)
 * [The Gotchas: For Loops](https://youtu.be/OyB3g6NUMaU)
-* The Gotchas: Functions + Methods
-* The Gotchas: Input Patterns
-* The Gotchas: Working with Files, Reading Files
-* The Gotchas: Exam Review
+* [The Gotchas: Functions + Methods](https://youtu.be/qBjmt5_JADQ)
+* [The Gotchas: Input Patterns](https://youtu.be/35Nu834b93w)
+* [The Gotchas: Working with Files, Reading Files](https://youtu.be/wtAfmugtAm0)
+* [The Gotchas: Exam Review](https://youtu.be/cP-TzY6Hwc0)
 
 
 
