@@ -26,7 +26,9 @@ https://replit.com/@mrondel/mainpy-1#main.py
 
 # Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
-# Create a solution that accepts an input identifying the name of a CSV file, for example, "input1.csv". Each file contains two rows of comma-separated values. Import the built-in module csv and use its open() function and reader() method to create a dictionary of key:value pairs for each row of comma-separated values in the specified file. Output the file contents as two dictionaries.
+# Create a solution that accepts an input identifying the name of a CSV file, for example, "input1.csv". Each file contains two rows of comma-separated values. 
+# Import the built-in module csv and use its open() function and reader() method to create a dictionary of key:value pairs for each row of comma-separated values 
+# in the specified file. Output the file contents as two dictionaries.
 # The solution output should be in the format
 # {key:value,key:value,key:value}
 # {key:value,key:value,key:value}
