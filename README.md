@@ -1,3 +1,6 @@
+Harvard https://www.youtube.com/watch?v=nLRL_NcnK-4
+
+
 https://www.online-python.com/
 
 breaking down python word problem:
