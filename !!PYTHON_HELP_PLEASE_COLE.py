@@ -17,6 +17,17 @@ laps = miles_to_laps(miles)
 
 # Print result
 print('{:.2f}'.format(laps))
+
+
+# This program does the following:
+
+# The miles_to_laps() function takes miles as input and divides it by 0.25 (since one lap is 0.25 miles) to get the number of laps.
+# We get the input from the user and convert it to a float.
+# We call the miles_to_laps() function with the input.
+# Finally, we print the result formatted to two decimal places.
+
+# This solution should work for any input, including the example you provided (1.5 miles = 6.00 laps).
+
 ###################################################
 
 
