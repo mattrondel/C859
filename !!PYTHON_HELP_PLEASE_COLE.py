@@ -43,3 +43,19 @@ def miles_to_laps(user_miles):
 if __name__ == '__main__':
     user_miles = float(input())
     print(f'{number_of_laps:.2f}')
+
+##############################################
+Use this if you're unsure of the use eg 
+this is called an entry point for a program
+if __name__ == '__main__':
+
+# this is the first function it looks for booting up the program
+this is how it was solved
+    def miles_to_laps(user_miles):
+    number_of_laps = user_miles * 4
+    return number_of_laps
+    
+if __name__ == '__main__':
+    user_miles = float(input())
+
+    print('{:.2f}'.format(miles_to_laps(user_miles))) 
