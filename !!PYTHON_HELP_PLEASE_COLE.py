@@ -2,6 +2,24 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/26/section/1
 
 https://www.youtube.com/watch?v=9Os0o3wzS_I&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=8
 
+###################################################
+# from: https://claude.ai/
+###################################################
+
+def miles_to_laps(miles):
+    return miles / 0.25
+
+# Get input from user
+miles = float(input())
+
+# Calculate laps
+laps = miles_to_laps(miles)
+
+# Print result
+print('{:.2f}'.format(laps))
+###################################################
+
+
 # getting NameError: name 'number_of_laps' is not defined but why?
 # also how would you figure out what to divide or muliply by? with info given : "One lap around a standard high-school running track is exactly 0.25 miles"
 
