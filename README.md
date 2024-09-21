@@ -1,7 +1,16 @@
+https://www.youtube.com/watch?v=9Os0o3wzS_I&t=859s
 
 
+7.14 Arbitrary argument lists
 
-Harvard https://www.youtube.com/watch?v=nLRL_NcnK-4
+Arbitrary arguments
+
+Sometimes a programmer doesn't know how many arguments a function requires. A function definition can include a *args parameter that collects optional positional parameters into an arbitrary argument list tuple
+
+
+Harvard 
+
+https://www.youtube.com/watch?v=nLRL_NcnK-4
 
 
 https://www.online-python.com/
