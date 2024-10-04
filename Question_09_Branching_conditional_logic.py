@@ -83,7 +83,7 @@ https://www.linkedin.com/learning/python-essential-training-2/conditional-syntax
 # Watch out for ice!
 
 
-temp = int(input().strip())
+temp = int(input())
 if temp < 33:
     state = "Frozen"
 elif temp <= 80:
