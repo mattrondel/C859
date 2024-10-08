@@ -9,6 +9,8 @@
 
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/8
 
+#info on built-in function in python https://www.geeksforgeeks.org/factorial-in-python/
+
 # "-A similar question appeared in my OA, but instead of importing the math module, using the factorial() method on an integer input, and then determining if the result was greater than 100, 
 # you had to use the sqrt() method on an integer input and determine if the result was a perfect square. 
 # The solution and output were almost exactly the same."
