@@ -1,17 +1,17 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/10
 
-FreeCodeCamp Video: (2:07:17) Dictionaries
-https://www.youtube.com/watch?v=rfscVS0vtbw&t=7637s
+# FreeCodeCamp Video: (2:07:17) Dictionaries
+# https://www.youtube.com/watch?v=rfscVS0vtbw&t=7637s
 
-Corey Schafer videos: Corey Schafer: Dictionaries + Key-Value Pairs
-https://www.youtube.com/watch?v=daefaLgNkw0&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=5
+# Corey Schafer videos: Corey Schafer: Dictionaries + Key-Value Pairs
+# https://www.youtube.com/watch?v=daefaLgNkw0&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=5
 
-Socratica You Tube Videos: Socratica: Python Dictionaries
-https://www.youtube.com/watch?v=XCcpzWs-CI4
+# Socratica You Tube Videos: Socratica: Python Dictionaries
+# https://www.youtube.com/watch?v=XCcpzWs-CI4
 
-WGU  - Strings, Lists, and Dictionaries
-Chapter 11 (Lists and Dictionaries) (24 min)
-https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=905f48cc-26b5-4ed1-b79e-add6010a9bde
+# WGU  - Strings, Lists, and Dictionaries
+# Chapter 11 (Lists and Dictionaries) (24 min)
+# https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=905f48cc-26b5-4ed1-b79e-add6010a9bde
 
 # dictionaryies go as follows:
 # Dictonaryname = {key:value}
