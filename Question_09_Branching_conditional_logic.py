@@ -1,35 +1,35 @@
 # CH 34 / PA question:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/9
 
-looks like what the exam had
-https://www.bitdegree.org/learn/best-code-editor/python-if-else-example-5
+# looks like what the exam had
+# https://www.bitdegree.org/learn/best-code-editor/python-if-else-example-5
 
-course material:
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/4
+# course material:
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/4
 
-Socratica: If/Else in Python
-https://www.youtube.com/watch?v=f4KOjWS_KZs
+# Socratica: If/Else in Python
+# https://www.youtube.com/watch?v=f4KOjWS_KZs
 
-WGU Branches, Loops, and Functions
-https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1b7b151-0134-46f9-899c-a8a900df6da4
+# WGU Branches, Loops, and Functions
+# https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1b7b151-0134-46f9-899c-a8a900df6da4
 
-V4 Python Building Blocks - Branching
-https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d9f6621-6f99-49b8-9cbe-ae2100e51fee
+# V4 Python Building Blocks - Branching
+# https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2d9f6621-6f99-49b8-9cbe-ae2100e51fee
 
-WGU C859/D335:  Course Tips (link removed from course page on C859)
-https://srm--c.vf.force.com/apex/coursearticle?Id=kA03x000000l9u2CAA
+# WGU C859/D335:  Course Tips (link removed from course page on C859)
+# https://srm--c.vf.force.com/apex/coursearticle?Id=kA03x000000l9u2CAA
 
-FreeCodeCamp Video: If Statements (1:40:06) 
-https://www.youtube.com/watch?v=rfscVS0vtbw&t=6006s
+# FreeCodeCamp Video: If Statements (1:40:06) 
+# https://www.youtube.com/watch?v=rfscVS0vtbw&t=6006s
 
-FreeCodeCamp Video: If Statements & Comparison (1:54:07) 
-https://www.youtube.com/watch?v=rfscVS0vtbw&t=6847s
+# FreeCodeCamp Video: If Statements & Comparison (1:54:07) 
+# https://www.youtube.com/watch?v=rfscVS0vtbw&t=6847s
 
-LinkedIn Learning; Python if/else - Conditionals
-https://www.linkedin.com/learning/python-essential-training-2/conditionals?u=2045532
+# LinkedIn Learning; Python if/else - Conditionals
+# https://www.linkedin.com/learning/python-essential-training-2/conditionals?u=2045532
 
-LinkedIn Learning; Python if/else - Conditional syntax
-https://www.linkedin.com/learning/python-essential-training-2/conditional-syntax?u=2045532
+# LinkedIn Learning; Python if/else - Conditional syntax
+# https://www.linkedin.com/learning/python-essential-training-2/conditional-syntax?u=2045532
 
 # got wrong on PA
 # Remember when you see "possible variable name is __" equate the is as =
