@@ -30,13 +30,13 @@
 # Element 4: tuple
 
 # Step one is taking the "what kind of input are we wanting"
-index = int(input())
+index_value = int(input())
 
 # Step 2 is copying the provided stuff they give you unless its already there then skip
 various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
 
 # step 3 is outputing and modifying as requested, in this case its a two-part print statement -one being the index number from input and the other "the tricky part of this problem"
-print(f"Element {index}: {type(various_data_types[index]).__name__}")
+print(f"Element {index_value}: {type(various_data_types[index_value]).__name__}")
 # the .__name__ will output the name of the type like "int" or "bool" if you do not add the .__name__ you get  "<class 'int'>" or "<class 'bool'>"
 #".name attribute" is called this but means dunder .name or .__name__
 # The .__name__ attribute is used to obtain the name of a class or type in Python. 
@@ -49,7 +49,7 @@ print(f"Element {index}: {type(various_data_types[index]).__name__}")
 # If you want to avoid using .__name__, you could directly print the result of type() without the attribute. However, using .__name__ provides a cleaner and more readable output in this context. 
 
 #Tips on building this out 3/4/24:
-index = int(input())
+index_value = int(input())
 various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
 
 # print(f"Element {index}: {type(various_data_types[index]).__name__}")
@@ -75,7 +75,7 @@ various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "Unive
 # the .__name__: is an attribute of Python types that returns the name of the type as a string
 # This is how we run it against the built-in type() funtion
 # like so:
-print(f"Element {index}: {type(various_data_types[index]).__name__}")
+print(f"Element {index_value}: {type(various_data_types[index_value]).__name__}")
 # then Blammo! you're done
 
 
