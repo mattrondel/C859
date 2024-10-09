@@ -99,8 +99,15 @@ part 3 of building this out:
 take samples and build out the print statement 
 "The solution output should be in the format:
 Element index_value: data_type"
-note: f string are easy so use them
+note: f string are easy so use them print(f"{}{}")
 note: in the sample print statement they have data_type but think of this as the sample they want you to use the various_data_types
 
-In building out the print statement you can apply type() to the variable in the f string statement
+In building out the print statement you can apply type() to the variable in the f string statement like so:
+{various_data_types} to {type(various_data_types)}
 
+Now add in the variable containging th index value from your input statement like so:
+{type(various_data_types)} to {type(various_data_types[index_value])}
+the [square brackets are used because its a list you are getting the value from
+
+for the name attribute part you add .__name__ add it to the back of the type() function like so:
+{type(various_data_types[index_value]).__name__}
