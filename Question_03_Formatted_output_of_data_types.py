@@ -80,3 +80,27 @@ print(f"Element {index_value}: {type(various_data_types[index_value]).__name__}"
 
 
 MAKE SURE TO CLOSE YOUR INPUT STATEMENTS!
+
+10/9/24 tips
+
+Part 1 of building this out:
+"Create a solution that accepts an integer input representing the index value"
+integer input means int(input()
+representing the index value , represeting is fancy word for = and index value will be the variable name so:
+index_value = int(input()
+
+part 2 of building this out:
+"Using the built-in function type() and getting its name by using the .name attribute,"
+so we will be using type() and .name or properly called .__name__
+"output data type (e.g., int”, “float”, “bool”, “str”) based on the input index value of the list element."
+output is fancy word for print() statement so this is a basic input then output aka print problem
+
+part 3 of building this out:
+take samples and build out the print statement 
+"The solution output should be in the format:
+Element index_value: data_type"
+note: f string are easy so use them
+note: in the sample print statement they have data_type but think of this as the sample they want you to use the various_data_types
+
+In building out the print statement you can apply type() to the variable in the f string statement
+
