@@ -1,5 +1,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/11
 
+consider:
+https://aiplanet.com/learn/5-week_Data_Science_Bootcamp/week-0/150/conditional-statement-and-dictionaries
+
 # zybooks on Dictonaries
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/11/section/12
 
