@@ -80,7 +80,9 @@ request an equivalent number of string inputs for the snack selection. Using the
 prices, your code would calculate the total price of the snacks by adding together the prices of the inputted selections.
 
 Here's a simplified example of what that code could look like:
+
 snacks = {'A1': 0.25, 'A2': 0.50, 'A3': 0.75, 'B1': 1.50, 'B2': 1.75, 'B3': 2.00, 'C1': 0.25, 'C2': 0.45, 'C3': 0.30}
+
 total_snacks = int(input('Enter the total number of snacks: '))
 total_cost = 0
 for _ in range(total_snacks):
