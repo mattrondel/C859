@@ -1,3 +1,4 @@
+[link to where I pulled these from on WGU](https://srm--c.vf.force.com/apex/coursearticle?Id=kA00c000001DYePCAW)
 
 **EXAMPLE**
 
