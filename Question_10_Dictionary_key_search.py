@@ -70,11 +70,14 @@ print(f"Total price: ${total_price:.2f}")
 
 Final answer:
 
-To calculate the total cost of snacks from a vending machine, you can write a program that takes the quantity and types of items as input, then uses a dictionary of snack prices to compute and print the total cost.
+To calculate the total cost of snacks from a vending machine, you can write a program that takes the quantity and types of items as input, 
+then uses a dictionary of snack prices to compute and print the total cost.
 
 Explanation:
 
-To tackle this task, you could create a Python program (for example) that would request an integer input for the quantity of items and then request an equivalent number of string inputs for the snack selection. Using the provided dictionary of snack selections and their respective prices, your code would calculate the total price of the snacks by adding together the prices of the inputted selections.
+To tackle this task, you could create a Python program (for example) that would request an integer input for the quantity of items and then 
+request an equivalent number of string inputs for the snack selection. Using the provided dictionary of snack selections and their respective 
+prices, your code would calculate the total price of the snacks by adding together the prices of the inputted selections.
 
 Here's a simplified example of what that code could look like:
 snacks = {'A1': 0.25, 'A2': 0.50, 'A3': 0.75, 'B1': 1.50, 'B2': 1.75, 'B3': 2.00, 'C1': 0.25, 'C2': 0.45, 'C3': 0.30}
@@ -85,6 +88,7 @@ for _ in range(total_snacks):
  total_cost += snacks[selection]
 print(f'Total price: ${total_cost:.2f}')
 
-This program first takes an integer input total_snacks, then for each snack requested, it adds to the total_cost using the snack's corresponding price in the snack dictionary. Finally, it prints the total cost with a dollar sign and two decimal points of precision.
+This program first takes an integer input total_snacks, then for each snack requested, it adds to the total_cost using the snack's corresponding 
+price in the snack dictionary. Finally, it prints the total cost with a dollar sign and two decimal points of precision.
 
 
