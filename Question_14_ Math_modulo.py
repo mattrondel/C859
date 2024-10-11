@@ -15,7 +15,31 @@
 # you had to use the sqrt() method on an integer input and determine if the result was a perfect square. 
 # The solution and output were almost exactly the same."
 
+
+solution to zybooks
+
+import math
+
+number = int(input())
+
+factorial_value = math.factorial(number)
+Boolean_value = factorial_value > 100
+
+print(factorial_value)
+print(Boolean_value)
+
+
+
 # if Derek is correct then it might look like this:
+probably should get coles help on this
+
+
+
+
+
+
+
+
 import math
 # Define an integer input
 number = int(input())
