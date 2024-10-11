@@ -26,8 +26,7 @@ print("The factorial of", number, "is:", factorial_result)
 
 # ------------
 
-More accurately with the full details he provided it might look closer to this:
-
+# More accurately with the full details he provided it might look closer to this:
 import math
 
 number = int(input())
