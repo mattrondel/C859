@@ -89,16 +89,16 @@ if square_root.is_integer():
 # ------------
 BREAKDOWN AS THE QUESTION PRESENTS ITELF
 
-# Create a solution that accepts an integer input
+# "Create a solution that accepts an integer input"
 number = int(input())
-# Import the built-in module math 
+#  "Import the built-in module math"
 import math
-# use its factorial() method to calculate the factorial of the integer input. 
+# "...use its factorial() method to calculate the factorial of the integer input. "
 factorial_value = math.factorial(n)
-# Output the value of the factorial, as well as a Boolean value identifying whether the factorial output is greater than 100. 
-# The solution output should be in the format
-# factorial_value
-# Boolean_value
+# "Output the value of the factorial, as well as a Boolean value identifying whether the factorial output is greater than 100."
+# "The solution output should be in the format"
+# "factorial_value"
+# "Boolean_value"
 
 print(factorial_value)
 print(factorial_value > 100)
