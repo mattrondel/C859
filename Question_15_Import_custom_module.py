@@ -32,8 +32,6 @@
 import pigAge
 
 input_pig_age = int(input())
-# .strip() is optional with it looks like this:
-# input_pig_age = int(input().strip())
 
 converted_pig_age = pigAge.pigAge_converter(input_pig_age)
 
