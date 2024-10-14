@@ -2,11 +2,7 @@
 # PRO TIP: WHEN YOU COPY THE EQUALTION ITS IN SQUARE BRACKETS YOU NEED TO CHANGE THEM TO CURLY ONES
 # THIS PROBLEM BASICALLY GIVES YOU EVEYTHING YOU NEED FROM THE MATH EQUATION TO THE 3 INPUTS AND PRINT STATEMENT, ALL YOU HAVE TO DO IS PUT IT TOGETHER
 
-
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/4
-
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try 
-# and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
 
 # Derek
 # -A similar question appeared in my OA, but instead of computing the area of a trapezoid you had to compute the area of a triangle.
