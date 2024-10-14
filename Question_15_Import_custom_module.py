@@ -14,9 +14,6 @@
 # -A similar question appeared in my OA, but instead of importing and using a module that calculates the human equivalent age of a pig you import and use a module that calculates the human equivalent age of a dog. 
 # The solution and output were almost exactly the same.
 
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, 
-#do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
-
 # Create a solution that accepts an integer input representing the age of a pig. 
 # Import the existing module pigAge and use its pre-built pigAge_converter() function to calculate the human equivalent age of a pig. 
 # A year in a pig's life is equivalent to five years in a human's life. Output the human-equivalent age of the pig.
