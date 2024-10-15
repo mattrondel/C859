@@ -1,5 +1,9 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/10
 
+
+This is a three part problem:
+input, solve, then output
+
 # might be the same here:
 # https://brainly.com/question/39010072
 
