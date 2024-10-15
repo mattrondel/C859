@@ -51,8 +51,6 @@
 
 # that and why does the except (ValueError, IndexError): not contain a colon after the except - this is because the code isn't written this way
 
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, do this without a try and except and not with a function and have it condensed and simplifed and break this down step by step so I can understand this
-
 # Create a solution that accepts one integer input representing the index value for any of the string elements in the following list:
 # frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
 # Output the string element of the index value entered. 
