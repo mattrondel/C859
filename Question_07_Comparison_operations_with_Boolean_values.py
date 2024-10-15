@@ -1,6 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/7
 #  Explain line 21 of result = input_value > max(predef_list) and how to interprite the question to a python solution
 
+THIS IS A THREE STEP: INPUT, SOLVE, THEN OUTPUT
 
 # Derek
 # A similar question appeared in my OA, but instead of determining if the input integer was greater than the maximum value in the 
