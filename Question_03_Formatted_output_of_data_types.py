@@ -82,6 +82,7 @@ print(f"Element {index_value}: {type(various_data_types[index_value]).__name__}"
 MAKE SURE TO CLOSE YOUR INPUT STATEMENTS!
 
 10/9/24 tips
+this is a simple input then print
 
 Part 1 of building this out:
 "Create a solution that accepts an integer input representing the index value"
