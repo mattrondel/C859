@@ -2,6 +2,7 @@
 #  Explain line 21 of result = input_value > max(predef_list) and how to interprite the question to a python solution
 
 THIS IS A THREE STEP: INPUT, SOLVE (COMPARE AGAINST PROVIDED LIST), THEN OUTPUT
+  dont forget the keyword maximum value!
 
 # Derek
 # A similar question appeared in my OA, but instead of determining if the input integer was greater than the maximum value in the 
