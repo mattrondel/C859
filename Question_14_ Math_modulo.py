@@ -33,6 +33,17 @@ print(Boolean_value)
 # if Derek is correct then it might look like this:
 probably should get coles help on this
 
+# Need to test the below in the blank zybook lab:
+"python use the sqrt() method on an integer input and determine if it is a perfect square"
+
+
+number = int(input())
+
+factorial_value = sqrt(number)
+Boolean_value.is_integer()
+
+print(factorial_value)
+print(Boolean_value)
 
 
 
