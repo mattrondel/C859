@@ -1,5 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/6
 
+THIS IS A THREE PART BECAUSE YOU CANT SLICE INTIGERS ONLY STRINGS
+
 # Derek notes
 # -A similar question appeared in my OA, but instead of a 9-digit student ID you had to format an 11-digit phone number. 
 # The solution and output were almost exactly the same.
