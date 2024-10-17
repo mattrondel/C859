@@ -102,7 +102,7 @@ part 3 of building this out:
 take samples and build out the print statement 
 "The solution output should be in the format:
 Element index_value: data_type"
-note: f string are easy so use them print(f"{}{}")
+note: f string are easier than string.format so use them like so: print(f"{}{}")
 note: in the sample print statement they have data_type but think of this as the sample they want you to use the various_data_types
 
 In building out the print statement you can apply type() to the variable in the f string statement like so:
