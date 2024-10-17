@@ -103,7 +103,7 @@ take samples and build out the print statement
 "The solution output should be in the format:
 Element index_value: data_type"
 note: f string are easier than string.format so use them like so: print(f"{}{}")
-note: in the sample print statement they have data_type but think of this as the sample they want you to use the various_data_types
+note: In the sample print statement they provide data_type but think of this as the sample they want you to use the various_data_types - I think this is there to confuse you
 
 In building out the print statement you can apply type() to the variable in the f string statement like so:
 {various_data_types} to {type(various_data_types)}
