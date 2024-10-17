@@ -1,5 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/3
 
+This is a three part problem, input solve and output
+
 # need this part explained and why the [index] is nested
 # {type(various_data_types[index])
 
