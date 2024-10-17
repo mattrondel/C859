@@ -1,7 +1,7 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/10
 
 
-This is a three part problem:
+THIS IS A THREE PART PROBLEM
 input, solve, then output
 
 # might be the same here:
