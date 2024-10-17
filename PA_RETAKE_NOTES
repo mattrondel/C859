@@ -36,4 +36,17 @@ forgot to build my f strint print statement correctly
 was able to recall most of this
 
 8#
+this is try and except
+try and except lines always stop with colons like so:
+try:
+except:
+when using except lines with items add them with () then adding the colon to let python know this ends what you want it to do
+On this I need to compare with Dereks differences
+the PA is very simple the tough part is taking what its asking and turing it into code
 
+9#
+this is the damn branching temperature/grades one going to need to practice this over and over
+
+10#
+THIS IS A THREE PART PROBLEM
+need to work on Dereks vairant
