@@ -89,7 +89,7 @@ this is a simple input then print
 Part 1 of building this out:
 "Create a solution that accepts an integer input representing the index value"
 integer input means int(input()
-representing the index value , represeting is fancy word for = and index value will be the variable name so:
+"..representing the index value" - represeting is fancy word for an equal sign (=) and index_value will be the variable name so:
 index_value = int(input()
 
 part 2 of building this out:
