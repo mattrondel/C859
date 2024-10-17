@@ -131,3 +131,13 @@ except (ValueError, IndexError):
 # In summary, the ValueError is used to handle cases where the user enters input that cannot be converted to an integer, and the IndexError
 # is used to handle cases where the index used to access the frameworks list is out of bounds. 
 # The except block is responsible for handling these specific types of exceptions and printing an error message.
+
+Breaking down what its asking:
+"Create a solution that accepts one integer input representing the index value "
+index = int(input())
+"Output the string element of the index value entered."
+"Output" means print() and "string element" is fancy word for variable name of sample provided
+print(frameworks[index])
+
+
+build out the structure then add the try and except lines
