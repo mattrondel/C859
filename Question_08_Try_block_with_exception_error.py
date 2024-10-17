@@ -138,6 +138,9 @@ index = int(input())
 "Output the string element of the index value entered."
 "Output" means print() and "string element" is fancy word for variable name of sample provided
 print(frameworks[index])
+becuase frameworks is a list you have to address the print statement in the same fashion as the provided code
 
+"exception of "Error" if an incompatible integer input is provided."
+this means you need a print("Error")
 
 build out the structure then add the try and except lines
