@@ -1,4 +1,4 @@
-[Blank Zybooks lab 2.16:](https://learn.zybooks.com/zybook/WGUC859v4/chapter/2/section/16)
+[Blank Zybooks lab 2.16 (Great for Testing "Zybookisms"](https://learn.zybooks.com/zybook/WGUC859v4/chapter/2/section/16)
 
 
 https://www.youtube.com/watch?v=9Os0o3wzS_I&t=859s
