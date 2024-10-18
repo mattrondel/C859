@@ -4,12 +4,12 @@
 # Try this lab:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/13
 
-Coreys video: https://www.youtube.com/watch?v=q5uM4VKywbA
+# Coreys video: https://www.youtube.com/watch?v=q5uM4VKywbA
 
-practice here:
-https://replit.com/@mrondel/Mailpy#main.py
+# practice here:
+# https://replit.com/@mrondel/Mailpy#main.py
 # or here :
-https://replit.com/@mrondel/mainpy-1#main.py
+# https://replit.com/@mrondel/mainpy-1#main.py
 
 #######################################################
 # Is this similar to Question 12 but the csv module? Need help solving
