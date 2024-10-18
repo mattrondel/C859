@@ -17,6 +17,7 @@ HARD PART IS REMEBERING THE CONVERSIONS OF // AND %
 # Derek 
 # -A similar question appeared in my OA, but instead of converting weight (oz, lbs, tons) you had to convert time (minutes, hours, days). 
 # The solution and output were almost exactly the same.
+
 Lab that deals with time is found here:
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/2
 
