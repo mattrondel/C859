@@ -6,6 +6,11 @@ https://aiplanet.com/learn/5-week_Data_Science_Bootcamp/week-0/150/conditional-s
 # zybooks on Dictonaries
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/11/section/12
 
+# Derek notes
+# -A similar question appeared in my OA, but instead of computing the total purchase cost of an input number of a specified grocery store item and calculating a discount, 
+# you had to compute the total cost of tuition for an input number of course credits for a specified school and calculate a discount. 
+# The solution and output were almost exactly the same.
+
 # Create a solution that accepts a string input representing a grocery store item and an integer input identifying the number of items purchased on a recent visit. 
 # The following dictionary purchase lists available items as the key with the cost per item as the value.
 # purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
