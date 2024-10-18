@@ -1,5 +1,6 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/1
-#
+
+# Derek
 # -A similar question appeared in my OA, but instead of computing total distance traveled you had to compute total cost of stocks purchased. 
 #
 #Instructions:
