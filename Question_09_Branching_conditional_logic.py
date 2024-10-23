@@ -1,6 +1,21 @@
 # CH 34 / PA question:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/9
 
+
+bottom message
+    optional_safety_comment = "Caution: Hot!" == if temp = 212 else < 33 "Watch out for ice!" 
+
+beaking it down
+    safety_comment = "Caution: Hot!" if temp == 212 
+    else "Watch out for ice!" if temp < 33
+    else ""
+
+
+  else:
+    state = "Boiling"
+   when building if,elif,else the else statements aka catch alls dont need a variable declaired just the msg part
+
+
 # looks like what the exam had
 # https://www.bitdegree.org/learn/best-code-editor/python-if-else-example-5
 
