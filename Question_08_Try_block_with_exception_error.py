@@ -12,9 +12,6 @@
 # Automate the boring stuff
 # https://automatetheboringstuff.com/2e/chapter8/
 
-# good quick nugget on try except
-# https://www.youtube.com/watch?v=PTD0OlYjM2s
-
 # book material on this
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/12/section/1
 
