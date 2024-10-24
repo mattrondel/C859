@@ -143,3 +143,15 @@ becuase frameworks is a list you have to address the print statement in the same
 this means you need a print("Error")
 
 build out the structure then add the try and except lines
+try: statements always seem to be setup as :
+try:
+    problem here
+excepts are different as they can be like:
+except:
+    or
+except ValueError:
+ValueError might be speciifed or worst case you have to know they error its asking for
+Multiple exception types in a single exception handler may look like this:
+except (NameError, AttributeError):
+they are always contained in a () with commas to seprate then the colon:
+basically its "if you encounter these specific errors then do this next thing otherwise skip down"
