@@ -1,6 +1,10 @@
 # CH 34 / PA question:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/9
 
+The thing at that creates the message is called conditional expression
+zybooks lesson on it
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
+
 
 bottom message
     optional_safety_comment = "Caution: Hot!" == if temp = 212 else < 33 "Watch out for ice!" 
