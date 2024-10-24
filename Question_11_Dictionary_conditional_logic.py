@@ -3,6 +3,10 @@
 consider:
 https://aiplanet.com/learn/5-week_Data_Science_Bootcamp/week-0/150/conditional-statement-and-dictionaries
 
+The thing at the bottom is called conditional expression
+zybooks lesson on it
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
+
 # zybooks on Dictonaries
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/11/section/12
 
