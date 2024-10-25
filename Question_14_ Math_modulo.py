@@ -39,17 +39,22 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/2/section/16
 "python use the sqrt() method on an integer input and determine if it is a perfect square"
 
 
-number = int(input())
+# This worked for perfect square but does not use the sqrt() method 
+num = int(input()) 
+sqrt_num = num ** 0.5  
+if sqrt_num.is_integer():
+    print("The provided number is a perfect square")  
+else:
+    print("The provided number is not a perfect square")  
 
-factorial_value = sqrt(number)
-Boolean_value.is_integer()
-
-print(factorial_value)
-print(Boolean_value)
-
-
-
-
+# This works too
+import math  
+num = int(input())
+sqrt_num = math.sqrt(num)  
+if sqrt_num.is_integer():  
+    print("The number is a perfect square")  
+else:  
+    print("The number is not a perfect square")
 
 
 
