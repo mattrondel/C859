@@ -30,7 +30,7 @@ print(factorial_value)
 print(Boolean_value)
 
 
-
+#####################################################################
 # if Derek is correct then it might look like this:
 probably should get coles help on this
 
@@ -56,6 +56,50 @@ if sqrt_num.is_integer():
 else:  
     print("The number is not a perfect square")
 
+To create a solution that accepts an integer input, calculates the 
+square root using the sqrt() method from the math module, and 
+determines whether the output is a perfect square, you can follow these steps:
+
+1. Begin by importing the math module at the beginning of your code with 
+the following line: `import math`
+
+2. Prompt the user to enter an integer by using an input() function. Assign
+the input to a variable, let's say `num`.
+
+3. Convert the input from a string to an integer using the int() function, like
+this: `num = int(num)`
+
+4. Calculate the square root of the input using the sqrt() method from the 
+math module. Assign the result to a variable, let's say `sqrt_value`. The
+code for this step will be: `sqrt_value = math.sqrt(num)`
+
+5. Check if the square root value is an integer by comparing it with its
+rounded value. If the rounded value is equal to the square root value, it
+means the number is a perfect square. In this case, assign the Boolean value
+True to a variable, let's say `is_perfect_square`. Otherwise, assign 
+False. The code for this step will be:
+
+```
+rounded_value = round(sqrt_value)
+is_perfect_square = rounded_value == sqrt_value
+```
+
+6. Finally, output the square root value and the Boolean value identifying
+whether it is a perfect square or not. You can use the print() function 
+for this step, like this:
+
+```
+print("Square root:", sqrt_value)
+print("Is a perfect square:", is_perfect_square)
+```
+
+To summarize, the solution will involve importing the math module, 
+accepting an integer input from the user, calculating the square root using
+sqrt(), determining whether the output is a perfect square, and then
+printing the square root value and the Boolean value indicating whether it
+is a perfect square or not.
+
+#####################################################################
 
 
 import math
