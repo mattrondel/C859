@@ -2,7 +2,7 @@
 
 
 THIS IS A THREE PART PROBLEM
-input, solve, then output
+input, solve (using the sample data), then output
 
 # might be the same here:
 # https://brainly.com/question/39010072
