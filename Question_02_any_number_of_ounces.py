@@ -170,7 +170,8 @@ Since we've been given the print statements we know what variable to put in it
 also we're converting_ounces so thats how know what to call the function
 def convert_ounces():
     
-then add in the varables along with a reamaining ounces varable becuase thats what we are working with the get the values, also keep it in order for easier readablity, also add ounces inside the () as we are taking ounces as input
+then add in the varables along with a reamaining ounces varable becuase thats what we are working with the get the values, 
+also keep it in order for easier readablity, also add ounces inside the () as we are taking ounces as input
 def convert_ounces(ounces):
     Tons = 
     remaining_ounces = 
