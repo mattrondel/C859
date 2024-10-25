@@ -88,6 +88,76 @@ convert_ounces(input_ounces)
 ##########################
 ##########################
 
+
+######################################################
+BUILDING THE FUNCTION AND THUS SOLVING THIS PROBLEM
+######################################################
+
+Since we've been given the print statements we know what variable to put in it
+also we're converting_ounces so thats how know what to call the function
+def convert_ounces():
+    
+then add in the varables along with a reamaining ounces varable becuase thats what we are working with the get the values, 
+also keep it in order for easier readablity, also add ounces inside the () as we are taking ounces as input
+def convert_ounces(ounces):
+    Tons = 
+    remaining_ounces = 
+    Pounds= 
+    ounces = 
+    
+This is the pattern on how to add in the math:
+// 
+%
+//
+%
+
+There are 16 ounces in a pound and 2,000 pounds in a ton.
+To convert ounces to tons, we need to divide the number of ounces by the total number of ounces in a ton, which is 2000 pounds * 16 ounces.
+so make this changes to the function:
+
+def convert_ounces(ounces):
+    Tons = ounces // (16 * 2000)
+    remaining_ounces = ounces %  (16 * 2000)
+    Pounds = remaining_ounces // 16
+    ounces = remaining_ounces // 16
+
+In our function it follows PEMDAS (parentheses, exponents, multiplication, division, addition and subration) AKA Order of Operations
+
+// is Floor division in Python it divides two numbers and rounds the result down to the nearest integer
+    Example if we divide 10 by 3 using floor division, we get 10 // 3 = 3
+    Here, the solution would be 3.33, but since we are using floor division, the result is rounded down to the nearest integer, 3. 
+
+% is Modulus (aka MOD) and is a mathematical operator that calculates the remainder of a division operation. 
+    Example: 10 % 3 would return 1 because dividing 10 by 3 gives you a quotient of 3 and a remainder of 1
+
+So 16 (ounces) times 2000 (tons) then divided this by ounces
+
+The print statements are a part of the function because having the print statements inside the function, it encapsulates the functionality of 
+converting ounces and displaying the results within the same function. This makes the function more self-contained and reusable. Part of why we are doing this through a function 
+
+FYI Placing the print statements outside the function would require the caller of the function to handle the printing of results separately, 
+which could make the code less organized and harder to understand, especially if the conversion function is reused in multiple places.
+
+def convert_ounces(ounces):
+   Tons = ounces // (16 * 2000)
+   remaining_ounces = ounces %  (16 * 2000)
+   Pounds = remaining_ounces // 16
+   ounces = remaining_ounces // 16
+  
+   print(f"Tons: {Tons}")
+   print(f"Pounds: {Pounds}")
+   print(f"Ounces: {Ounces}")
+
+add in the int input statement and the call to the function like so:
+
+since it says "Create a solution that accepts an integer input"  then send this to a variable then have that variable in the function
+
+convert_ounces = int(input())
+convert_ounces(convert_ounces).
+
+
+###########################################################################################################
+
 SIMILARITIES COMPARED TO THE TWO VERSIONS
 
 
@@ -162,66 +232,3 @@ Output the converted total number of tons, pounds, and remaining ounces based on
 Question to understand is how do I know that this should be a function?
 since we're converting tons, pounds and ounces at the same time a function is better suited for this
 
-######################################################
-BUILDING THE FUNCTION AND THUS SOLVING THIS PROBLEM
-######################################################
-
-Since we've been given the print statements we know what variable to put in it
-also we're converting_ounces so thats how know what to call the function
-def convert_ounces():
-    
-then add in the varables along with a reamaining ounces varable becuase thats what we are working with the get the values, 
-also keep it in order for easier readablity, also add ounces inside the () as we are taking ounces as input
-def convert_ounces(ounces):
-    Tons = 
-    remaining_ounces = 
-    Pounds= 
-    ounces = 
-    
-can't really explain the why too much (ask AI) but this is the pattern on how to add in the math 
-// 
-%
-//
-%
-
-There are 16 ounces in a pound and 2,000 pounds in a ton.
-To convert ounces to tons, we need to divide the number of ounces by the total number of ounces in a ton, which is 2000 pounds * 16 ounces.
-so make this changes to the function:
-
-def convert_ounces(ounces):
-    Tons = ounces // (16 * 2000)
-    remaining_ounces = ounces %  (16 * 2000)
-    Pounds = remaining_ounces // 16
-    ounces = remaining_ounces // 16
-
-In our function it follows PEMDAS (parentheses, exponents, multiplication, division, addition and subration) AKA Order of Operations
-
-// is Floor division in Python it divides two numbers and rounds the result down to the nearest integer
-    Example if we divide 10 by 3 using floor division, we get 10 // 3 = 3
-    Here, the solution would be 3.33, but since we are using floor division, the result is rounded down to the nearest integer, 3. 
-
-% is Modulus (aka MOD) and is a mathematical operator that calculates the remainder of a division operation. 
-    Example: 10 % 3 would return 1 because dividing 10 by 3 gives you a quotient of 3 and a remainder of 1
-
-
-
-print statement is a part of the function because having the print statements inside the function, it encapsulates the functionality of 
-converting ounces and displaying the results within the same function. This makes the function more self-contained and reusable. 
-
-Placing the print statements outside the function would require the caller of the function to handle the printing of results separately, 
-which could make the code less organized and harder to understand, especially if the conversion function is reused in multiple places.
-
-def convert_ounces(ounces):
-   Tons = ounces // (16 * 2000)
-   remaining_ounces = ounces %  (16 * 2000)
-   Pounds = remaining_ounces // 16
-   ounces = remaining_ounces // 16
-  
-   print(f"Tons: {Tons}")
-   print(f"Pounds: {Pounds}")
-   print(f"Ounces: {Ounces}")
-
-add in the int input statement and the call to the function like so:
-
-convert_ounces = int(input())
-convert_ounces(convert_ounces).
