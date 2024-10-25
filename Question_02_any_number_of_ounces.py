@@ -194,6 +194,17 @@ def convert_ounces(ounces):
     Pounds = remaining_ounces // 16
     ounces = remaining_ounces // 16
 
+In our function it follows PEMDAS (parentheses, exponents, multiplication, division, addition and subration) AKA Order of Operations
+
+// is Floor division in Python it divides two numbers and rounds the result down to the nearest integer
+    Example if we divide 10 by 3 using floor division, we get 10 // 3 = 3
+    Here, the solution would be 3.33, but since we are using floor division, the result is rounded down to the nearest integer, 3. 
+
+% is Modulus (aka MOD) and is a mathematical operator that calculates the remainder of a division operation. 
+    Example: 10 % 3 would return 1 because dividing 10 by 3 gives you a quotient of 3 and a remainder of 1
+
+
+
 print statement is a part of the function because having the print statements inside the function, it encapsulates the functionality of 
 converting ounces and displaying the results within the same function. This makes the function more self-contained and reusable. 
 
