@@ -162,9 +162,11 @@ Output the converted total number of tons, pounds, and remaining ounces based on
 Question to understand is how do I know that this should be a function?
 since we're converting tons, pounds and ounces at the same time a function is better suited for this
 
+######################################################
 BUILDING THE FUNCTION AND THUS SOLVING THIS PROBLEM
+######################################################
 
-since we've been given the print statements we know what variable to put in it
+Since we've been given the print statements we know what variable to put in it
 also we're converting_ounces so thats how know what to call the function
 def convert_ounces():
     
