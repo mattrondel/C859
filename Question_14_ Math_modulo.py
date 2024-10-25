@@ -35,6 +35,7 @@ print(Boolean_value)
 probably should get coles help on this
 
 # Need to test the below in the blank zybook lab:
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/2/section/16
 "python use the sqrt() method on an integer input and determine if it is a perfect square"
 
 
