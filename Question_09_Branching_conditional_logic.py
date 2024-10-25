@@ -1,6 +1,10 @@
 # CH 34 / PA question:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/9
 
+READ AND WATCH THESE:
+https://seattlewebsitedevelopers.medium.com/the-essentials-of-branching-in-python-baef33f9ecc5
+
+
 The thing at that creates the message is called conditional expression also known as ternary operators
 zybooks lesson on it
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
