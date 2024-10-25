@@ -85,9 +85,6 @@ convert_ounces(input_ounces)
 
 #You can run this script, enter the number of ounces when prompted, and it will display the converted result in the specified format.
 
-##########################
-##########################
-
 
 ######################################################
 BUILDING THE FUNCTION AND THUS SOLVING THIS PROBLEM
@@ -130,7 +127,9 @@ In our function it follows PEMDAS (parentheses, exponents, multiplication, divis
 % is Modulus (aka MOD) and is a mathematical operator that calculates the remainder of a division operation. 
     Example: 10 % 3 would return 1 because dividing 10 by 3 gives you a quotient of 3 and a remainder of 1
 
-So 16 (ounces) times 2000 (tons) then divided this by ounces
+So 16 (ounces) times 2000 (tons) then (floor) divided and round down this by ounces and send this to the tons variable
+Now take 16 (ounces) times 2000 (tons) then divide for remainder
+
 
 The print statements are a part of the function because having the print statements inside the function, it encapsulates the functionality of 
 converting ounces and displaying the results within the same function. This makes the function more self-contained and reusable. Part of why we are doing this through a function 
