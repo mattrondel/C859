@@ -163,8 +163,9 @@ Question to understand is how do I know that this should be a function?
 since we're converting tons, pounds and ounces at the same time a function is better suited for this
 
 BUILDING THE FUNCTION AND THUS SOLVING THIS PROBLEM
-since we've built the print statements we know what variable to put in it
-also we're converting_ounces so thats what we are going to call the function
+
+since we've been given the print statements we know what variable to put in it
+also we're converting_ounces so thats how know what to call the function
 def convert_ounces():
     
 then add in the varables along with a reamaining ounces varable becuase thats what we are working with the get the values, also keep it in order for easier readablity, also add ounces inside the () as we are taking ounces as input
