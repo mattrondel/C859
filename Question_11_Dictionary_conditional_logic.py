@@ -1,11 +1,11 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/11
 
-consider:
-https://aiplanet.com/learn/5-week_Data_Science_Bootcamp/week-0/150/conditional-statement-and-dictionaries
+# consider:
+# https://aiplanet.com/learn/5-week_Data_Science_Bootcamp/week-0/150/conditional-statement-and-dictionaries
 
 # The thing at the bottom is called conditional expression also known as ternary operators
-zybooks lesson on it
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
+# zybooks lesson on it
+# https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
 
 # zybooks on Dictonaries
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/11/section/12
@@ -44,8 +44,8 @@ purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "m
 # NEED A BREAK DOWN OF THIS AS THE QUESTION PRESENTS ITSELF JUST AS I DID FOR THE FIRST FEW QUESTIONS
 
 # Sample Input
-# "Create a solution that accepts a string input representing a grocery store item and an integer input identifying the number of items purchased on a recent visit. "
-
+# "Create a solution that accepts a string input representing a grocery store item and an 
+# integer input identifying the number of items purchased on a recent visit. "
 
 Other way to solve it:
 
