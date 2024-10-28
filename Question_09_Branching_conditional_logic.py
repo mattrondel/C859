@@ -87,6 +87,7 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d298622-8163-47c6-9
 
 #############################
 10/27/24 This Works and is extreemly clean and easy to read plus doesn't use a conditional expression
+10/28 while this works the message for 213 is the safety comment is "Caution: Hot!" which can only be is its 212
 
 temp = int(input())
 
