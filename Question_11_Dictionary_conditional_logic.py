@@ -39,7 +39,7 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
 # then the expected output is
 # cookies $585.79
 
-# purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
+purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "milk": 4.34}
 
 # NEED A BREAK DOWN OF THIS AS THE QUESTION PRESENTS ITSELF JUST AS I DID FOR THE FIRST FEW QUESTIONS
 
@@ -64,13 +64,8 @@ total = base_price * (1 - discount)
 
 print(f"{item} ${total:.2f}")
 
-
-
-
-
-
-
-
+######################################################
+Longer way to solve it:
 
 
 item_input = input()
