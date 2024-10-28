@@ -38,8 +38,41 @@ probably should get coles help on this
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/2/section/16
 "python use the sqrt() method on an integer input and determine if it is a perfect square"
 
+from claude:
+import math
 
-# This worked for perfect square but does not use the sqrt() method 
+number = int(input())
+root = math.sqrt(number)
+if root == int(root):
+    print("yes")
+else:
+    print("no")
+	
+Without Math module:
+
+number = int(input())
+root = number ** 0.5
+
+if root == int(root):
+    print("yes")
+else:
+    print("no")
+	
+This code:
+
+Uses ** 0.5 instead of sqrt() to calculate the square root
+Works exactly the same way as the previous version
+
+For example:
+
+Input 16: prints "yes" (because 16 ** 0.5 = 4.0)
+Input 25: prints "yes" (because 25 ** 0.5 = 5.0)
+Input 10: prints "no" (because 10 ** 0.5 ≈ 3.16...)
+
+The ** 0.5 is the same as taking the square root since any number raised to the power of 1/2 equals its square root.
+
+
+# This worked for perfect square and does not use the sqrt() method 
 num = int(input()) 
 sqrt_num = num ** 0.5  
 if sqrt_num.is_integer():
