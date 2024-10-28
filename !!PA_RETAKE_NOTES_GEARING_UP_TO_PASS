@@ -1,10 +1,36 @@
 Do PA, make mistakes, write them down
+
+##############################################
+10/27
+
+Question 11
+item = input()
+qty = int(input())
+
+# didnt have need to determine how to make this 
+base_price = purchase[item] * qty
+
+if qty < 10:
+    discount = 0
+elif qty <= 20:
+    discount = 0.5
+else:
+    discount = 0.10
+
+# didnt have need to determine how to make this 
+total_purchase_cost = base_price * (1 - discount)
+
+print(f"{item} ${total_purchase_cost:.2f}")
+
+
+
+##############################################
 10/25 Slicing question mistakes made
 Dont count off the final product count it off of the input!!!
 
 
 
-#######################
+##############################################
 10/17 First try of the day
 
 
