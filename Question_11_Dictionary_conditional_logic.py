@@ -57,12 +57,13 @@ item = input()
 quantity = int(input())
 
 base_price = purchase[item] * quantity
-discount = 0
 
 if quantity >= 21:
     discount = 0.10
 elif quantity >= 10:
     discount = 0.05
+else:
+    discount = 0
 
 total = base_price * (1 - discount)
 
