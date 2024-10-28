@@ -13,7 +13,7 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
 bottom message
     optional_safety_comment = "Caution: Hot!" == if temp = 212 else < 33 "Watch out for ice!" 
 
-beaking it down
+breaking it down
     safety_comment = "Caution: Hot!" if temp == 212 
     else "Watch out for ice!" if temp < 33
     else ""
