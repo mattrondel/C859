@@ -105,25 +105,9 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d298622-8163-47c6-9
 # Frozen
 # Watch out for ice!
 
-
-temp = int(input())
-if temp < 33:
-    state = "Frozen"
-elif temp <= 80:
-    state = "Cold"
-elif temp <= 115:
-    state = "Warm"
-elif temp <= 211:
-    state = "Hot"
-else:
-    state = "Boiling"
-safety_comment = "Caution: Hot!\n" if temp == 212 else "Watch out for ice!\n" if temp < 33 else ""
-
-print(state)
-print(safety_comment, end='')
-
 #############################
-This Works and is extreemly clean and easy to read:
+10/27/24 This Works and is extreemly clean and easy to read plus doesn't use a conditional expression
+
 temp = int(input())
 
 if temp < 33:
@@ -150,12 +134,21 @@ else:
 
 
 
+temp = int(input())
+if temp < 33:
+    state = "Frozen"
+elif temp <= 80:
+    state = "Cold"
+elif temp <= 115:
+    state = "Warm"
+elif temp <= 211:
+    state = "Hot"
+else:
+    state = "Boiling"
+safety_comment = "Caution: Hot!\n" if temp == 212 else "Watch out for ice!\n" if temp < 33 else ""
 
-
-
-
-
-
+print(state)
+print(safety_comment, end='')
 
 
 ########################################################
