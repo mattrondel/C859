@@ -85,9 +85,62 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d298622-8163-47c6-9
 # Frozen
 # Watch out for ice!
 
+If you reverse the order with greatest to smallest noting that 212 has a specific message but less than 32 does not 
+  reverse the order:
+  
+  #solution accepts integer input representing a water temperature
+  
+  If the water is greater than or equal to 212° F, the water is “Boiling”.
+  If the water is between 115° F and 211° (including 115) F, the water is “Hot".
+  If the water is between 80° F and 115° F (including 80), the water is "Warm".
+  If the water is between 33° F and 80° F (including 33), the water is “Cold”.
+  If the temperature is below 33° F, the water is “Frozen”.
+  
+  Additionally, output a safety comment only during the following circumstances:
+
+	If the water temperature is less than 33° F, the safety comment is "Watch out for ice!"
+ If the water is exactly 212° F, the safety comment is "Caution: Hot!"
+    
+
+Note that I made a specific catch for exactly 212, above 212 cannt have the msg = "Caution: Hot!"
+
+temp = int(input())
+
+if temp > 212:
+    state = “Boiling”
+    print(state)
+    msg = ""
+elif temp == 212:
+    state = “Boiling”
+    print(state)
+    msg = "Caution: Hot!"
+    print(msg)
+elif temp >=115:
+    state = "Hot"
+    print(state)
+elif temp >= 80:
+    state = "Warm"
+    print(state)
+elif temp >=33:
+    state = "Cold"
+    print(state)
+else:
+    state = "Frozen"
+    print(state)
+    msg = "Watch out for ice!"
+    print(msg)
+
+
+
+
+
+
+
+
+
 #############################
 10/27/24 This Works and is extreemly clean and easy to read plus doesn't use a conditional expression
-10/28 while this works the message for 213 is the safety comment is "Caution: Hot!" which can only be is its 212
+10/28 while this techincally works the message for 213 is the safety comment is "Caution: Hot!" which can only be is its 212 which makes it wrong
 
 temp = int(input())
 
