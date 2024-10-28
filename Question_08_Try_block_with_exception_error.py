@@ -40,7 +40,8 @@ In this code:
 
 - Instead of converting the input directly into an integer (index = int(input())), we directly take the input as a string (search_string = input()).
 - We use the index() method of lists to find the index of the input string value within the frameworks list.
-- If the input string is not found in the list, a ValueError will be raised. We catch this ValueError to handle the case where the input string is not found in the list and print an error message accordingly.
+- If the input string is not found in the list, a ValueError will be raised. 
+We catch this ValueError to handle the case where the input string is not found in the list and print an error message accordingly.
 ----------------------------------------
 
 # Need this one explained mainly the ValueError and IndexError - see below @ "BREAKING THIS DOWN (again)"
