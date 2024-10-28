@@ -1,5 +1,9 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/11
 
+Blank Zybooks lab 2.16 
+
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/2/section/16
+
 # consider:
 # https://aiplanet.com/learn/5-week_Data_Science_Bootcamp/week-0/150/conditional-statement-and-dictionaries
 
