@@ -24,24 +24,23 @@
 # -A similar question appeared in my OA, but instead of outputting the string element of the input index value you had to output the index based on the input string value. 
 # The solution and output were almost exactly the same. Instead of using frameworks[user_input] use frameworks.index(user_input)
 ----------------------------------------
-# What Derek is talking about might look like this:
+What Derek is talking about might look like this:
 
-# frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
+frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
 
-# try:
-#     search_string = int(input())
-#     index = frameworks.index(search_string)
-            #Note: The index() method in Python is a built-in method for lists. It is used to find the index of the first occurrence of a specified element in the list.
-#     print(index)
-# except ValueError:
-#     print("Error")
+try:
+    search_string = int(input())
+    index = frameworks.index(search_string)
+          #Note: The index() method in Python is a built-in method for lists. It is used to find the index of the first occurrence of a specified element in the list.
+    print(index)
+except ValueError:
+    print("Error")
 
-# In this code:
+In this code:
 
-# - Instead of converting the input directly into an integer (index = int(input())), we directly take the input as a string (search_string = input()).
-# - We use the index() method of lists to find the index of the input string value within the frameworks list.
-# - If the input string is not found in the list, a ValueError will be raised. We catch this ValueError to handle the case where the 
-# input string is not found in the list and print an error message accordingly.
+- Instead of converting the input directly into an integer (index = int(input())), we directly take the input as a string (search_string = input()).
+- We use the index() method of lists to find the index of the input string value within the frameworks list.
+- If the input string is not found in the list, a ValueError will be raised. We catch this ValueError to handle the case where the input string is not found in the list and print an error message accordingly.
 ----------------------------------------
 
 # Need this one explained mainly the ValueError and IndexError - see below @ "BREAKING THIS DOWN (again)"
