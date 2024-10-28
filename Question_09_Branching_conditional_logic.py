@@ -77,9 +77,6 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d298622-8163-47c6-9
 # if temp < 33:
  #   state = "Frozen"
 
-# Help me solve and understand this python problem and also solve it so it can accept any input, remove any error checking, 
-# do this without a try and except and not with a funtion and have it condensed and simplifed
-
 # Create a solution that accepts an integer input representing water temperature in degrees Fahrenheit. 
 # Output a description of the water state based on the following scale:
 #  
@@ -124,6 +121,42 @@ safety_comment = "Caution: Hot!\n" if temp == 212 else "Watch out for ice!\n" if
 
 print(state)
 print(safety_comment, end='')
+
+#############################
+This Works and is extreemly clean and easy to read:
+temp = int(input())
+
+if temp < 33:
+    state = "Frozen"
+    msg = "Watch out for ice!"
+    print(state)
+    print(msg)
+elif temp <= 80:
+    state = "Cold"
+    print(state)
+elif temp <= 115:
+    state = "Warm"
+    print(state)
+elif temp <= 211:
+    state = "Hot"
+    print(state)
+else:
+    state = "Boiling"
+    msg = "Caution: Hot!"
+    print(state)
+    print(msg)
+
+#############################
+
+
+
+
+
+
+
+
+
+
 
 ########################################################
 ##### Interestingly I can get away with the following:
