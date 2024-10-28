@@ -3,7 +3,7 @@
 consider:
 https://aiplanet.com/learn/5-week_Data_Science_Bootcamp/week-0/150/conditional-statement-and-dictionaries
 
-The thing at the bottom is called conditional expression also known as ternary operators
+# The thing at the bottom is called conditional expression also known as ternary operators
 zybooks lesson on it
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
 
@@ -45,6 +45,34 @@ https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
 
 # Sample Input
 # "Create a solution that accepts a string input representing a grocery store item and an integer input identifying the number of items purchased on a recent visit. "
+
+
+Other way to solve it:
+
+item = input()
+quantity = int(input())
+
+base_price = purchase[item] * quantity
+discount = 0
+
+if quantity >= 21:
+    discount = 0.10
+elif quantity >= 10:
+    discount = 0.05
+
+total = base_price * (1 - discount)
+
+print(f"{item} ${total:.2f}")
+
+
+
+
+
+
+
+
+
+
 item_input = input()
 quantity_input = int(input())
 
