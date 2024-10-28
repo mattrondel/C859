@@ -13,16 +13,17 @@ base_price = purchase[item] * qty
 if qty < 10:
     discount = 0
 elif qty <= 20:
-    discount = 0.5
+    discount = 0.05
 else:
     discount = 0.10
 
-# didnt have need to determine how to make this 
+# didnt have need to determine how to make this and why there is 1- discount
+# When calculating a discounted price, you need to subtract the discount from 1 (100%) to get the actual percentage you pay.
+# example If discount is 0.05 (5% off):
+# example (1 - 0.05) = 0.95   # You pay 95% of the price
 total_purchase_cost = base_price * (1 - discount)
 
 print(f"{item} ${total_purchase_cost:.2f}")
-
-
 
 ##############################################
 10/25 Slicing question mistakes made
