@@ -4,26 +4,6 @@
 READ AND WATCH THESE:
 https://seattlewebsitedevelopers.medium.com/the-essentials-of-branching-in-python-baef33f9ecc5
 
-
-The thing at that creates the message is called conditional expression also known as ternary operators
-zybooks lesson on it
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
-
-
-bottom message
-    optional_safety_comment = "Caution: Hot!" == if temp = 212 else < 33 "Watch out for ice!" 
-
-breaking it down
-    safety_comment = "Caution: Hot!" if temp == 212 
-    else "Watch out for ice!" if temp < 33
-    else ""
-
-
-  else:
-    state = "Boiling"
-   when building if,elif,else the else statements aka catch alls dont need a variable declaired just the msg part
-
-
 # looks like what the exam had
 # https://www.bitdegree.org/learn/best-code-editor/python-if-else-example-5
 
@@ -131,6 +111,24 @@ else:
     print(msg)
 
 #############################
+
+The thing at that creates the message is called conditional expression also known as ternary operators
+zybooks lesson on it
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/5/section/12
+
+
+bottom message
+    optional_safety_comment = "Caution: Hot!" == if temp = 212 else < 33 "Watch out for ice!" 
+
+breaking it down
+    safety_comment = "Caution: Hot!" if temp == 212 
+    else "Watch out for ice!" if temp < 33
+    else ""
+
+
+  else:
+    state = "Boiling"
+   when building if,elif,else the else statements aka catch alls dont need a variable declaired just the msg part
 
 
 
