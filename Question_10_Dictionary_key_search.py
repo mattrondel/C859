@@ -55,7 +55,7 @@ input, solve (using the sample data), then output
 # provided line:
 stocks = {'TSLA': 912.86, 'BBBY': 24.84, 'AAPL': 174.26, 'SOFI': 6.92, 'KIRK': 8.72, 'AURA': 22.12, 'AMZN': 141.28, 'EMBK': 12.29, 'LVLU': 2.33}
 
-num_shares = int(input())
+num_shares = int(input().strip())
 total_price = sum(stocks.get(input(), 0) for _ in range(num_shares))
 
 print(f"Total price: ${total_price:.2f}")
