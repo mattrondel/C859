@@ -69,6 +69,47 @@ total = base_price * (1 - discount)
 
 print(f"{item} ${total:.2f}")
 
+THIS ABOVE EXPLAINED:
+
+Given input items DONT MISPELL THE WORD INPUT!!!
+
+item = input()
+quantity = int(input())
+
+you will need to have a base price in order to determine costs 
+
+purchase[item] the word "purchase" is the name of the dictonary list and the [] is input variable this grabs the key which in this case is a price , the [input] "grabs" the other number
+
+base_price = purchase[item] * quantity
+
+
+If twenty-one or more items are purchased, the purchase gets a 10% discount. 10% in decimal is 0.10
+elif quantity >= 10 
+If between ten and twenty items (inclusive) are purchased, the purchase gets a 5% discount. greater than or = to 10
+this is a bit tricky to figure out 
+
+if quantity >= 21:
+    discount = 0.10
+elif quantity >= 10:
+    discount = 0.05
+else:
+    discount = 0
+
+
+The (1 - discount) part:
+When calculating a discounted price, you need to subtract the discount from 1 (100% aka 1.00) to get the actual percentage you pay. 
+this is a way flips the number like 0.10 - 1.00 gives us 0.90 which then * times the base price
+
+total = base_price * (1 - discount)
+
+print statement with f strings adjustments
+
+print(f"{item} ${total:.2f}")
+
+for :.2f think of .2f as an extension or read it like colon .2f, the colon serves as append the .2f file extension
+
+
+
 ######################################################
 Longer way to solve it:
 
