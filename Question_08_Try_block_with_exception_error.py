@@ -1,5 +1,8 @@
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/8
 
+Practice Lab:
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/2/section/16
+
 # FreeCodeCamp Video: (3:04:17) Try / Except
 # https://www.youtube.com/watch?v=rfscVS0vtbw&t=11057s
 
