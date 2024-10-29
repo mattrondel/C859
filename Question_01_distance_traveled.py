@@ -25,6 +25,8 @@
 
 miles_per_employee = [15.62, 41.85, 32.67]
 
+# add strip so shit doesnt break like so: int(input().strip())
+
 Travel_A = int(input())
 Travel_B = int(input())
 Travel_C = int(input())
