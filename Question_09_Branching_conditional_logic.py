@@ -104,7 +104,7 @@ If you reverse the order with greatest to smallest noting that 212 has a specifi
 
 Note that I made a specific catch for exactly 212, above 212 cannt have the msg = "Caution: Hot!"
 
-temp = int(input())
+temp = int(input().strip())
 
 if temp > 212:
     state = “Boiling”
@@ -142,7 +142,7 @@ else:
 10/27/24 This Works and is extreemly clean and easy to read plus doesn't use a conditional expression
 10/28 while this techincally works the message for 213 is the safety comment is "Caution: Hot!" which can only be is its 212 which makes it wrong
 
-temp = int(input())
+temp = int(input().strip())
 
 if temp < 33:
     state = "Frozen"
