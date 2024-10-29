@@ -1,7 +1,6 @@
-# Zybooks exercise:
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/2
 
-THIS IS A BUILD THE FUNCTION AND INPUT ITEMS
+THIS IS A BUILD THE FUNCTION, PRINT STATEMENTS AND INPUT ITEMS
 HARD PART IS REMEBERING THE CONVERSIONS OF // AND %
 
 # Need this one fully explained as each operation is confusing
