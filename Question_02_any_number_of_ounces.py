@@ -17,7 +17,7 @@ HARD PART IS REMEBERING THE CONVERSIONS OF // AND %
 # -A similar question appeared in my OA, but instead of converting weight (oz, lbs, tons) you had to convert time (minutes, hours, days). 
 # The solution and output were almost exactly the same.
 
-Lab that deals with time is found here:
+Lab that deals with time is found here (MIGHT BE IDENTICAL TO THE EXAM):
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/2
 
 # The value 3600 is used because there are 60 seconds in a minute and 60 minutes in an hour. 
