@@ -85,8 +85,8 @@ https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d298622-8163-47c6-9
 # Frozen
 # Watch out for ice!
 
-If you reverse the order with greatest to smallest noting that 212 has a specific message but less than 32 does not 
-  reverse the order:
+If you reverse the order with greatest to smallest noting that 212 has a specific message but less than 32 
+  In reversed order:
   
   #solution accepts integer input representing a water temperature
   
