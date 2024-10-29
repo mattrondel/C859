@@ -149,7 +149,7 @@ def convert_ounces(ounces):
 
 add in the int input statement and the call to the function like so:
 
-since it says "Create a solution that accepts an integer input"  then send this to a variable then have that variable in the function
+#since it says "Create a solution that accepts an integer input"  then send this to a variable then have that variable in the function
 
 convert_ounces = int(input())
 convert_ounces(convert_ounces).
@@ -180,7 +180,7 @@ convert_ounces(input_ounces)
 # To convert ounces to tons, we need to divide the number of ounces by the total number of ounces in a ton, which is 2000 pounds * 16 ounces.
 
 
-# TIME CONVERSION
+TIME CONVERSION possible whats on the exam
 
 #  3600 is used because it represents the number of seconds in an hour.
 def ConvertSeconds(seconds):
