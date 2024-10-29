@@ -41,7 +41,7 @@ from claude.ai :
 
 import math
 
-number = int(input())
+number = int(input().strip())
 root = math.sqrt(number)
 if root == int(root):
     print("yes")
@@ -50,7 +50,7 @@ else:
 	
 Without Math module:
 
-number = int(input())
+number = int(input().strip())
 root = number ** 0.5
 
 if root == int(root):
@@ -73,7 +73,7 @@ The ** 0.5 is the same as taking the square root since any number raised to the 
 
 
 # This worked for perfect square and does not use the sqrt() method 
-num = int(input()) 
+num = int(input().strip()) 
 sqrt_num = num ** 0.5  
 if sqrt_num.is_integer():
     print("The provided number is a perfect square")  
@@ -82,7 +82,7 @@ else:
 
 # This works too
 import math  
-num = int(input())
+num = int(input().strip())
 sqrt_num = math.sqrt(num)  
 if sqrt_num.is_integer():  
     print("The number is a perfect square")  
@@ -137,7 +137,7 @@ is a perfect square or not.
 
 import math
 # Define an integer input
-number = int(input())
+number = int(input().strip())
 # Calculate the factorial
 factorial_result = math.factorial(number)
 # Print the result
@@ -148,7 +148,7 @@ print("The factorial of", number, "is:", factorial_result)
 # More accurately with the full details he provided it might look closer to this:
 import math
 
-number = int(input())
+number = int(input().strip())
 factorial_result = math.factorial(number)
 square_root = math.sqrt(factorial_result)
 
@@ -158,7 +158,7 @@ if square_root.is_integer():
 # using f strings instead
 
 import math
-number = int(input())
+number = int(input().strip())
 factorial_result = math.factorial(number)
 square_root = math.sqrt(factorial_result)
 
@@ -167,8 +167,8 @@ if square_root.is_integer():
 
 import math
 
-# Accept user input for the number
-number = int(input())
+# Accept user input for the number and add strip() for clean input
+number = int(input().strip())
 
 # Calculate the factorial
 factorial_result = math.factorial(number)
