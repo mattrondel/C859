@@ -34,7 +34,6 @@ frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
 try:
     search_string = int(input())
     index = frameworks.index(search_string)
-          #Note: The index() method in Python is a built-in method for lists. It is used to find the index of the first occurrence of a specified element in the list.
     print(index)
 except ValueError:
     print("Error")
