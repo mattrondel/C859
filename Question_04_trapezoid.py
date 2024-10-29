@@ -25,7 +25,7 @@ s = (a + b + c) / 2
 # # area = the square root of s(s-a)(s-b)(s-c)
 # # Calculate the area using Heron's formula - this is the math.sqrt(s * (s - a) * (s - b) * (s - c)) 
 # hopefully this is displayed in the exam because Heron's formula is not directly included in the standard Python math module. 
-add all side together and divide by half, then send this varible s for side
+add all side together and divide by half, then send this varible s for side (actually its for semi-perimeter)
 # # like file extensions functions from a module look the same:
 # # math.sqrt()
 area = math.sqrt(s * (s - a) * (s - b) * (s - c))
