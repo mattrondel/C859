@@ -40,6 +40,7 @@ In this code:
 
 - Instead of converting the input directly into an integer (index = int(input())), we directly take the input as a string (search_string = input()).
 - We use the index() method of lists to find the index of the input string value within the frameworks list.
+
 MORE ON THE INDEX() METHOD https://www.w3schools.com/python/ref_list_index.asp
 
 - If the input string is not found in the list, a ValueError will be raised. 
