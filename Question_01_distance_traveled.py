@@ -26,10 +26,12 @@
 miles_per_employee = [15.62, 41.85, 32.67]
 
 # add strip so shit doesnt break like so: int(input().strip())
+int(input().strip())
 
-Travel_A = int(input())
-Travel_B = int(input())
-Travel_C = int(input())
+
+Travel_A = int(input().strip())
+Travel_B = int(input().strip())
+Travel_C = int(input().strip())
 
 # "the number of times an employee travels to a job site."
 Total_Distance = (Travel_A * miles_per_employee [0]) + (Travel_B * miles_per_employee [1]) + (Travel_C * miles_per_employee [2])
