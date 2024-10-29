@@ -53,8 +53,8 @@ purchase = {"bananas": 1.85, "steak": 19.99, "cookies": 4.52, "celery": 2.81, "m
 
 Other way to solve it:
 
-item = input()
-quantity = int(input())
+item = input().strip() # alway add strip() to string inputs
+quantity = int(input().strip())
 
 base_price = purchase[item] * quantity
 
