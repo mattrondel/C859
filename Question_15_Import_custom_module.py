@@ -29,7 +29,7 @@
 
 import pigAge
 
-input_pig_age = int(input())
+input_pig_age = int(input().strip())
 
 converted_pig_age = pigAge.pigAge_converter(input_pig_age)
 
