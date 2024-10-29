@@ -14,9 +14,9 @@ Probably this lab used in the exam:
 # This triangle is solved like so: 
 import math
  
-a = float(input())
-b = float(input())
-c = float(input())
+a = float(input().strip())
+b = float(input().strip())
+c = float(input().strip())
 
 # # Calculate half of the triangle's perimeter this is part of herons formula
 s = (a + b + c) / 2
@@ -56,9 +56,9 @@ area = math.sqrt(s * (s - a) * (s - b) * (s - c))
 # Trapezoid area: 28.0 square meters
 
 # "take three inputs as floats" 
-b1 = float(input())
-b2 = float(input())
-h =  float(input())
+b1 = float(input().strip())
+b2 = float(input().strip())
+h = float(input().strip())
 
 # "Trapezoid Area Formula: as displayed "
 Area = ((b1 + b2) / 2) * h
