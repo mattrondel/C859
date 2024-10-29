@@ -3,9 +3,6 @@
 # Book material is Chapter 13 
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/13/section/1
 
-# Try this lab:
-# https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/15
-
 # Me - trick to this is simply following what it asks and recalling that calling a funtion within a module is basically a file extention
 
 # Derek
