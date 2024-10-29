@@ -36,11 +36,11 @@
 # third output: sum of five inputs converted to string values (concatenate)
 
 # "Create a solution that accepts five integer inputs."
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-num4 = int(input())
-num5 = int(input())
+num1 = int(input().strip())
+num2 = int(input().strip())
+num3 = int(input().strip())
+num4 = int(input().strip())
+num5 = int(input().strip())
 
 # First output: sum of five inputs maintained as integer values
 integer_sum = num1 + num2 + num3 + num4 + num5
