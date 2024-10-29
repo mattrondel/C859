@@ -52,6 +52,8 @@ input, solve (using the sample data), then output
 # then the expected output is
 # Total price: $150.53
 
+This is less code than the loop I have at the bottom
+
 # provided line:
 stocks = {'TSLA': 912.86, 'BBBY': 24.84, 'AAPL': 174.26, 'SOFI': 6.92, 'KIRK': 8.72, 'AURA': 22.12, 'AMZN': 141.28, 'EMBK': 12.29, 'LVLU': 2.33}
 
