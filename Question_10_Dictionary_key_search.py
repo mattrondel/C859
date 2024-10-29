@@ -94,6 +94,16 @@ for _ in range(total_snacks):
  total_cost += snacks[selection]
 print(f'Total price: ${total_cost:.2f}')
 
+sample inputs to test with:
+3
+A1
+B1
+B3
+
+2
+B3
+C3
+
 This program first takes an integer input total_snacks, then for each snack requested, it adds to the total_cost using the snack's corresponding 
 price in the snack dictionary. Finally, it prints the total cost with a dollar sign and two decimal points of precision.
 
