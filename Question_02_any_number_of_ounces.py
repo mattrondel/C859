@@ -181,6 +181,9 @@ convert_ounces(input_ounces)
 
 TIME CONVERSION possible whats on the exam
 
+Lab that deals with time is found here (MIGHT BE IDENTICAL TO THE EXAM):
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/2
+
 #  3600 is used because it represents the number of seconds in an hour.
 def ConvertSeconds(seconds):
     Hours = seconds // 3600
