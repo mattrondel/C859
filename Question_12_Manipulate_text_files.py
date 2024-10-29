@@ -1,7 +1,3 @@
-
-practice here:
-https://replit.com/@mrondel/mainpy-1#main.py
-
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/34/section/12
 
 # WGU Chapter 14 (Files) (33 min)
@@ -71,6 +67,20 @@ Output the new contents of "WordTextFile1.txt". Use the open() function and writ
 # Step 1: Open the file "WordTextFile1.txt" in read mode and read its contents, in the testing engine case you can't hard code anything so it has to accept any input 
 # the "With" block closes the file once the with block exits
 
+strip added 10/29
+
+file_path = input()
+with open(file_path, "r") as file:
+    words = file.read().strip().split()
+    sentence = ' '.join(words)   # Note: Removed extra space in join since we're cleaning whitespace
+with open(file_path, "a") as file:
+    file.write("\n" + sentence)
+print(open(file_path, "r").read())
+
+
+##########################################
+older explained version with no strip()
+    
 file_path = input()
 with open(file_path, "r") as file:
     file_contents = file.read()
