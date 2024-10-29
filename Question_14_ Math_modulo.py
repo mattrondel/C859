@@ -21,7 +21,7 @@ solution to zybooks
 
 import math
 
-number = int(input())
+number = int(input().strip())
 
 factorial_value = math.factorial(number)
 Boolean_value = factorial_value > 100
