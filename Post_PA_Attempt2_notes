@@ -1,0 +1,44 @@
+#9, 11, 12, 13 on OA I could not answer
+these are 8, 10, 11, and 12 on PA
+
+
+# Notes from practicing 
+
+how would this look if we took a string input instead and return the index value
+keep the try and except intact
+
+int as input
+
+frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
+
+try:
+    search_string = int(input())
+    index = frameworks.index(search_string)
+    print(index)
+except ValueError:
+    print("Error")
+try:
+    search_string = int(input())
+    index = frameworks.index(search_string)
+    print(index)
+except ValueError:
+    print("Error")
+	
+# ====
+# how this would look if we took a string input instead and return the index value
+
+frameworks = ["Django", "Flask", "CherryPy", "Bottle", "Web2Py", "TurboGears"]
+
+try:
+    search_string = input()
+    index = frameworks.index(search_string)
+    print(index)
+except ValueError:
+    print("Error")
+
+The main changes are:
+
+1. Removed the int() conversion since we want to keep it as a string
+2. The rest of the code stays the same since .index() works with both strings and integers
+
+The code will still catch the ValueError if the string isn't found in the frameworks list, and print "Error" in that case.
