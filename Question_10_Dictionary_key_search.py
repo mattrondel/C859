@@ -4,6 +4,7 @@
 THIS IS A THREE PART PROBLEM
 input, solve (using the sample data), then output
 
+Snacks, tuition, state population
 # might be the same here:
 # https://brainly.com/question/39010072
 
