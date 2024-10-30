@@ -1,3 +1,8 @@
+post exam #2
+i could not for the life of me solve 8,10,12 and 13
+mind you 12 and 13 are the file and csv ones.
+
+
 [Python and Programming Resources](https://routergods.atlassian.net/wiki/spaces/RKB/pages/1671341/Python+and+Programming+Resources)
 
 [Blank Zybooks lab 2.16 (Great for Testing "Zybookisms"](https://learn.zybooks.com/zybook/WGUC859v4/chapter/2/section/16)
