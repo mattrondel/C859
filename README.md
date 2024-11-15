@@ -1,6 +1,4 @@
-I have been working with my mentor on a weekly basis and have been in contact with my instructor along with the 
-This is my final course to complete my degree.
-I am on my 3rd attempt with the objective assesment
+
 
 
 post exam #2
