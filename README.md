@@ -1,3 +1,8 @@
+I have been working with my mentor on a weekly basis and have been in contact with not just my instructor but all of them for this course. 
+I am on my last class with 3 units left
+I am on my 3rd attempt with the objective assesment
+
+
 post exam #2
 i could not for the life of me solve 8,10,12 and 13
 mind you 12 and 13 are the file and csv ones.
