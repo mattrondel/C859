@@ -1,5 +1,5 @@
-I have been working with my mentor on a weekly basis and have been in contact with not just my instructor but all of them for this course. 
-I am on my last class with 3 units left
+I have been working with my mentor on a weekly basis and have been in contact with my instructor along with the 
+This is my final course to complete my degree.
 I am on my 3rd attempt with the objective assesment
 
 
