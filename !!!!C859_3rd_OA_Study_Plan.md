@@ -13,7 +13,11 @@ Follow the directions above.
 
 - [ ] SoloLearn modules "Basic Concepts", "Control Structures" (you must work through SoloLearn sequentially to reach these modules)
 
-Codebat Exercises:  provide a screenshot of the completed sections and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
+Codebat Exercises:  provide a screenshot of the completed sections and upload the completed exercises to the cloud for review and feedback.  
+
+Send me the shareable link for review.  
+
+Follow the directions above.
 
 - [ ] Missing Char
 
@@ -77,9 +81,17 @@ Lab Activities:
 
 Other Exercises:
 
-- [ ] Complete the exercises in 11.21 Lists and dictionaries practice and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
+Complete the exercises in 11.21 Lists and dictionaries practice and upload the completed exercises to the cloud for review and feedback.  
 
-- [ ] Complete the Competency 2 Exercises and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
+Send me the shareable link for review.  
+
+Follow the directions above.
+
+Complete the Competency 2 Exercises and upload the completed exercises to the cloud for review and feedback.  
+
+Send me the shareable link for review.  
+
+Follow the directions above.
 
 
 Third Call
