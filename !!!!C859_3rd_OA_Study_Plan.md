@@ -26,9 +26,9 @@ Follow the directions above.
 
 - [ ] [Extra End](https://codingbat.com/python/String-1)
 
-- [ ] Double Character
+- [ ] [Double Character](https://codingbat.com/python/String-2)
 
-- [ ] Count Hi
+- [ ] [Count Hi](https://codingbat.com/python/String-2)
 
 Lab Activities:
 
