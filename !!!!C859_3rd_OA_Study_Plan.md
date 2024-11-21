@@ -12,7 +12,7 @@ Send me the shareable link for review.
 
 Follow the directions above.
 
-- [ ] (SoloLearn modules "Basic Concepts", "Control Structures")[https://www.sololearn.com/en/learn/courses/le-python?location=2]  (you must work through SoloLearn sequentially to reach these modules)
+- [ ] [SoloLearn modules "Basic Concepts", "Control Structures"](https://www.sololearn.com/en/learn/courses/le-python?location=2)  (you must work through SoloLearn sequentially to reach these modules)
 
 Codebat Exercises:  provide a screenshot of the completed sections and upload the completed exercises to the cloud for review and feedback.  
 
