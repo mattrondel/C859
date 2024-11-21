@@ -20,11 +20,11 @@ Send me the shareable link for review.
 
 Follow the directions above.
 
-- [ ] Missing Char
+- [ ] [Missing Char](https://codingbat.com/python/Warmup-1)
 
-- [ ] Make Tags
+- [ ] [Make Tags](https://codingbat.com/python/String-1)
 
-- [ ] Extra End
+- [ ] [Extra End](https://codingbat.com/python/String-1)
 
 - [ ] Double Character
 
