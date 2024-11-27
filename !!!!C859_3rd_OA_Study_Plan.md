@@ -32,13 +32,13 @@ Follow the directions above.
 
 Lab Activities:
 
-- [ ] Complete Chapter 22 labs at 100%
+- [ ] [Complete Chapter 22 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/1)
 
-- [ ] Complete Chapter 27 labs at 100%
+- [ ] [Complete Chapter 27 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/1)
 
 Other Exercises:
 
-- [ ] Complete the exercises in 10.10 Strings practice and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
+- [ ] [Complete the exercises in 10.10](https://learn.zybooks.com/zybook/WGUC859v4/chapter/10/section/10) Strings practice and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
 
 - [ ] Complete the Competency 1 Exercises and upload the completed exercises to the cloud for review and feedback. Send me the shareable link for review.  Follow the directions above.
 
