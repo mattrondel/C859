@@ -1,3 +1,5 @@
+-----------------------------------------------------------------------------------------------
+
 First Call
 
 -----------------------------------------------------------------------------------------------
@@ -42,6 +44,7 @@ Other Exercises:
 
 - [ ] Complete the Competency 1 Exercises and upload the completed exercises to the cloud for review and feedback. Send me the shareable link for review.  Follow the directions above.
 
+-----------------------------------------------------------------------------------------------
 
 Second Call
 
@@ -94,6 +97,7 @@ Send me the shareable link for review.
 
 Follow the directions above.
 
+-----------------------------------------------------------------------------------------------
 
 Third Call
 
@@ -121,6 +125,7 @@ Other Exercises:
 
 - [ ] Complete the Competency 3 Exercises and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
  
+-----------------------------------------------------------------------------------------------
 
 **Final Step (No Phone Calls)**
 
