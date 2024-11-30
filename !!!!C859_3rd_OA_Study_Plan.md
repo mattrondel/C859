@@ -14,7 +14,7 @@ Follow the directions above.
 
 - [ ] [SoloLearn modules](https://www.sololearn.com/en/learn/courses/le-python?location=2)  (you must work through SoloLearn sequentially to reach these modules)
 - [x] "Basic Concepts"
-- [ ] "Control Structures"
+- [x] "Control Structures"
 
 Codebat Exercises:  provide a screenshot of the completed sections and upload the completed exercises to the cloud for review and feedback.  
 
