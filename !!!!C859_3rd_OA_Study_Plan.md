@@ -25,6 +25,8 @@ Follow the directions above.
 - [ ] [Missing Char](https://codingbat.com/python/Warmup-1)
 
 - [ ] [Make Tags](https://codingbat.com/python/String-1)
+def make_tags(tag, word):
+  return '<' + tag + '>' + word + '</' + tag + '>'
 
 - [ ] [Extra End](https://codingbat.com/python/String-1)
 
