@@ -36,6 +36,9 @@ def make_tags(tag, word):
 
 - [ ] [Extra End](https://codingbat.com/python/String-1)
 
+def extra_end(str):
+  return str[-2:] * 3
+      
 - [ ] [Double Character](https://codingbat.com/python/String-2)
 
 - [ ] [Count Hi](https://codingbat.com/python/String-2)
