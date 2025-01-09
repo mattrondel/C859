@@ -37,13 +37,17 @@ def make_tags(tag, word):
 - [ ] [Extra End](https://codingbat.com/python/String-1)
 
 def extra_end(str):
+
   return str[-2:] * 3
       
 - [ ] [Double Character](https://codingbat.com/python/String-2)
 
 def double_char(str):
+ 
     str2 = []
+
     for letter in str:
+
         str2.append(2*letter)
         
     return "".join(str2)
