@@ -24,6 +24,10 @@ Follow the directions above.
 
 - [ ] [Missing Char](https://codingbat.com/python/Warmup-1)
 
+def missing_char(str, n):
+
+  return str[:n] + str[n+1:]
+
 - [ ] [Make Tags](https://codingbat.com/python/String-1)
       
 def make_tags(tag, word):
