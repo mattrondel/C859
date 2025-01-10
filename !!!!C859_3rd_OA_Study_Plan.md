@@ -82,9 +82,9 @@ Second Call
 
 - [ ] SoloLearn Exercises: provide a screenshot of the completed sections and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
 
-- [x] SoloLearn modules "Control Structures", "Functions & Modules" (you must work through SoloLearn sequentially to reach these modules)
+- [x] [SoloLearn modules](https://www.sololearn.com/en/learn/courses/le-python) "Control Structures", "Functions & Modules" (you must work through SoloLearn sequentially to reach these modules)
 
-- [ ] SoloLearn modules "More Types" (you must work through SoloLearn sequentially to reach these modules)
+- [ ] [SoloLearn modules](https://www.sololearn.com/en/learn/courses/le-python) "More Types" (you must work through SoloLearn sequentially to reach these modules)
 
  
 Codebat Exercises:  provide a screenshot of the completed sections and upload the completed exercises to the cloud for review and feedback.  
@@ -137,7 +137,7 @@ Third Call
 
 SoloLearn Exercises: provide a screenshot of the completed sections and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
 
-- [x] SoloLearn modules "Exceptions & Files" (you must work through SoloLearn sequentially to reach these modules)
+- [x] [SoloLearn modules](https://www.sololearn.com/en/learn/courses/le-python) "Exceptions & Files" (you must work through SoloLearn sequentially to reach these modules)
 
 Lab Activities:
 
