@@ -64,7 +64,11 @@ Lab Activities:
 
 - [ ] [Complete Chapter 22 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/1)
 
+      currenty at: https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/9
+
 - [ ] [Complete Chapter 27 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/1)
+
+      currenty at: _______________________________________________________
 
 Other Exercises:
 
