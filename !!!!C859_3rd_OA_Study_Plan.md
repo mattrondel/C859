@@ -68,7 +68,7 @@ Lab Activities:
 
 - [ ] [Complete Chapter 27 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/1)
 
-Resume Progress: _______________________________________________________
+[Resume Progress:](https://github.com/mattrondel/C859/edit/main/!!!!C859_3rd_OA_Study_Plan.md)
 
 Other Exercises:
 
