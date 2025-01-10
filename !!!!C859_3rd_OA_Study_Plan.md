@@ -12,7 +12,7 @@ Send me the shareable link for review.
 
 Follow the directions above.
 
-- [ ] [SoloLearn modules](https://www.sololearn.com/en/learn/courses/le-python?location=2)  (you must work through SoloLearn sequentially to reach these modules)
+- [ ] [SoloLearn modules]([https://www.sololearn.com/en/learn/courses/le-python?location=2](https://www.sololearn.com/en/learn/courses/le-python))  (you must work through SoloLearn sequentially to reach these modules)
 - [x] "Basic Concepts"
 - [x] "Control Structures"
 
