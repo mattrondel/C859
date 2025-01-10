@@ -22,25 +22,25 @@ Send me the shareable link for review.
 
 Follow the directions above.
 
-- [ ] [Missing Char](https://codingbat.com/python/Warmup-1)
+- [x] [Missing Char](https://codingbat.com/python/Warmup-1)
 
 def missing_char(str, n):
 
   return str[:n] + str[n+1:]
 
-- [ ] [Make Tags](https://codingbat.com/python/String-1)
+- [x] [Make Tags](https://codingbat.com/python/String-1)
       
 def make_tags(tag, word):
 
   return '<' + tag + '>' + word + '</' + tag + '>'
 
-- [ ] [Extra End](https://codingbat.com/python/String-1)
+- [x] [Extra End](https://codingbat.com/python/String-1)
 
 def extra_end(str):
 
   return str[-2:] * 3
       
-- [ ] [Double Character](https://codingbat.com/python/String-2)
+- [x] [Double Character](https://codingbat.com/python/String-2)
 
 def double_char(str):
  
@@ -52,7 +52,7 @@ def double_char(str):
         
     return "".join(str2)
 
-- [ ] [Count Hi](https://codingbat.com/python/String-2)
+- [x] [Count Hi](https://codingbat.com/python/String-2)
 
 def count_hi(s):
     count = 0
