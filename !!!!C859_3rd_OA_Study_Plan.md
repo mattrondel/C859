@@ -54,6 +54,12 @@ def double_char(str):
 
 - [ ] [Count Hi](https://codingbat.com/python/String-2)
 
+def count_hi(s):
+    count = 0
+    for i in range(len(s)-1):
+        count += s[i]=='h' and s[i+1]=='i'
+    return count
+
 Lab Activities:
 
 - [ ] [Complete Chapter 22 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/1)
