@@ -93,27 +93,27 @@ Send me the shareable link for review.
 
 Follow the directions above.
 
-- [ ] First and Last
+- [ ] [First and Last](https://codingbat.com/python/List-1)
 
-- [ ] Sum List
+- [ ] Sum List - unable to locate on coding bat
 
-- [ ] Reverse List
+- [ ] Reverse List - unable to locate on coding bat
 
-- [ ] Caught Speeding
+- [ ] [Caught Speeding](https://codingbat.com/python/Logic-1)
 
-- [ ] Count Evens
+- [ ] [Count Evens](https://codingbat.com/python/List-2)
 
 Lab Activities:
 
-- [ ] Complete Chapter 25 labs at 100%
+- [ ] [Complete Chapter 25 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/25/section/1)
 
-- [ ] Complete Chapter 26 labs at 100%
+- [ ] [Complete Chapter 26 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/26/section/1)
 
-- [ ] Complete Chapter 28 labs at 100%
+- [ ] [Complete Chapter 28 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/28/section/1)
 
 Other Exercises:
 
-Complete the exercises in 11.21 Lists and dictionaries practice and upload the completed exercises to the cloud for review and feedback.  
+- [ ] Complete the [exercises in 11.21](https://learn.zybooks.com/zybook/WGUC859v4/chapter/11/section/21) Lists and dictionaries practice and upload the completed exercises to the cloud for review and feedback.  
 
 Send me the shareable link for review.  
 
@@ -141,15 +141,15 @@ SoloLearn Exercises: provide a screenshot of the completed sections and upload t
 
 Lab Activities:
 
-- [ ] Complete Chapter 30 labs at 100%
+- [ ] [Complete Chapter 30 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/30/section/1)
 
-- [ ] Complete Chapter 31 labs at 100%
+- [ ] [Complete Chapter 31 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/31/section/1)
 
 Other Exercises:
 
-- [ ] Complete the exercises in 13.11 Standard library practice and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
+- [ ] Complete the exercises in [13.11 Standard library practice](https://learn.zybooks.com/zybook/WGUC859v4/chapter/13/section/11) and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
 
-- [ ] Complete the exercises in 14.12 Files practice and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
+- [ ] Complete the exercises in [14.12 Files practice](https://learn.zybooks.com/zybook/WGUC859v4/chapter/14/section/12) and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
 
 - [ ] Complete the Competency 3 Exercises and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
  
@@ -159,6 +159,6 @@ Other Exercises:
 
 -----------------------------------------------------------------------------------------------
 
-- [ ] Complete Chapter 33 Practice Exam at 100% on all questions.
+- [ ] [Complete Chapter 33 Practice Exam at 100% on all questions.](https://learn.zybooks.com/zybook/WGUC859v4/chapter/33/section/1)
 
-- [ ] Take another Pre Assessment, pass it, and get all 3 areas to Competent.
+- [ ] [Take another Pre Assessment, pass it, and get all 3 areas to Competent.](https://vsa2.wgu.edu/vendor/assessment/launch/PJTV)
