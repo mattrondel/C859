@@ -1,4 +1,6 @@
-https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/8
+stumpted:
+
+https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/9
 
 
 post exam #2
