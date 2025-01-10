@@ -137,7 +137,7 @@ Third Call
 
 SoloLearn Exercises: provide a screenshot of the completed sections and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
 
-- [ ] SoloLearn modules "Exceptions & Files" (you must work through SoloLearn sequentially to reach these modules)
+- [x] SoloLearn modules "Exceptions & Files" (you must work through SoloLearn sequentially to reach these modules)
 
 Lab Activities:
 
