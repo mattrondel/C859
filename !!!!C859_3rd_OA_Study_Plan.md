@@ -64,7 +64,24 @@ Lab Activities:
 
 - [ ] [Complete Chapter 22 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/1)
 
-[Resume Progress:](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/9)
+[Resume Progress:](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/10)
+
+work so far:
+lemonj = input(Enter amount of lemon juice (in cups):\n)
+2
+water = input(Enter amount of water (in cups):\n)
+16
+agave = input(Enter amount of agave nectar (in cups):\n)
+2.5
+How many servings does this make?
+6
+
+print(f"Lemonade ingredients - yields {6.00} servings")
+print(f"{2.00:.2f} cup(s) lemon juice")
+print(f"{16.00:.2f} cup(s) water")
+print{2.50} cup(s) agave nectar")
+
+
 
 - [ ] [Complete Chapter 27 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/1)
 
