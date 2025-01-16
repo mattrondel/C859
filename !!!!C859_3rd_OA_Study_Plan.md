@@ -81,7 +81,7 @@ print(f"{2.00:.2f} cup(s) lemon juice")
 print(f"{16.00:.2f} cup(s) water")
 print{2.50} cup(s) agave nectar")
 
-
+go to: [22.11 LAB*: Program: Food receipt](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/11)
 
 - [ ] [Complete Chapter 27 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/1)
 
