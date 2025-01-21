@@ -91,6 +91,8 @@ Other Exercises:
 
 - [ ] [Complete the exercises in 10.10](https://learn.zybooks.com/zybook/WGUC859v4/chapter/10/section/10) Strings practice and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
 
+[work here: https://replit.com/@mrondel1/1010-Strings-practice#main.py](https://replit.com/@mrondel1/1010-Strings-practice#main.py)
+
 - [ ] Complete the Competency 1 Exercises and upload the completed exercises to the cloud for review and feedback. Send me the shareable link for review.  Follow the directions above.
 
 -----------------------------------------------------------------------------------------------
