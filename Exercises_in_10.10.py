@@ -1,7 +1,7 @@
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
-# Task 1
+# Task 1 - good
 
 # Complete the function to print the first X number of characters in the given string
 
