@@ -91,9 +91,7 @@ Other Exercises:
 
 - [X] [Complete the exercises in 10.10](https://learn.zybooks.com/zybook/WGUC859v4/chapter/10/section/10) Strings practice and upload the completed exercises to the cloud for review and feedback.  Send me the shareable link for review.  Follow the directions above.
 
-[work here: https://replit.com/@mrondel1/1010-Strings-practice#main.py](https://replit.com/@mrondel1/1010-Strings-practice#main.py)
-
-[Actually do this in VScode becuase Replit sucks](https://github.com/mattrondel/C859/blob/main/Exercises_in_10.10.py)
+[Exercises found here](https://github.com/mattrondel/C859/blob/main/Exercises_in_10.10.py)
 
 - [ ] Complete the Competency 1 Exercises and upload the completed exercises to the cloud for review and feedback. Send me the shareable link for review.  Follow the directions above.
 
