@@ -93,7 +93,7 @@ Other Exercises:
 
 [work here: https://replit.com/@mrondel1/1010-Strings-practice#main.py](https://replit.com/@mrondel1/1010-Strings-practice#main.py)
 
-[Actually do this in vscode becuase Replit sucks](https://github.com/mattrondel/C859/blob/main/Exercises_in_10.10.py)
+[Actually do this in VScode becuase Replit sucks](https://github.com/mattrondel/C859/blob/main/Exercises_in_10.10.py)
 
 - [ ] Complete the Competency 1 Exercises and upload the completed exercises to the cloud for review and feedback. Send me the shareable link for review.  Follow the directions above.
 
