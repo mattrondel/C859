@@ -20,7 +20,7 @@ printFirst('WGU College of IT', 11)
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
-# Task 2
+# Task 2 - good
 
 # Complete the function to return the last X number of characters in the given string
 
