@@ -1,3 +1,6 @@
+TASK 10 AND 7 NEED WORK
+
+
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
@@ -171,7 +174,7 @@ print(removeSpaces('Welcome WGU ', ' -IT Students'))
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
-#Task 9
+#Task 9 - DONE
 
 #Complete the function to print the specified hourly rate with two decimals
 
