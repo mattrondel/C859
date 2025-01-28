@@ -130,7 +130,7 @@ replaceWGU('Hello, WGU')
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
-#Task 7  - STUMPED
+#Task 7  - good
 
 #Complete the function to remove the word WGU from the given string ONLY if it's not the first word and return the new string
 
