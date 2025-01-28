@@ -73,6 +73,7 @@ print(containsWGU('Night Owls Rock'))
 def printWords(mystring):
 # Student code goes here
   words = mystring.split()
+  print(words)
 
 # expected output: ['WGU', 'College', 'of', 'IT']
 printWords('WGU College of IT')    
