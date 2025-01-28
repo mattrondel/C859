@@ -1,7 +1,7 @@
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
-# Task 1 - works
+# Task 1
 
 # Complete the function to print the first X number of characters in the given string
 
@@ -20,7 +20,7 @@ printFirst('WGU College of IT', 11)
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
-# Task 2 - works
+# Task 2
 
 # Complete the function to return the last X number of characters in the given string
 
@@ -40,7 +40,7 @@ print(getLast('WGU College of IT', 13))
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
-#Task 3
+#Task 3 - prints correctly
 
 #Complete the function to return True if the word WGU exists in the given string otherwise return False
 
@@ -73,7 +73,6 @@ print(containsWGU('Night Owls Rock'))
 def printWords(mystring):
 # Student code goes here
   words = mystring.split()
-  print(words)
 
 # expected output: ['WGU', 'College', 'of', 'IT']
 printWords('WGU College of IT')    
@@ -132,18 +131,14 @@ replaceWGU('Hello, WGU')
 
 #Complete the function to remove the word WGU from the given string ONLY if it's not the first word and return the new string
 
-# Complete the function to remove the word WGU from the given string
-# ONLY if it's not the first word and return the new string
 def removeWGU(mystring):
-# Student code goes here
-  words = mystring.split()
-
-def removeWGU(mystring):
-  words = mystring.split()  # Split the string into a list of words
-  if len(words) > 1 and words[0] != "WGU":  # Check if there are more than one words and the first word is not "WGU"
-      words.remove("WGU")  # Remove "WGU" from the list if it's not the first word
-  return " ".join(words)  # Join the words back into a string
-
+    # Check if string starts with WGU
+    if mystring.startswith('WGU '):
+        # If WGU is the first word, leave it and remove any other WGU instances
+        return mystring.replace('WGU', '').strip()
+    else:
+        # If WGU is not the first word, simply remove all WGU instances
+        return mystring.replace('WGU', '').strip()
 
 
 # expected output: WGU Rocks
