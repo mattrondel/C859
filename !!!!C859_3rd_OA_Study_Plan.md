@@ -85,7 +85,7 @@ go to: [22.11 LAB*: Program: Food receipt](https://learn.zybooks.com/zybook/WGUC
 
 - [ ] [Complete Chapter 27 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/1)
 
-[Resume Progress: (Not Started yet)](https://github.com/mattrondel/C859/edit/main/!!!!C859_3rd_OA_Study_Plan.md)
+[Resume Progress: (29.7)](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/9)
 
 Other Exercises:
 
