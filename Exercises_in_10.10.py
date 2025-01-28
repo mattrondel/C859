@@ -135,12 +135,9 @@ replaceWGU('Hello, WGU')
 #Complete the function to remove the word WGU from the given string ONLY if it's not the first word and return the new string
 
 def removeWGU(mystring):
-    # Check if string starts with WGU
     if mystring.startswith('WGU '):
-        # If WGU is the first word, leave it and remove any other WGU instances
         return mystring.replace('WGU', '').strip()
     else:
-        # If WGU is not the first word, simply remove all WGU instances
         return mystring.replace('WGU', '').strip()
 
 
