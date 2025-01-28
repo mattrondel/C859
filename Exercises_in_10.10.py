@@ -65,7 +65,7 @@ print(containsWGU('Night Owls Rock'))
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
-#Task 4
+#Task 4 - good
 
 #Complete the function to print all of the words in the given string
 
