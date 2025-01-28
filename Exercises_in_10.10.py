@@ -193,17 +193,16 @@ displayHourlyRate(24.123456)
 # test here:
 # https://pythontutor.com/render.html#mode=display
 
-#Task 10 - needs work
+#Task 10 - solved but need to lookup what map() does
 
 #Complete the function to return the number of uppercase letters in the given string
 
 # Complete the function to return the number of uppercase letters in the given string
 def countUpper(mystring):
-# Student code goes here
-  print(countUpper(mystring))
-
+    return sum(map(str.isupper, mystring))
+ 
 # expected output: 4
 print(countUpper('Welcome to WGU'))
-
+ 
 # expected output: 2
 print(countUpper('Hello, Mary'))
