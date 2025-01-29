@@ -1,8 +1,10 @@
 # Zybooks stumpers
+
 # 22.10 LAB*: Program: Cooking measurement converter
+   
 
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/10
-   
+
 ###########
 
 # FIXME (1): Finish reading other items into variables, then output the three ingredients
@@ -31,7 +33,7 @@ print(f"{lemon_juice_cups:.2f} cup(s) lemon juice")
 print(f"{water:.2f} cup(s) water")
 
 # should be: 2.50 cup(s) agave nectar
-print(f"{agave:.2f} cup(s) agave nectar")
+print(f"{agave:.2f} cup(s) agave nectar\n")
 
 
 
@@ -39,7 +41,7 @@ print(f"{agave:.2f} cup(s) agave nectar")
 
 
 # test data 48
-howmanservings = float(input("How many servings would you like to make?\n"))
+howmanservings = float(input("How many servings would you like to make?\n\n"))
 
 #calc lemon juice from input, HOW WOULD YOU GO ABOUT FIGURING OUT THE EQUATION 
 # IF 48 servings is 16 cups how much is 1 serving, well divide...
@@ -52,7 +54,8 @@ lemon2 = howmanservings / 3
 
 # Calc agave... dont freaking know
 # 48 / 20
-# agave2 = 2.4 
+# agave2 = 2.4 ? 0.4166666666666667 ?
+agave2 = 0.4166666666666667 * howmanservings # this doesnt really solve it
 
 #should be Lemonade ingredients - yields 48.00 servings
 print(f"Lemonade ingredients - yields {howmanservings:.2f} servings")
@@ -64,9 +67,7 @@ print(f"{lemon2:.2f} cup(s) lemon juice")
 #8.00 cup(s) water
 
 # should be 20.00 cup(s) agave nectar
-print(f"{agave2} cup(s) agave nectar
-
-
+print(f"{agave2:.2f} cup(s) agave nectar")
 
 
 
