@@ -66,20 +66,8 @@ Lab Activities:
 
 [Resume Progress:](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/10)
 
-work so far:
-lemonj = input(Enter amount of lemon juice (in cups):\n)
-2
-water = input(Enter amount of water (in cups):\n)
-16
-agave = input(Enter amount of agave nectar (in cups):\n)
-2.5
-How many servings does this make?
-6
+🔥 [WORK SAVED](https://github.com/mattrondel/C859/blob/main/Zybooks_stumpers.py)
 
-print(f"Lemonade ingredients - yields {6.00} servings")
-print(f"{2.00:.2f} cup(s) lemon juice")
-print(f"{16.00:.2f} cup(s) water")
-print{2.50} cup(s) agave nectar")
 
 go to: [22.11 LAB*: Program: Food receipt](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/11)
 
