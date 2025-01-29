@@ -73,7 +73,7 @@ go to: [22.11 LAB*: Program: Food receipt](https://learn.zybooks.com/zybook/WGUC
 
 - [ ] [Complete Chapter 27 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/1)
 
-[Resume Progress: (29.7)](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/9)
+[Resume Progress: (29.9)](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/9)
 
 Other Exercises:
 
