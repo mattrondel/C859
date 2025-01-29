@@ -118,14 +118,16 @@ Lab Activities:
 
 - [ ] [Complete Chapter 25 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/25/section/1)
 
-[Resume at 25.5 LAB: Count multiples](https://learn.zybooks.com/zybook/WGUC859v4/chapter/25/section/5)
+🔥[Resume at 25.5 LAB: Count multiples](https://learn.zybooks.com/zybook/WGUC859v4/chapter/25/section/5)
 
 
 - [ ] [Complete Chapter 26 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/26/section/1)
 
-
+🔥[Resume at 26.3 LAB: A jiffy](https://learn.zybooks.com/zybook/WGUC859v4/chapter/26/section/3)
 
 - [ ] [Complete Chapter 28 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/28/section/1)
+
+🔥[Resume at 28.3 LAB: Replacement words](https://learn.zybooks.com/zybook/WGUC859v4/chapter/28/section/3)
 
 Other Exercises:
 
