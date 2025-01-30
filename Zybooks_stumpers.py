@@ -1,7 +1,8 @@
 # Zybooks stumpers
 
 # 22.10 LAB*: Program: Cooking measurement converter
-   
+
+STUMPING ME IS HOW DO I COME UP WITH THE MATH FOR  PART(2)
 
 # https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/10
 
