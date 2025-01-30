@@ -74,4 +74,40 @@ print(f"{agave2:.2f} cup(s) agave nectar")
 
 
 # FIXME (3): Convert and output the ingredients from (2) to gallons
+
+#########################################################
+#########################################################
+
+# 22.11 LAB*: Program: Food receipt
+# from: https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/11
+
+
+# test here:
+# https://pythontutor.com/render.html#mode=display
+
+
+#item_name = input('Enter food item name:\n')
+
+# FIXME (1): Finish reading item price and quantity, then output a receipt
    
+food = input("Enter food item name:\n")
+#hot dog
+
+price = float(input("Enter item price:\n"))
+#2.00
+
+qty = int(input("Enter item quantity:\n"))
+#5
+
+#math the price
+total = price * qty
+   
+print("RECEIPT\n")
+
+#5 hot dog @ $2.00 = $10.00
+print(f"{qty} hot dog @ ${price} = ${total:.2f}")
+
+#Total cost: $10.00
+print(f"Total cost: ${total:.2f}")
+   
+
