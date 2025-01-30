@@ -64,7 +64,7 @@ Lab Activities:
 
 - [ ] [Complete Chapter 22 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/1)
 
-[Resume Progress:](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/10)
+[Resume Progress @ Zybooks:](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/10)
 
 🔥 [WORK SAVED](https://github.com/mattrondel/C859/blob/main/Zybooks_stumpers.py)
 
