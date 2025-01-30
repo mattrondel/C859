@@ -110,7 +110,11 @@ Follow the directions above.
 
 - [ ] Reverse List - unable to locate on coding bat
 
-- [ ] [Caught Speeding](https://codingbat.com/python/Logic-1)
+- [X] [Caught Speeding](https://codingbat.com/python/Logic-1)
+
+def caught_speeding(speed, is_birthday):
+    s = speed-5*is_birthday
+    return (s>60)+(s>80)
 
 - [ ] [Count Evens](https://codingbat.com/python/List-2)
 
