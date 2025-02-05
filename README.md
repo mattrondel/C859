@@ -1,3 +1,5 @@
+https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai
+
 stumpted:
 
 https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/9
