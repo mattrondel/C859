@@ -81,7 +81,7 @@ Other Exercises:
 
 [Exercises found here](https://github.com/mattrondel/C859/blob/main/Exercises_in_10.10.py)
 
-- [ ] Complete the Competency 1 Exercises and upload the completed exercises to the cloud for review and feedback. Send me the shareable link for review.  Follow the directions above.
+- [X] Complete the Competency 1 Exercises and upload the completed exercises to the cloud for review and feedback. Send me the shareable link for review.  Follow the directions above.
 
 -----------------------------------------------------------------------------------------------
 
