@@ -62,7 +62,7 @@ def count_hi(s):
 
 Lab Activities:
 
-- [ ] [Complete Chapter 22 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/1)
+- [X] [Complete Chapter 22 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/1)
 
 [Resume Progress @ Zybooks:](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/10)
 
@@ -71,7 +71,7 @@ Lab Activities:
 
 go to: [22.11 LAB*: Program: Food receipt](https://learn.zybooks.com/zybook/WGUC859v4/chapter/22/section/11)
 
-- [ ] [Complete Chapter 27 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/1)
+- [X] [Complete Chapter 27 labs at 100%](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/1)
 
 [Resume Progress: (29.9)](https://learn.zybooks.com/zybook/WGUC859v4/chapter/27/section/9)
 
