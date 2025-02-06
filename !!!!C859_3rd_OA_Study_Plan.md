@@ -18,6 +18,8 @@ Follow the directions above.
 
 Codebat Exercises:  provide a screenshot of the completed sections and upload the completed exercises to the cloud for review and feedback.  
 
+[https://github.com/mattrondel/C859/blob/main/Coding%20Bat%20First%20Call.pdf](https://github.com/mattrondel/C859/blob/main/Coding%20Bat%20First%20Call.pdf)
+
 Send me the shareable link for review.  
 
 Follow the directions above.
