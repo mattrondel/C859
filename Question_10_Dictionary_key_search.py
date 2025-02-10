@@ -4,6 +4,28 @@
 THIS IS A THREE PART PROBLEM
 input, solve (using the sample data), then output
 
+### From Sololearn in this example the variable is in the get(statement) the print output if valid is what is on the right
+books = {
+    "Life of Pi": "Adventure Fiction", 
+    "The Three Musketeers": "Historical Adventure",
+    "Watchmen": "Comics", 
+    "Bird Box": "Horror",
+    "Harry Potter":"Fantasy Fiction",
+    "Good Omens": "Comedy"
+}
+
+book = input()
+
+#change this part to use the .get() method
+print(books.get(book,"Book not found",))
+
+#if(book in books):
+#    print(books[book])
+#else:
+#    print("Not Found")
+
+####### end of solorlearn example
+
 Snacks, tuition, state population
 # might be the same here:
 # https://brainly.com/question/39010072
