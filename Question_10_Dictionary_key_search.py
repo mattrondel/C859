@@ -4,7 +4,7 @@
 THIS IS A THREE PART PROBLEM
 input, solve (using the sample data), then output
 
-### From Sololearn in this example the variable is in the get(statement) the print output if valid is what is on the right
+### From Sololearn in this example the variable is in the get(statement) the print output if valid is what is on the right, below it thats commented out if the if else versionn of the same thing
 books = {
     "Life of Pi": "Adventure Fiction", 
     "The Three Musketeers": "Historical Adventure",
