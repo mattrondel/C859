@@ -108,6 +108,13 @@ Follow the directions above.
 
 - [ ] [First and Last](https://codingbat.com/python/List-1)
 
+def first_last6(nums):
+  """
+  Given an array of ints, return True if 6 appears as either the first or last
+  element in the array. The array will be length 1 or more.
+  """
+  return 6 in [nums[0],nums[-1]]
+
 - [ ] Sum List - unable to locate on coding bat
 
 - [ ] Reverse List - unable to locate on coding bat
