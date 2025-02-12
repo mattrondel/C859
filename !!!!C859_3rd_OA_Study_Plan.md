@@ -106,7 +106,7 @@ Send me the shareable link for review.
 
 Follow the directions above.
 
-- [ ] [First and Last](https://codingbat.com/python/List-1)
+- [X] [First and Last](https://codingbat.com/python/List-1)
 
 def first_last6(nums):
   """
