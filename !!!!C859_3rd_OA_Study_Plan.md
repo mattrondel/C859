@@ -83,7 +83,7 @@ Other Exercises:
 
 [Exercises found here](https://github.com/mattrondel/C859/blob/main/Exercises_in_10.10.py)
 
-- [X] Complete the [Competency 1 Exercises](https://url.us.m.mimecastprotect.com/s/giRrCVO2LPHPEQJKpsGfyTEffWm?domain=srm--c.na60.visual.force.com) and upload (save as py.txt) the completed exercises to the cloud for review and feedback. Send me the shareable link for review.  Follow the directions above.
+- [] Complete the [Competency 1 Exercises](https://url.us.m.mimecastprotect.com/s/giRrCVO2LPHPEQJKpsGfyTEffWm?domain=srm--c.na60.visual.force.com) and upload (save as py.txt) the completed exercises to the cloud for review and feedback. Send me the shareable link for review.  Follow the directions above.
 
 -----------------------------------------------------------------------------------------------
 
